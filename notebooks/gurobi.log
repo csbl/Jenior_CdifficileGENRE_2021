@@ -1,0 +1,194 @@
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed May  8 10:12:39 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpwt462y.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed May  8 10:23:27 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpbA2G7S.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmp4Io82E.lp
+Reading time = 0.00 seconds
+: 290 rows, 584 columns, 2951 nonzeros
+Read LP format model from file /tmp/tmptluouy.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('41e3fa36-719d-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmp3Ahn4u.lp
+Reading time = 0.00 seconds
+: 281 rows, 568 columns, 2873 nonzeros
+Read LP format model from file /tmp/tmpT2Uvyf.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpn7go1k.lp
+Reading time = 0.00 seconds
+: 286 rows, 578 columns, 2903 nonzeros
+Read LP format model from file /tmp/tmp0nPBqs.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('071758e8-719e-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmp2gxUdo.lp
+Reading time = 0.00 seconds
+: 282 rows, 564 columns, 2859 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed May  8 10:41:14 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpLmGd7I.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('5cbd1d18-719f-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpjyXUwO.lp
+Reading time = 0.00 seconds
+: 290 rows, 584 columns, 2951 nonzeros
+Read LP format model from file /tmp/tmpq5mGEE.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpGrVByK.lp
+Reading time = 0.00 seconds
+: 281 rows, 568 columns, 2873 nonzeros
+Read LP format model from file /tmp/tmpM8eZF1.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('2320cb1c-71a0-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpNH_uCr.lp
+Reading time = 0.01 seconds
+: 286 rows, 578 columns, 2903 nonzeros
+Read LP format model from file /tmp/tmpHn7SiD.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('87943d86-71a0-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpHOElTK.lp
+Reading time = 0.01 seconds
+: 282 rows, 564 columns, 2859 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed May  8 11:23:22 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmp39lIzD.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('3fc6557a-71a5-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpNdiqW4.lp
+Reading time = 0.00 seconds
+: 290 rows, 584 columns, 2951 nonzeros
+Read LP format model from file /tmp/tmpga2mIg.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpunrTOd.lp
+Reading time = 0.00 seconds
+: 281 rows, 568 columns, 2873 nonzeros
+Read LP format model from file /tmp/tmp9t7S78.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('0349c61c-71a6-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpdA3qNd.lp
+Reading time = 0.01 seconds
+: 286 rows, 578 columns, 2903 nonzeros
+Read LP format model from file /tmp/tmpGfN1dF.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('68f56304-71a6-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpYbH87V.lp
+Reading time = 0.00 seconds
+: 282 rows, 564 columns, 2859 nonzeros
+Read LP format model from file /tmp/tmpCN4f8M.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('01fefdca-71c6-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpFrHzRz.lp
+Reading time = 0.00 seconds
+: 290 rows, 584 columns, 2951 nonzeros
+Read LP format model from file /tmp/tmpRW3MrP.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('62374b66-71c6-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmp4_9ukP.lp
+Reading time = 0.00 seconds
+: 281 rows, 568 columns, 2873 nonzeros
+Read LP format model from file /tmp/tmpYz52N2.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpH_GUx_.lp
+Reading time = 0.01 seconds
+: 286 rows, 578 columns, 2903 nonzeros
+Read LP format model from file /tmp/tmp3bJurX.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('7f971ca8-71c7-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmp1bp0jV.lp
+Reading time = 0.00 seconds
+: 282 rows, 564 columns, 2859 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed May  8 15:31:37 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpA7U7qa.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('2c412174-71c8-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpkHzIPy.lp
+Reading time = 0.00 seconds
+: 290 rows, 584 columns, 2951 nonzeros
+Read LP format model from file /tmp/tmpH6wer2.lp
+Reading time = 0.02 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmp1LZJ_S.lp
+Reading time = 0.00 seconds
+: 281 rows, 568 columns, 2873 nonzeros
+Read LP format model from file /tmp/tmpz3cZOb.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('0ebfd428-71c9-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpeT0BgH.lp
+Reading time = 0.00 seconds
+: 286 rows, 578 columns, 2903 nonzeros
+Read LP format model from file /tmp/tmpHlCxWd.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('88e1399a-71c9-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpIIoWPg.lp
+Reading time = 0.00 seconds
+: 282 rows, 564 columns, 2859 nonzeros
+Read LP format model from file /tmp/tmpZhFXxM.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Warning: Numeric variable name in LP file ('6bb6ac64-71ca-11e9-a440-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpBgOlMJ.lp
+Reading time = 0.00 seconds
+: 290 rows, 584 columns, 2951 nonzeros
