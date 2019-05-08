@@ -1,0 +1,7 @@
+abx	infection	proline	fructose	neu5ac	lactate	glutamine
+cefoperazone	mock	0	0	0	NA	0
+cefoperazone	infected	-1	1	-1	NA	-1
+clindamycin	mock	0	0	NA	0	NA
+clindamycin	infected	-1	1	NA	-1	NA
+streptomyin	mock	0	0	0	NA	NA
+streptomyin	infected	-1	1	-1	NA	NA

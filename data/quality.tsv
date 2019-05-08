@@ -1,0 +1,10 @@
+model	iMLTC806cdf	icdf834	iHD992	ModelSeed	iCd630J
+metabolites	1638	807	935	1265	1175
+reactions	1219	1168	1125	1192	1191
+genes	0	832	0	744	790
+no_gpr	1219	258	1125	134	96
+free	579	4	303	3	0
+mass_imbal	34	144	NA	3	0
+charge_imbal	0	0	NA	25	53
+blocked	368	179	97	574	505
+doubling_complete	29.807	24.569	20.863	105.06	42.617

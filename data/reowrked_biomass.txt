@@ -1,0 +1,284 @@
+
+
+# Remove old biomass reactions
+bio1 = ['rxn13783_c', 'rxn13784_c', 'rxn13782_c', 'bio1']
+cd630_PATRIC.remove_reactions(bio1)
+
+
+
+#------------------------------------------------------------#
+
+cw_c = Metabolite(
+    'cw_c',
+    name='Cell Wall',
+    compartment='c')
+sp_c = Metabolite(
+    'sp_c',
+    name='Solute Pool',
+    compartment='c')
+lip_c = Metabolite(
+    'Lip_c',
+    name='Lipid Pool',
+    compartment='c')
+cpd12894_c = Metabolite(
+    'cpd12894_c',
+    name='Teichoic acid',
+    compartment='c')
+cpd15782_c = Metabolite(
+    'cpd15782_c',
+    formula='C44H88N2O11P',
+    name='Palmitoyllysylphophatidylglycerol',
+    compartment='c')
+cpd15783_c = Metabolite(
+    'cpd15783_c',
+    formula='C40H80N2O11P',
+    name='Myristoyllysylphophatidylglycerol',
+    compartment='c')
+cpd15784_c = Metabolite(
+    'cpd15784_c',
+    formula='C48H96N2O11P',
+    name='Stearoyllysylphophatidylglycerol',
+    compartment='c')
+cpd15791_c = Metabolite(
+    'cpd15791_c',
+    formula='C73H140O17P2',
+    name='Palmitoylcardiolipin',
+    compartment='c')
+cpd15792_c = Metabolite(
+    'cpd15792_c',
+    formula='C65H124O17P2',
+    name='Myristoylcardiolipin',
+    compartment='c')
+cpd00151_c = Metabolite(
+    'cpd00151_c',
+    formula='C5H6N2O2',
+    name='Thymine',
+    compartment='c')
+
+#----------------------------------------------------------------------#
+
+reactions = []
+
+reaction_1 = Reaction('rxn06566_c')
+reaction_1.name = 'CDPglycerol:poly(glycerophosphate) glycerophosphotransferase'
+reaction_1.lower_bound = 0.
+reaction_1.upper_bound = 1000.
+reaction_1.add_metabolites({
+    cpd02967_c: -1.0,
+    cpd00402_c: -1.0,
+    cpd00046_c: 1.0,
+    cpd12894_c: 1.0
+})
+reaction_1.gene_reaction_rule = 'CD630_02440'
+reactions.append(reaction_1)
+
+reaction_2 = Reaction('bio_cw')
+reaction_2.name = 'Cell wall biosynthesis'
+reaction_2.lower_bound = 0.
+reaction_2.upper_bound = 1000.
+reaction_2.add_metabolites({
+    cpd15665_c: -0.363,
+    cpd15666_c: -1.0,
+    cpd12894_c: -0.019,
+    cw_c: 1.0
+})
+reactions.append(reaction_2)
+# Added both cpd15665_c and cpd15666_c instead of CLP
+# Picked metabolite in more reactions for smaller coefficient
+
+reaction_3 = Reaction('bio_rna')
+reaction_3.name = 'RNA biosynthesis'
+reaction_3.lower_bound = 0.
+reaction_3.upper_bound = 1000.
+reaction_3.add_metabolites({
+    cpd00002_c: -1.146,
+    cpd00052_c: -0.329,
+    cpd00062_c: -0.892,
+    cpd00038_c: -0.548,
+    cpd00001_c: -1.0,
+    cpd17043_c: 1.0,
+    cpd17043_c: 1.0,
+    cpd00008_c: 1.25,
+    cpd00009_c: 1.25,
+    cpd00012_c: 1.0
+})
+reactions.append(reaction_3)
+
+reaction_4 = Reaction('bio_dna')
+reaction_4.name = 'DNA biosynthesis'
+reaction_4.lower_bound = 0.
+reaction_4.upper_bound = 1000.
+reaction_4.add_metabolites({
+    cpd00115_c: -1.075,
+    cpd00356_c: -0.440,
+    cpd00357_c: -1.075,
+    cpd00241_c: -0.440,
+    cpd00002_c: -4.39,
+    cpd00001_c: -1.0,
+    cpd17042_c: 1.0,
+    cpd00008_c: 4.39,
+    cpd00009_c: 4.39,
+    cpd00012_c: 1.0
+})
+reactions.append(reaction_4)
+
+reaction_5 = Reaction('bio_pep')
+reaction_5.name = 'Peptidoglycan synthesis'
+reaction_5.lower_bound = 0.
+reaction_5.upper_bound = 1000.
+reaction_5.add_metabolites({
+    cpd02968_c: -1.064,
+    cpd00037_c: -1.064,
+    cpd00002_c: -4.425,
+    cpd00001_c: -1.0,
+    cpd15665_c: 1.0,
+    cpd15666_c: 1.0,
+    cpd00117_c: 1.106,
+    cpd00014_c: 1.106,
+    cpd00008_c: 4.425,
+    cpd00009_c: 4.425
+})
+reaction_5.gene_reaction_rule = 'CD630_26510'
+reactions.append(reaction_5)
+# Added both cpd15665_c and cpd15666_c instead of CLP
+
+reaction_6 = Reaction('bio_prot')
+reaction_6.name = 'Protein biosynthesis'
+reaction_6.lower_bound = 0.
+reaction_6.upper_bound = 1000.
+reaction_6.add_metabolites({
+    cpd00035_c: -0.375,
+    cpd00051_c: -0.225,
+    cpd00132_c: -0.441,
+    cpd00041_c: -0.399,
+    cpd00084_c: -0.087,
+    cpd00053_c: -0.167,
+    cpd00023_c: -0.517,
+    cpd00033_c: -0.442,
+    cpd00119_c: -0.095,
+    cpd00322_c: -0.693,
+    cpd00107_c: -0.636,
+    cpd00039_c: -0.637,
+    cpd00060_c: -0.190,
+    cpd00066_c: -0.304,
+    cpd00129_c: -0.192,
+    cpd00054_c: -0.457,
+    cpd00161_c: -0.344,
+    cpd00065_c: -0.043,
+    cpd00069_c: -0.286,
+    cpd00156_c: -0.462,
+    cpd00002_c: -39.94,
+    cpd00001_c: -1.0,
+    cpd17041_c: 1.0,
+    cpd00008_c: 39.94,
+    cpd00009_c: 39.94
+})
+reactions.append(reaction_6)
+
+reaction_7 = Reaction('bio_lip')
+reaction_7.name = 'Lipid composition'
+reaction_7.lower_bound = -1000.
+reaction_7.upper_bound = 1000.
+reaction_7.add_metabolites({
+    cpd15543_c: -0.005699,
+    cpd15545_c: -0.02308,
+    cpd15540_c: -0.007846,
+    cpd15728_c: -0.01447,
+    cpd15729_c: -0.003517,
+    cpd15737_c: -0.01119,
+    cpd15738_c: -0.00276,
+    cpd15782_c: -0.002845,
+    cpd15783_c: -0.0006934,
+    cpd15784_c: -0.0009777,
+    cpd15791_c: -0.0005977,
+    cpd15792_c: -0.0001484,
+    cpd15793_c: -0.0002022,
+    lip_c: 1.0
+})
+reactions.append(reaction_7)
+
+reaction_8 = Reaction('bio_sp')
+reaction_8.name = 'Solute Pool'
+reaction_8.lower_bound = 0.
+reaction_8.upper_bound = 1000.
+reaction_8.add_metabolites({
+    cpd00002_c: -0.0008,
+    cpd00035_c: -0.1161,
+    cpd00051_c: -0.0288,
+    cpd00041_c: -0.5959,
+    cpd00023_c: -0.5256,
+    cpd00053_c: -0.0086,
+    cpd00033_c: -0.0398,
+    cpd00119_c: -0.0169,
+    cpd00322_c: -0.0481,
+    cpd00107_c: -0.0222,
+    cpd00039_c: -0.0405,
+    cpd00060_c: -0.0222,
+    cpd00066_c: -0.0043,
+    cpd00129_c: -0.1293,
+    cpd00054_c: -0.756,
+    cpd00161_c: -0.0156,
+    cpd00151_c: -0.0017,
+    cpd00156_c: -0.0162,
+    cpd00009_c: -0.9947,
+    cpd00907_c: -0.4775,
+    cpd00022_c: -0.00033,
+    cpd00010_c: -0.0004,
+    cpd00274_c: -0.0001,
+    cpd00015_c: -0.00067,
+    cpd00003_c: -0.01433,
+    cpd00004_c: -0.00033,
+    cpd00006_c: -0.00087,
+    cpd00005_c: -0.00267,
+    sp_c: 1.0
+})
+reactions.append(reaction_8)
+
+reaction_9 = Reaction('biomass')
+reaction_9.name = 'Biomass Reaction'
+reaction_9.lower_bound = 0.
+reaction_9.upper_bound = 1000.
+reaction_9.add_metabolites({
+    cpd17041_c: -0.4,
+    cpd17043_c: -0.12,
+    cpd17042_c: -0.03,
+    lip_c: -0.07,
+    cw_c: -0.24,
+    sp_c: -0.14,
+    cpd00001_c: -40,
+    cpd00002_c: -40,
+    cpd00008_c: 40,
+    cpd00009_c: 40,
+    cpd11416_c: 1.0
+})
+reactions.append(reaction_9)
+
+# Thymine biosynthesis
+reaction_10 = Reaction('rxn27328_c')
+reaction_10.name = 'Thymidine-orthophosphate deoxyribosyltransferase'
+reaction_10.lower_bound = -1000.
+reaction_10.upper_bound = 1000.
+reaction_10.add_metabolites({
+    cpd00009_c: -1.0,
+    cpd00184_c: -1.0,
+    cpd00509_c: 1.0,
+    cpd00151_c: 1.0
+})
+reaction_10.gene_reaction_rule = 'CD630_12250'
+reactions.append(reaction_10)
+reaction_11 = Reaction('rxn01027')
+reaction_11.name = '5,6-Dihydrothymine:NADP+ oxidoreductase'
+reaction_11.lower_bound = -1000.
+reaction_11.upper_bound = 1000.
+reaction_11.add_metabolites({
+    cpd00067_c: -1.0,
+    cpd00005_c: -1.0,
+    cpd00151_c: -1.0,
+    cpd00673_c: 1.0,
+    cpd00006_c: 1.0
+})
+reactions.append(reaction_11)
+
+
+cd630_PATRIC.add_reactions(reactions)
+
