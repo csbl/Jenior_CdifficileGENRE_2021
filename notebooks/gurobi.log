@@ -356,3 +356,140 @@ Academic license - for non-commercial use only
 Gurobi 8.0.0 (linux64, Python) logging started Wed Jun  5 13:25:35 2019
 
 Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Thu Jun  6 13:15:23 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Thu Jun  6 13:45:29 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Mon Jun 10 14:28:49 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Tue Jun 11 10:55:05 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Tue Jun 11 13:05:34 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Tue Jun 11 14:34:07 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Tue Jun 11 15:24:49 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.0.0 (linux64, Python) logging started Tue Jun 11 15:32:12 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpTMHFZi.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpa8ZsX1.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmp0PF7Zx.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmppuanwm.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpvcpyvF.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Tue Jun 11 15:45:01 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpSQhJ6k.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Tue Jun 11 15:49:08 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpZDWPyB.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed Jun 12 09:05:08 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpxeKuYj.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed Jun 12 09:12:44 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmp8rqipO.lp
+Reading time = 0.07 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed Jun 12 09:38:27 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpLtDBJ3.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpxqA0fM.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpkVUUyt.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpTCqWOR.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+
+Gurobi 8.0.0 (linux64, Python) logging started Wed Jun 12 10:11:01 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file /tmp/tmpt2aHci.lp
+Reading time = 0.02 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpsLLsfs.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpMJgHTd.lp
+Reading time = 0.02 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpcKhhBh.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpY3i2JO.lp
+Reading time = 0.01 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmplr6cV2.lp
+Reading time = 0.02 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpIjMikl.lp
+Reading time = 0.02 seconds
+: 1134 rows, 2258 columns, 9988 nonzeros
+Read LP format model from file /tmp/tmpOwm4h2.lp
+Reading time = 0.00 seconds
+: 292 rows, 590 columns, 2372 nonzeros
+Warning: Numeric variable name in LP file ('23ce80f8-8d1c-11e9-bcfb-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpuBBRQU.lp
+Reading time = 0.00 seconds
+: 284 rows, 574 columns, 2318 nonzeros
+Warning: Numeric variable name in LP file ('522c6c8a-8d1c-11e9-bcfb-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmp7l3b9q.lp
+Reading time = 0.00 seconds
+: 290 rows, 588 columns, 2370 nonzeros
+Warning: Numeric variable name in LP file ('8f72141e-8d1c-11e9-bcfb-f8633f05fb68_aux') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /tmp/tmpOAeXvb.lp
+Reading time = 0.00 seconds
+: 281 rows, 564 columns, 2296 nonzeros
