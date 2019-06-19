@@ -3,24 +3,22 @@
 rm(list=ls())
 gc()
 
-# Load in functions
-starting_dir <- getwd()
-source('~/Desktop/Repositories/Jenior_Metatranscriptomics_mSphere_2018/code/R/functions.R')
-
-# Output plot name
-plot_ab <- 'results/figures/figure_2ac.pdf'
-metabolome_plot <- 'results/figures/figure_2d.pdf'
-otu_plot <- 'results/figures/figure_2b.pdf'
+# Load dependencies
+for (x in c('vegan', 'shape', 'plotrix', 'randomForest')){
+  if (x %in% installed.packages()[,"Package"] == FALSE){
+    install.packages(as.character(x), quiet=TRUE)} 
+  library(x, verbose=FALSE, character.only=TRUE)}
+rm(x)
 
 # Metabolomes
-metabolome <- 'data/metabolome/scaled_intensities.log10.tsv'
+metabolome <- '~/Desktop/Repositories/Jenior_Metatranscriptomics_mSphere_2018/data/metabolome/scaled_intensities.log10.tsv'
 
 # 16S
-shared_otu <- 'data/16S_analysis/all_treatments.0.03.unique_list.conventional.shared'
-otu_tax <- 'data/16S_analysis/formatted.all_treatments.0.03.cons.taxonomy'
+shared_otu <- '~/Desktop/Repositories/Jenior_Metatranscriptomics_mSphere_2018/data/16S_analysis/all_treatments.0.03.unique_list.conventional.shared'
+otu_tax <- '~/Desktop/Repositories/Jenior_Metatranscriptomics_mSphere_2018/data/16S_analysis/formatted.all_treatments.0.03.cons.taxonomy'
 
 # Metadata
-metadata <- 'data/metadata.tsv'
+metadata <- '~/Desktop/Repositories/Jenior_Metatranscriptomics_mSphere_2018/data/metadata.tsv'
 
 # Merge by row name function
 row_merge <- function(data_1, data_2){
@@ -44,12 +42,7 @@ shared_otu <- read.delim(shared_otu, sep='\t', header=T, row.names=2)
 shared_otu$numOtus <- NULL
 shared_otu$label <- NULL
 shared_otu <- shared_otu[!rownames(shared_otu) %in% c('CefC5M2'), ]  # Remove possible contaminated sample
-cdf_otu <- shared_otu[,(names(shared_otu) %in% c('Otu0004','Otu0308'))] 
 shared_otu <- shared_otu[,!(names(shared_otu) %in% c('Otu0004','Otu0308'))] # Remove residual C. difficile OTUs
-shared_noncdf <- subset(shared_otu, rowSums(cdf_otu) != 0)
-cdf_otu <- subset(cdf_otu, rowSums(cdf_otu) != 0)
-cdf_percent <- as.character(round(mean(rowSums(cdf_otu) / rowSums(shared_noncdf)) * 100, 3))
-rm(cdf_otu, shared_noncdf)
 otu_tax <- read.delim(otu_tax, sep='\t', header=T, row.names=1)
 
 # Metadata
@@ -67,7 +60,9 @@ metadata$gender <- NULL
 
 # Metabolomes
 metabolome$BIOCHEMICAL <- gsub('_', ' ', metabolome$BIOCHEMICAL)
-rownames(metabolome) <- metabolome$BIOCHEMICAL
+metabolite_metadata <- metabolome[,c('BIOCHEMICAL','PUBCHEM','KEGG','SUB_PATHWAY','SUPER_PATHWAY')]
+rownames(metabolome) <- make.names(metabolome$BIOCHEMICAL)
+rownames(metabolite_metadata) <- rownames(metabolome)
 metabolome$BIOCHEMICAL <- NULL
 metabolome$PUBCHEM <- NULL
 metabolome$KEGG <- NULL
@@ -86,7 +81,7 @@ shared_otu <- t(shared_otu)
 for (x in 1:ncol(shared_otu)) {
   shared_otu[,x] <- as.vector(rrarefy(shared_otu[,x], sample=subSize))
 }
-rm(subSize)
+rm(subSize, x)
 shared_otu <- as.data.frame(t(shared_otu))
 otu_tax$genus <- gsub('_', ' ', otu_tax$genus)
 otu_tax$genus <- gsub('Ruminococcus2', 'Ruminococcus', otu_tax$genus)
@@ -104,13 +99,13 @@ shared_otu <- subset(shared_otu, abx != 'germfree')
 shared_otu <- subset(shared_otu, infection == 'mock')
 shared_otu$abx <- NULL
 shared_otu$infection <- NULL
+colnames(shared_otu) <- make.names(colnames(shared_otu))
 rm(otu_tax)
 
 #-------------------------------------------------------------------------------------------------------------------------#
 
 # Feature selection
-
-rf_feature_select <- function(training_data, column){
+rf_feature_select <- function(training_data, column, sig_factor=5){
   
   # Calculate optimal parameters
   mTries <- round(sqrt(ncol(training_data) - 1))
@@ -126,15 +121,14 @@ rf_feature_select <- function(training_data, column){
   set.seed(906801)
   modelRF <- randomForest(classes ~ ., data=training_data, 
                           importance=TRUE, replace=FALSE, err.rate=TRUE, mtry=mTries, ntree=nTrees)
-  featRF <- importance(modelRF, type=1)
-  featRF <- as.data.frame(featRF)
-  featRF$features <- rownames(featRF)
+  featRF <- as.data.frame(importance(modelRF, type=1))
+  featRF$feature <- rownames(featRF)
+  rownames(featRF) <- NULL
 
   # Filter to significant features (Strobl 2002, p <= ~0.01) and sort
-  sigFeatRF <- as.data.frame(subset(featRF, featRF$MeanDecreaseAccuracy >= (abs(min(featRF$MeanDecreaseAccuracy))) * 5.0))
+  sigFeatRF <- as.data.frame(subset(featRF, featRF$MeanDecreaseAccuracy >= abs(min(featRF$MeanDecreaseAccuracy) * sig_factor)))
   sigFeatRF <- sigFeatRF[order(-sigFeatRF$MeanDecreaseAccuracy), ]
-  finalFeat <- training_data[, which(rownames(sigFeatRF) %in% colnames(training_data))]
-  
+
   return(sigFeatRF)
 }
 
@@ -151,16 +145,24 @@ check_prediction <- function(training_data, column){
   randomForest(feature ~ ., data=training_data, replace=FALSE)
 }
 
+# Filter by MDA derivative
+filter_by_breakpoint <- function(feature_df){
+  
+  feature_df$slope <- round(diff(feature_df$MeanDecreaseAccuracy) * 1000, 2)
+  test <- sort(feature_df$slope)
+  test_med <- test[round(as.numeric(length(test)) / 2)]
+  breakpoint <- as.numeric(which(feature_df$slope == test_med))
+
+  filtered_df <- feature_df[c(1:breakpoint), ]
+  filtered_df$slope <- NULL
+  
+  return(filtered_df)
+}
+
 # Metabolome
-colnames(metabolome) <- make.names(colnames(metabolome))
 metabolome_rf <- rf_feature_select(metabolome, 'susceptibility')
-# Get top features with MDA breakpoint
-breakpoint <- round(median(as.numeric(format(diff(metabolome_rf$MeanDecreaseAccuracy), scientific=FALSE))),4)
-breakpoint <- min(metabolome_rf$MeanDecreaseAccuracy[which(round(diff(metabolome_rf$MeanDecreaseAccuracy),4) == breakpoint)])
-metabolome_rf_top <- subset(metabolome_rf, MeanDecreaseAccuracy >= breakpoint)
 # Check OOB top features
-save_columns <- c('susceptibility', rownames(metabolome_rf_top))
-metabolome <- metabolome[, save_columns]
+metabolome <- metabolome[, c('susceptibility', metabolome_rf$feature)]
 check_prediction(metabolome, 'susceptibility') # = 0%
 # Find significant differences
 susceptible_metabolome <- subset(metabolome, susceptibility == 'susceptible')
@@ -170,18 +172,12 @@ resistant_metabolome$susceptibility <- NULL
 metabolome_pval <- c()
 for (i in 1:ncol(susceptible_metabolome)){metabolome_pval[i] <- wilcox.test(susceptible_metabolome[,i], resistant_metabolome[,i], exact=FALSE)$p.value}
 round(p.adjust(metabolome_pval, method='BH'), 4)
-rm(metabolome_pval, metabolome, save_columns, breakpoint, metabolome_rf)
+rm(metabolome_pval, metabolome, i)
 
 # 16S
-colnames(shared_otu) <- make.names(colnames(shared_otu))
 otu_rf <- rf_feature_select(shared_otu, 'susceptibility')
-# Get top features with MDA breakpoint
-breakpoint <- round(median(as.numeric(format(diff(otu_rf$MeanDecreaseAccuracy), scientific=FALSE))),4)
-breakpoint <- min(otu_rf$MeanDecreaseAccuracy[which(round(diff(otu_rf$MeanDecreaseAccuracy),4) == breakpoint)])
-otu_rf_top <- subset(otu_rf, MeanDecreaseAccuracy >= breakpoint)
 # Check OOB for top features
-save_columns <- c('susceptibility', rownames(otu_rf_top))
-shared_otu <- shared_otu[, save_columns]
+shared_otu <- shared_otu[, c('susceptibility', otu_rf$feature)]
 check_prediction(shared_otu, 'susceptibility') # = 0%
 # Find significant differences
 susceptible_otu <- subset(shared_otu, susceptibility == 'susceptible')
@@ -191,18 +187,14 @@ resistant_otu$susceptibility <- NULL
 otu_pval <- c()
 for (i in 1:ncol(susceptible_otu)){otu_pval[i] <- wilcox.test(susceptible_otu[,i], resistant_otu[,i], exact=FALSE)$p.value}
 round(p.adjust(otu_pval, method='BH'), 4)
-rm(otu_pval, shared_otu, save_columns, breakpoint, otu_rf)
+rm(otu_pval, shared_otu, i)
 
 #-------------#
 
 # Reformat names to be more human readable
+
 # Metabolome
-colnames(susceptible_metabolome) <- c("N-Acetylglutamine","Allantoic acid","Lactobionate","4-Hydroxyhippuric acid","Glutaconic acid",
-                                      "Oxindole","5-Aminovaleric acid","Uracil","Methylmalonic acid","Undecanedioic acid","Pinitol","N-Acetylproline",
-                                      "Inosine","Glutaminylleucine","Guanidinopropanoic acid","Dimethylglycine")
-colnames(resistant_metabolome) <- c("N-Acetylglutamine","Allantoic acid","Lactobionic acid","4-Hydroxyhippuric acid","Glutaconic acid",
-                                    "Oxindole","5-Aminovaleric acid","Uracil","Methylmalonic acid","Undecanedioic acid","Pinitol","N-Acetylproline",
-                                    "Inosine","Glutaminylleucine","Guanidinopropanoic acid","Dimethylglycine")
+metabolite_metadata <- metabolite_metadata[metabolome_rf$feature, ]
 
 # 16S
 formatted_names <- gsub('_\\.', ' ', colnames(susceptible_otu))
@@ -227,7 +219,14 @@ rm(genera, otu)
 # Feature selection results
 # 16S
 pdf(file=otu_plot, width=4, height=6)
+
+
 par(mar=c(3, 1, 1.25, 1), mgp=c(1.8, 0.5, 0), xpd=FALSE, yaxs='i')
+
+
+
+
+
 plot(1, type='n', ylim=c(0.5,nrow(susceptible_otu)+6.5), xlim=c(0,100), 
      ylab='', xlab='Relative Abundance (%)', xaxt='n', yaxt='n', cex.lab=0.9)
 index <- 2
