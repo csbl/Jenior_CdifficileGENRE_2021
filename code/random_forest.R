@@ -100,7 +100,7 @@ shared_otu <- subset(shared_otu, infection == 'mock')
 shared_otu$abx <- NULL
 shared_otu$infection <- NULL
 colnames(shared_otu) <- make.names(colnames(shared_otu))
-rm(otu_tax)
+rm(otu_tax, metadata)
 
 #-------------------------------------------------------------------------------------------------------------------------#
 
@@ -145,22 +145,9 @@ check_prediction <- function(training_data, column){
   randomForest(feature ~ ., data=training_data, replace=FALSE)
 }
 
-# Filter by MDA derivative
-filter_by_breakpoint <- function(feature_df){
-  
-  feature_df$slope <- round(diff(feature_df$MeanDecreaseAccuracy) * 1000, 2)
-  test <- sort(feature_df$slope)
-  test_med <- test[round(as.numeric(length(test)) / 2)]
-  breakpoint <- as.numeric(which(feature_df$slope == test_med))
-
-  filtered_df <- feature_df[c(1:breakpoint), ]
-  filtered_df$slope <- NULL
-  
-  return(filtered_df)
-}
-
 # Metabolome
 metabolome_rf <- rf_feature_select(metabolome, 'susceptibility')
+metabolite_metadata <- droplevels(metabolite_metadata[metabolome_rf$feature, ])
 # Check OOB top features
 metabolome <- metabolome[, c('susceptibility', metabolome_rf$feature)]
 check_prediction(metabolome, 'susceptibility') # = 0%
@@ -188,15 +175,7 @@ otu_pval <- c()
 for (i in 1:ncol(susceptible_otu)){otu_pval[i] <- wilcox.test(susceptible_otu[,i], resistant_otu[,i], exact=FALSE)$p.value}
 round(p.adjust(otu_pval, method='BH'), 4)
 rm(otu_pval, shared_otu, i)
-
-#-------------#
-
-# Reformat names to be more human readable
-
-# Metabolome
-metabolite_metadata <- metabolite_metadata[metabolome_rf$feature, ]
-
-# 16S
+# Reformat names
 formatted_names <- gsub('_\\.', ' ', colnames(susceptible_otu))
 genera <- sapply(strsplit(formatted_names, ' '), `[`, 1)
 genera <- gsub('\\.Shigella', '', genera)
