@@ -4,7 +4,7 @@ rm(list=ls())
 gc()
 
 # Load in functions
-source('~/Desktop/repositories/Jenior_Metatranscriptomics_mSphere_2018/code/R/functions.R')
+source('~/Desktop/old_repos/Jenior_Metatranscriptomics_mSphere_2018/code/R/functions.R')
 
 # Metabolomes
 metabolome <- 'data/metabolome/scaled_intensities.log10.tsv'

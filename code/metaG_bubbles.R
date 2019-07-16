@@ -13,6 +13,7 @@ no_abx <- c(2054,2311,233,1331,1647,2233,1255,2018,8815,256,1500,1846,2304,957,3
 
 # Format data
 max_genes <- max(c(cefoperazone, streptomycin, clindamycin, no_abx))
+min_genes <- min(c(cefoperazone, streptomycin, clindamycin, no_abx))
 cefoperazone <- c(sort(cefoperazone, decreasing=TRUE),max_genes)
 streptomycin <- c(sort(streptomycin, decreasing=TRUE),max_genes)
 clindamycin <- c(sort(clindamycin, decreasing=TRUE),max_genes)
@@ -21,7 +22,7 @@ no_abx <- c(sort(no_abx, decreasing=TRUE),max_genes)
 # Function to process data and generate bubble plots
 bubble_plot <- function(sizes, spacing=1, scale_text=FALSE) {
   
-  data <- data.frame(bin=paste('OGU\n', 1:length(sizes)), genes=sizes)
+  data <- data.frame(bin=paste('MAG\n', 1:length(sizes)), genes=sizes)
   
   packing <- circleProgressiveLayout(sizes, sizetype='area')
   packing$radius <- spacing*packing$radius
@@ -51,7 +52,7 @@ no_abx_panel <- bubble_plot(no_abx, scale_text=TRUE)
 
 
 
-pdf(file='~/Desktop/metaG_bubles.pdf', width=10, height=10)
+pdf(file='~/Desktop/metaG_bubbles.pdf', width=10, height=10)
 
 grid.arrange(no_abx_panel, cef_panel, 
              strep_panel, clinda_panel, nrow = 2)
