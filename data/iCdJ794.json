@@ -32120,6 +32120,7 @@
 "name":"Dihydropteroate synthase (EC 2.5.1.15)",
 "annotation":{
 "patric":"272563.8.peg.1522",
+"refseq":"CD1450",
 "sbo":"SBO:0000243"
 }
 },
@@ -32128,6 +32129,7 @@
 "name":"3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19)",
 "annotation":{
 "patric":"272563.8.peg.1925",
+"refseq":"CD1834",
 "sbo":"SBO:0000243"
 }
 },
@@ -32136,6 +32138,7 @@
 "name":"Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)",
 "annotation":{
 "patric":"272563.8.peg.3384",
+"refseq":"CD3231",
 "sbo":"SBO:0000243"
 }
 },
@@ -32144,6 +32147,7 @@
 "name":"Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)",
 "annotation":{
 "patric":"272563.8.peg.2816",
+"refseq":"CD2691",
 "sbo":"SBO:0000243"
 }
 },
@@ -32152,6 +32156,7 @@
 "name":"nicotinamidase (EC 3.5.1.19)",
 "annotation":{
 "patric":"272563.8.peg.1472",
+"refseq":"CD1401",
 "sbo":"SBO:0000243"
 }
 },
@@ -32160,6 +32165,7 @@
 "name":"Biotin synthase (EC 2.8.1.6)",
 "annotation":{
 "patric":"272563.8.peg.318",
+"refseq":"CD0297",
 "sbo":"SBO:0000243"
 }
 },
@@ -32168,6 +32174,7 @@
 "name":"Serine acetyltransferase (EC 2.3.1.30)",
 "annotation":{
 "patric":"272563.8.peg.1671",
+"refseq":"CD1595",
 "sbo":"SBO:0000243"
 }
 },
@@ -32176,6 +32183,7 @@
 "name":"Cytidylate kinase (EC 2.7.4.14)",
 "annotation":{
 "patric":"272563.8.peg.2144",
+"refseq":"CD2039",
 "sbo":"SBO:0000243"
 }
 },
@@ -32184,6 +32192,7 @@
 "name":"Cytidylate kinase (EC 2.7.4.14)",
 "annotation":{
 "patric":"272563.8.peg.1906",
+"refseq":"CD1816",
 "sbo":"SBO:0000243"
 }
 },
@@ -32192,6 +32201,7 @@
 "name":"UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227)",
 "annotation":{
 "patric":"272563.8.peg.2775",
+"refseq":"CD2651",
 "sbo":"SBO:0000243"
 }
 },
@@ -32208,6 +32218,7 @@
 "name":"Isochorismatase (EC 3.3.2.1)",
 "annotation":{
 "patric":"272563.8.peg.3805",
+"refseq":"CD3632",
 "sbo":"SBO:0000243"
 }
 },
@@ -32216,6 +32227,7 @@
 "name":"Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)",
 "annotation":{
 "patric":"272563.8.peg.3114",
+"refseq":"CD2969",
 "sbo":"SBO:0000243"
 }
 },
@@ -32224,6 +32236,7 @@
 "name":"3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)",
 "annotation":{
 "patric":"272563.8.peg.1110",
+"refseq":"CD1058",
 "sbo":"SBO:0000243"
 }
 },
@@ -32232,6 +32245,7 @@
 "name":"alpha-mannosidase (EC 3.2.1.24)",
 "annotation":{
 "patric":"272563.8.peg.3156",
+"refseq":"CD3012",
 "sbo":"SBO:0000243"
 }
 },
@@ -32240,6 +32254,7 @@
 "name":"Aconitate hydratase (EC 4.2.1.3)",
 "annotation":{
 "patric":"272563.8.peg.871",
+"refseq":"CD0833",
 "sbo":"SBO:0000243"
 }
 },
@@ -32248,6 +32263,7 @@
 "name":"hydroxydechloroatrazine ethylaminohydrolase (EC 3.5.99.3)",
 "annotation":{
 "patric":"272563.8.peg.2189",
+"refseq":"CD2082",
 "sbo":"SBO:0000243"
 }
 },
@@ -32256,6 +32272,7 @@
 "name":"Arginine decarboxylase (EC 4.1.1.19)",
 "annotation":{
 "patric":"272563.8.peg.927",
+"refseq":"CD0888",
 "sbo":"SBO:0000243"
 }
 },
@@ -32264,6 +32281,7 @@
 "name":"Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)",
 "annotation":{
 "patric":"272563.8.peg.1240",
+"refseq":"CD1181",
 "sbo":"SBO:0000243"
 }
 },
@@ -32272,6 +32290,7 @@
 "name":"diglucosyldiacylglycerol synthase (LTA membrane anchor synthesis)",
 "annotation":{
 "patric":"272563.8.peg.2852",
+"refseq":"CD2725",
 "sbo":"SBO:0000243"
 }
 },
@@ -32280,6 +32299,7 @@
 "name":"aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)",
 "annotation":{
 "patric":"272563.8.peg.3377",
+"refseq":"CD3224",
 "sbo":"SBO:0000243"
 }
 },
@@ -32288,6 +32308,7 @@
 "name":"DNA gyrase subunit A (EC 5.99.1.3)",
 "annotation":{
 "patric":"272563.8.peg.14",
+"refseq":"CD0006",
 "sbo":"SBO:0000243"
 }
 },
@@ -32296,6 +32317,7 @@
 "name":"DNA polymerase III subunits gamma and tau (EC 2.7.7.7)",
 "annotation":{
 "patric":"272563.8.peg.24",
+"refseq":"CD0016",
 "sbo":"SBO:0000243"
 }
 },
@@ -32304,6 +32326,7 @@
 "name":"DNA polymerase III alpha subunit (EC 2.7.7.7)",
 "annotation":{
 "patric":"272563.8.peg.3559",
+"refseq":"CD3396",
 "sbo":"SBO:0000243"
 }
 },
@@ -32312,6 +32335,7 @@
 "name":"Chromosomal replication initiator protein DnaA",
 "annotation":{
 "patric":"272563.8.peg.9",
+"refseq":"CD0001",
 "sbo":"SBO:0000243"
 }
 },
@@ -32320,6 +32344,7 @@
 "name":"DNA gyrase subunit B (EC 5.99.1.3)",
 "annotation":{
 "patric":"272563.8.peg.13",
+"refseq":"CD0005",
 "sbo":"SBO:0000243"
 }
 },
@@ -32328,6 +32353,7 @@
 "name":"Helicase PriA essential for oriC/DnaA-independent DNA replication",
 "annotation":{
 "patric":"272563.8.peg.2710",
+"refseq":"CD2586",
 "sbo":"SBO:0000243"
 }
 },
@@ -32336,6 +32362,7 @@
 "name":"Chromosome partition protein smc",
 "annotation":{
 "patric":"272563.8.peg.2183",
+"refseq":"CD2076",
 "sbo":"SBO:0000243"
 }
 },
@@ -32344,6 +32371,7 @@
 "name":"Chromosome partition protein smc",
 "annotation":{
 "patric":"272563.8.peg.1314",
+"refseq":"CD1250",
 "sbo":"SBO:0000243"
 }
 },
@@ -32352,6 +32380,7 @@
 "name":"DNA polymerase III delta subunit (EC 2.7.7.7)",
 "annotation":{
 "patric":"272563.8.peg.2596",
+"refseq":"CD2474",
 "sbo":"SBO:0000243"
 }
 },
@@ -32360,6 +32389,7 @@
 "name":"Single-stranded DNA-binding protein",
 "annotation":{
 "patric":"272563.8.peg.3838",
+"refseq":"CD3662",
 "sbo":"SBO:0000243"
 }
 },
@@ -32368,6 +32398,7 @@
 "name":"Single-stranded DNA-binding protein",
 "annotation":{
 "patric":"272563.8.peg.3388",
+"refseq":"CD3235",
 "sbo":"SBO:0000243"
 }
 },
@@ -32376,6 +32407,7 @@
 "name":"Single-stranded DNA-binding protein",
 "annotation":{
 "patric":"272563.8.peg.3083",
+"refseq":"CD2941",
 "sbo":"SBO:0000243"
 }
 },
@@ -32384,6 +32416,7 @@
 "name":"DNA polymerase III beta subunit (EC 2.7.7.7)",
 "annotation":{
 "patric":"272563.8.peg.10",
+"refseq":"CD0002",
 "sbo":"SBO:0000243"
 }
 },
@@ -32392,6 +32425,7 @@
 "name":"ATP-dependent DNA helicase UvrD/PcrA",
 "annotation":{
 "patric":"272563.8.peg.348",
+"refseq":"CD0328",
 "sbo":"SBO:0000243"
 }
 },
@@ -32400,6 +32434,7 @@
 "name":"Segregation and condensation protein A",
 "annotation":{
 "patric":"272563.8.peg.1360",
+"refseq":"CD1295",
 "sbo":"SBO:0000243"
 }
 },
@@ -32408,6 +32443,7 @@
 "name":"Segregation and condensation protein B",
 "annotation":{
 "patric":"272563.8.peg.1361",
+"refseq":"CD1296",
 "sbo":"SBO:0000243"
 }
 },
@@ -32416,6 +32452,7 @@
 "name":"DNA-binding protein HBsu",
 "annotation":{
 "patric":"272563.8.peg.3664",
+"refseq":"CD3496",
 "sbo":"SBO:0000243"
 }
 },
@@ -32424,6 +32461,7 @@
 "name":"DNA topoisomerase I (EC 5.99.1.2)",
 "annotation":{
 "patric":"272563.8.peg.1339",
+"refseq":"CD1274",
 "sbo":"SBO:0000243"
 }
 },
@@ -32432,6 +32470,7 @@
 "name":"DNA polymerase III delta prime subunit (EC 2.7.7.7)",
 "annotation":{
 "patric":"272563.8.peg.3717",
+"refseq":"CD3549",
 "sbo":"SBO:0000243"
 }
 },
@@ -32440,6 +32479,7 @@
 "name":"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",
 "annotation":{
 "patric":"272563.8.peg.1238",
+"refseq":"CD1179",
 "sbo":"SBO:0000243"
 }
 },
@@ -32448,6 +32488,7 @@
 "name":"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",
 "annotation":{
 "patric":"272563.8.peg.1243",
+"refseq":"CD1184",
 "sbo":"SBO:0000243"
 }
 },
@@ -32456,6 +32497,7 @@
 "name":"Purine nucleoside phosphorylase (EC 2.4.2.1)",
 "annotation":{
 "patric":"272563.8.peg.1283",
+"refseq":"CD1224",
 "sbo":"SBO:0000243"
 }
 },
@@ -32464,6 +32506,7 @@
 "name":"Methionine aminopeptidase (EC 3.4.11.18)",
 "annotation":{
 "patric":"272563.8.peg.1673",
+"refseq":"CD1596",
 "sbo":"SBO:0000243"
 }
 },
@@ -32472,6 +32515,7 @@
 "name":"Methionine aminopeptidase (EC 3.4.11.18)",
 "annotation":{
 "patric":"272563.8.peg.106",
+"refseq":"CD0092",
 "sbo":"SBO:0000243"
 }
 },
@@ -32480,6 +32524,7 @@
 "name":"Cytosol aminopeptidase PepA (EC 3.4.11.1)",
 "annotation":{
 "patric":"272563.8.peg.1365",
+"refseq":"CD1300",
 "sbo":"SBO:0000243"
 }
 },
@@ -32488,6 +32533,7 @@
 "name":"Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)",
 "annotation":{
 "patric":"272563.8.peg.2607",
+"refseq":"CD2485",
 "sbo":"SBO:0000243"
 }
 },
@@ -32496,6 +32542,7 @@
 "name":"Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)",
 "annotation":{
 "patric":"272563.8.peg.2736",
+"refseq":"CD2613",
 "sbo":"SBO:0000243"
 }
 },
@@ -32504,6 +32551,7 @@
 "name":"Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)",
 "annotation":{
 "patric":"272563.8.peg.2464",
+"refseq":"CD2347",
 "sbo":"SBO:0000243"
 }
 },
@@ -32512,6 +32560,7 @@
 "name":"3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)",
 "annotation":{
 "patric":"272563.8.peg.1109",
+"refseq":"CD1057",
 "sbo":"SBO:0000243"
 }
 },
@@ -32520,6 +32569,7 @@
 "name":"3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)",
 "annotation":{
 "patric":"272563.8.peg.837",
+"refseq":"CD0800",
 "sbo":"SBO:0000243"
 }
 },
@@ -32528,6 +32578,7 @@
 "name":"S-ribosylhomocysteine lyase (EC 4.4.1.21)",
 "annotation":{
 "patric":"272563.8.peg.3770",
+"refseq":"CD3598",
 "sbo":"SBO:0000243"
 }
 },
@@ -32536,6 +32587,7 @@
 "name":"phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36)",
 "annotation":{
 "patric":"272563.8.peg.2711",
+"refseq":"CD2587",
 "sbo":"SBO:0000243"
 }
 },
@@ -32544,6 +32596,7 @@
 "name":"aspartate carbamoyltransferase (EC 2.1.3.2)",
 "annotation":{
 "patric":"272563.8.peg.202",
+"refseq":"CD0184",
 "sbo":"SBO:0000243"
 }
 },
@@ -32552,6 +32605,7 @@
 "name":"Adenylosuccinate lyase (EC 4.3.2.2)",
 "annotation":{
 "patric":"272563.8.peg.1401",
+"refseq":"CD1334",
 "sbo":"SBO:0000243"
 }
 },
@@ -32560,6 +32614,7 @@
 "name":"UDP-glucose 6-dehydrogenase (EC 1.1.1.22)",
 "annotation":{
 "patric":"272563.8.peg.2898",
+"refseq":"CD2771",
 "sbo":"SBO:0000243"
 }
 },
@@ -32568,6 +32623,7 @@
 "name":"Folylpolyglutamate synthase (EC 6.3.2.17)",
 "annotation":{
 "patric":"272563.8.peg.3406",
+"refseq":"CD3253",
 "sbo":"SBO:0000243"
 }
 },
@@ -32576,6 +32632,7 @@
 "name":"N-acetylglutamate synthase (EC 2.3.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2138",
+"refseq":"CD2033",
 "sbo":"SBO:0000243"
 }
 },
@@ -32584,6 +32641,7 @@
 "name":"5'-nucleotidase (EC 3.1.3.5)",
 "annotation":{
 "patric":"272563.8.peg.2660",
+"refseq":"CD2537",
 "sbo":"SBO:0000243"
 }
 },
@@ -32592,6 +32650,7 @@
 "name":"Xylulose kinase (EC 2.7.1.17)",
 "annotation":{
 "patric":"272563.8.peg.3209",
+"refseq":"CD3065",
 "sbo":"SBO:0000243"
 }
 },
@@ -32600,6 +32659,7 @@
 "name":"6-phosphofructokinase (EC 2.7.1.11)",
 "annotation":{
 "patric":"272563.8.peg.3558",
+"refseq":"CD3395",
 "sbo":"SBO:0000243"
 }
 },
@@ -32608,6 +32668,7 @@
 "name":"Lysophospholipase (EC 3.1.1.5)",
 "annotation":{
 "patric":"272563.8.peg.1647",
+"refseq":"CD1570",
 "sbo":"SBO:0000243"
 }
 },
@@ -32616,6 +32677,7 @@
 "name":"Lysophospholipase (EC 3.1.1.5)",
 "annotation":{
 "patric":"272563.8.peg.618",
+"refseq":"CD0589",
 "sbo":"SBO:0000243"
 }
 },
@@ -32632,6 +32694,7 @@
 "name":"Methionine ABC transporter substrate-binding protein",
 "annotation":{
 "patric":"272563.8.peg.1563",
+"refseq":"CD1491",
 "sbo":"SBO:0000243"
 }
 },
@@ -32640,6 +32703,7 @@
 "name":"Methionine ABC transporter substrate-binding protein",
 "annotation":{
 "patric":"272563.8.peg.1730",
+"refseq":"CD1653",
 "sbo":"SBO:0000243"
 }
 },
@@ -32648,6 +32712,7 @@
 "name":"Methionine ABC transporter permease protein",
 "annotation":{
 "patric":"272563.8.peg.1562",
+"refseq":"CD1490",
 "sbo":"SBO:0000243"
 }
 },
@@ -32656,6 +32721,7 @@
 "name":"Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5)",
 "annotation":{
 "patric":"272563.8.peg.620",
+"refseq":"CD0591",
 "sbo":"SBO:0000243"
 }
 },
@@ -32664,6 +32730,7 @@
 "name":"Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5)",
 "annotation":{
 "patric":"272563.8.peg.1714",
+"refseq":"CD1637",
 "sbo":"SBO:0000243"
 }
 },
@@ -32672,6 +32739,7 @@
 "name":"Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5)",
 "annotation":{
 "patric":"272563.8.peg.2961",
+"refseq":"CD2833",
 "sbo":"SBO:0000243"
 }
 },
@@ -32680,6 +32748,7 @@
 "name":"phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)",
 "annotation":{
 "patric":"272563.8.peg.1630",
+"refseq":"CD1554",
 "sbo":"SBO:0000243"
 }
 },
@@ -32688,6 +32757,7 @@
 "name":"Histidinol-phosphate aminotransferase (EC 2.6.1.9)",
 "annotation":{
 "patric":"272563.8.peg.1625",
+"refseq":"CD1549",
 "sbo":"SBO:0000243"
 }
 },
@@ -32696,6 +32766,7 @@
 "name":"Biosynthetic Aromatic amino acid aminotransferase beta (EC 2.6.1.57)",
 "annotation":{
 "patric":"272563.8.peg.2315",
+"refseq":"CD2200",
 "sbo":"SBO:0000243"
 }
 },
@@ -32704,6 +32775,7 @@
 "name":"Biosynthetic Aromatic amino acid aminotransferase beta (EC 2.6.1.57)",
 "annotation":{
 "patric":"272563.8.peg.2624",
+"refseq":"CD2502",
 "sbo":"SBO:0000243"
 }
 },
@@ -32712,6 +32784,7 @@
 "name":"Dihydroneopterin aldolase (EC 4.1.2.25)",
 "annotation":{
 "patric":"272563.8.peg.1523",
+"refseq":"CD1451",
 "sbo":"SBO:0000243"
 }
 },
@@ -32720,6 +32793,7 @@
 "name":"L-ribulose-5-phosphate 4-epimerase (EC 5.1.3.4)",
 "annotation":{
 "patric":"272563.8.peg.2392",
+"refseq":"CD2278",
 "sbo":"SBO:0000243"
 }
 },
@@ -32728,6 +32802,7 @@
 "name":"4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)",
 "annotation":{
 "patric":"272563.8.peg.1908",
+"refseq":"CD1818",
 "sbo":"SBO:0000243"
 }
 },
@@ -32736,6 +32811,7 @@
 "name":"L-aspartate oxidase (EC 1.4.3.16)",
 "annotation":{
 "patric":"272563.8.peg.2488",
+"refseq":"CD2371",
 "sbo":"SBO:0000243"
 }
 },
@@ -32744,6 +32820,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2918",
+"refseq":"CD2791",
 "sbo":"SBO:0000243"
 }
 },
@@ -32752,6 +32829,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2299",
+"refseq":"CD2184",
 "sbo":"SBO:0000243"
 }
 },
@@ -32760,6 +32838,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.1087",
+"refseq":"CD1035",
 "sbo":"SBO:0000243"
 }
 },
@@ -32768,6 +32847,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2921",
+"refseq":"CD2794",
 "sbo":"SBO:0000243"
 }
 },
@@ -32776,6 +32856,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2520",
+"refseq":"CD2402",
 "sbo":"SBO:0000243"
 }
 },
@@ -32784,6 +32865,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.3024",
+"refseq":"CD2894",
 "sbo":"SBO:0000243"
 }
 },
@@ -32792,6 +32874,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.1099",
+"refseq":"CD1047",
 "sbo":"SBO:0000243"
 }
 },
@@ -32800,6 +32883,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2922",
+"refseq":"CD2795",
 "sbo":"SBO:0000243"
 }
 },
@@ -32808,6 +32892,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.1088",
+"refseq":"CD1036",
 "sbo":"SBO:0000243"
 }
 },
@@ -32816,6 +32901,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2916",
+"refseq":"CD2789",
 "sbo":"SBO:0000243"
 }
 },
@@ -32824,6 +32910,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2923",
+"refseq":"CD2796",
 "sbo":"SBO:0000243"
 }
 },
@@ -32832,6 +32919,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2302",
+"refseq":"CD2187",
 "sbo":"SBO:0000243"
 }
 },
@@ -32840,6 +32928,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.121",
+"refseq":"CD0106",
 "sbo":"SBO:0000243"
 }
 },
@@ -32848,6 +32937,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.1086",
+"refseq":"CD1034",
 "sbo":"SBO:0000243"
 }
 },
@@ -32856,6 +32946,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.3343",
+"refseq":"CD3192",
 "sbo":"SBO:0000243"
 }
 },
@@ -32864,6 +32955,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2926",
+"refseq":"CD2799",
 "sbo":"SBO:0000243"
 }
 },
@@ -32872,6 +32964,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.821",
+"refseq":"CD0784",
 "sbo":"SBO:0000243"
 }
 },
@@ -32880,6 +32973,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2911",
+"refseq":"CD2784",
 "sbo":"SBO:0000243"
 }
 },
@@ -32888,6 +32982,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2913",
+"refseq":"CD2786",
 "sbo":"SBO:0000243"
 }
 },
@@ -32896,6 +32991,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.1993",
+"refseq":"CD1898",
 "sbo":"SBO:0000243"
 }
 },
@@ -32904,6 +33000,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2888",
+"refseq":"CD2761",
 "sbo":"SBO:0000243"
 }
 },
@@ -32912,6 +33009,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.1023",
+"refseq":"CD0972",
 "sbo":"SBO:0000243"
 }
 },
@@ -32920,6 +33018,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.1370",
+"refseq":"CD1304",
 "sbo":"SBO:0000243"
 }
 },
@@ -32928,6 +33027,7 @@
 "name":"N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)",
 "annotation":{
 "patric":"272563.8.peg.2862",
+"refseq":"CD2735",
 "sbo":"SBO:0000243"
 }
 },
@@ -32936,6 +33036,7 @@
 "name":"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)",
 "annotation":{
 "patric":"272563.8.peg.1394",
+"refseq":"CD1327",
 "sbo":"SBO:0000243"
 }
 },
@@ -32944,6 +33045,7 @@
 "name":"Phosphatidate cytidylyltransferase (EC 2.7.7.41)",
 "annotation":{
 "patric":"272563.8.peg.2247",
+"refseq":"CD2135",
 "sbo":"SBO:0000243"
 }
 },
@@ -32952,6 +33054,7 @@
 "name":"(2E,6E)-farnesyl diphosphate synthase (EC 2.5.1.10)",
 "annotation":{
 "patric":"272563.8.peg.1264",
+"refseq":"CD1205",
 "sbo":"SBO:0000243"
 }
 },
@@ -32960,6 +33063,7 @@
 "name":"Heptaprenyl diphosphate synthase component I (EC 2.5.1.30)",
 "annotation":{
 "patric":"272563.8.peg.3425",
+"refseq":"CD3272",
 "sbo":"SBO:0000243"
 }
 },
@@ -32968,6 +33072,7 @@
 "name":"Dihydroxy-acid dehydratase (EC 4.2.1.9)",
 "annotation":{
 "patric":"272563.8.peg.2117",
+"refseq":"CD2014",
 "sbo":"SBO:0000243"
 }
 },
@@ -32976,6 +33081,7 @@
 "name":"3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12)",
 "annotation":{
 "patric":"272563.8.peg.1776",
+"refseq":"CD1698",
 "sbo":"SBO:0000243"
 }
 },
@@ -32984,6 +33090,7 @@
 "name":"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase (EC 2.3.1.89)",
 "annotation":{
 "patric":"272563.8.peg.3380",
+"refseq":"CD3227",
 "sbo":"SBO:0000243"
 }
 },
@@ -32992,6 +33099,7 @@
 "name":"Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)",
 "annotation":{
 "patric":"272563.8.peg.123",
+"refseq":"CD0108",
 "sbo":"SBO:0000243"
 }
 },
@@ -33000,6 +33108,7 @@
 "name":"Quinolinate synthetase (EC 4.1.99.-)",
 "annotation":{
 "patric":"272563.8.peg.2489",
+"refseq":"CD2372",
 "sbo":"SBO:0000243"
 }
 },
@@ -33008,6 +33117,7 @@
 "name":"5'-methylthioadenosine nucleosidase (EC 3.2.2.16)",
 "annotation":{
 "patric":"272563.8.peg.2697",
+"refseq":"CD2573",
 "sbo":"SBO:0000243"
 }
 },
@@ -33016,6 +33126,7 @@
 "name":"5'-methylthioadenosine nucleosidase (EC 3.2.2.16)",
 "annotation":{
 "patric":"272563.8.peg.2734",
+"refseq":"CD2611",
 "sbo":"SBO:0000243"
 }
 },
@@ -33024,6 +33135,7 @@
 "name":"L-serine dehydratase, beta subunit (EC 4.3.1.17)",
 "annotation":{
 "patric":"272563.8.peg.3375",
+"refseq":"CD3222",
 "sbo":"SBO:0000243"
 }
 },
@@ -33032,6 +33144,7 @@
 "name":"guanylate kinase (EC 2.7.4.8)",
 "annotation":{
 "patric":"272563.8.peg.2713",
+"refseq":"CD2588",
 "sbo":"SBO:0000243"
 }
 },
@@ -33048,6 +33161,7 @@
 "name":"Oligopeptide transport ATP-binding protein oppF (TC 3.A.1.5.1)",
 "annotation":{
 "patric":"272563.8.peg.2794",
+"refseq":"CD2670",
 "sbo":"SBO:0000243"
 }
 },
@@ -33064,6 +33178,7 @@
 "name":"Oligopeptide transport system permease protein oppC (TC 3.A.1.5.1)",
 "annotation":{
 "patric":"272563.8.peg.2798",
+"refseq":"CD2674",
 "sbo":"SBO:0000243"
 }
 },
@@ -33072,6 +33187,7 @@
 "name":"Oligopeptide transport ATP-binding protein oppD (TC 3.A.1.5.1)",
 "annotation":{
 "patric":"272563.8.peg.894",
+"refseq":"CD0856",
 "sbo":"SBO:0000243"
 }
 },
@@ -33080,6 +33196,7 @@
 "name":"Oligopeptide transport ATP-binding protein oppD (TC 3.A.1.5.1)",
 "annotation":{
 "patric":"272563.8.peg.2795",
+"refseq":"CD2671",
 "sbo":"SBO:0000243"
 }
 },
@@ -33088,6 +33205,7 @@
 "name":"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein oppA (TC 3.A.1.5.1)",
 "annotation":{
 "patric":"272563.8.peg.893",
+"refseq":"CD0855",
 "sbo":"SBO:0000243"
 }
 },
@@ -33096,6 +33214,7 @@
 "name":"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein oppA (TC 3.A.1.5.1)",
 "annotation":{
 "patric":"272563.8.peg.2796",
+"refseq":"CD2672",
 "sbo":"SBO:0000243"
 }
 },
@@ -33104,6 +33223,7 @@
 "name":"Ethanolamine ammonia-lyase heavy chain (EC 4.3.1.7)",
 "annotation":{
 "patric":"272563.8.peg.2009",
+"refseq":"CD1913",
 "sbo":"SBO:0000243"
 }
 },
@@ -33112,6 +33232,7 @@
 "name":"Ethanolamine ammonia-lyase light chain (EC 4.3.1.7)",
 "annotation":{
 "patric":"272563.8.peg.2010",
+"refseq":"CD1914",
 "sbo":"SBO:0000243"
 }
 },
@@ -33120,6 +33241,7 @@
 "name":"cobalt-precorrin 5A hydrolase (EC 3.7.1.12)",
 "annotation":{
 "patric":"272563.8.peg.3588",
+"refseq":"CD3425",
 "sbo":"SBO:0000243"
 }
 },
@@ -33128,6 +33250,7 @@
 "name":"Manganese-dependent inorganic pyrophosphatase (EC 3.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.353",
+"refseq":"CD0333",
 "sbo":"SBO:0000243"
 }
 },
@@ -33136,6 +33259,7 @@
 "name":"N-acetylneuraminate lyase (EC 4.1.3.3)",
 "annotation":{
 "patric":"272563.8.peg.2355",
+"refseq":"CD2240",
 "sbo":"SBO:0000243"
 }
 },
@@ -33144,6 +33268,7 @@
 "name":"NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)",
 "annotation":{
 "patric":"272563.8.peg.1855",
+"refseq":"CD1767",
 "sbo":"SBO:0000243"
 }
 },
@@ -33152,6 +33277,7 @@
 "name":"NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)",
 "annotation":{
 "patric":"272563.8.peg.3325",
+"refseq":"CD3174",
 "sbo":"SBO:0000243"
 }
 },
@@ -33160,6 +33286,7 @@
 "name":"Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)",
 "annotation":{
 "patric":"272563.8.peg.3763",
+"refseq":"CD3592",
 "sbo":"SBO:0000243"
 }
 },
@@ -33168,6 +33295,7 @@
 "name":"Poly(glycerophosphate chain) D-alanine transfer protein DltD",
 "annotation":{
 "patric":"272563.8.peg.2983",
+"refseq":"CD2854",
 "sbo":"SBO:0000243"
 }
 },
@@ -33176,6 +33304,7 @@
 "name":"hydroxyethylthiazole kinase (EC 2.7.1.50)",
 "annotation":{
 "patric":"272563.8.peg.1677",
+"refseq":"CD1600",
 "sbo":"SBO:0000243"
 }
 },
@@ -33184,6 +33313,7 @@
 "name":"Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)",
 "annotation":{
 "patric":"272563.8.peg.1678",
+"refseq":"CD1601",
 "sbo":"SBO:0000243"
 }
 },
@@ -33192,6 +33322,7 @@
 "name":"diaminopimelate decarboxylase (EC 4.1.1.20)",
 "annotation":{
 "patric":"272563.8.peg.1897",
+"refseq":"CD1808",
 "sbo":"SBO:0000243"
 }
 },
@@ -33200,6 +33331,7 @@
 "name":"diaminopimelate decarboxylase (EC 4.1.1.20)",
 "annotation":{
 "patric":"272563.8.peg.2160",
+"refseq":"CD2053",
 "sbo":"SBO:0000243"
 }
 },
@@ -33208,6 +33340,7 @@
 "name":"5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)",
 "annotation":{
 "patric":"272563.8.peg.759",
+"refseq":"CD0722",
 "sbo":"SBO:0000243"
 }
 },
@@ -33216,6 +33349,7 @@
 "name":"Diacylglycerol kinase (EC 2.7.1.107)",
 "annotation":{
 "patric":"272563.8.peg.2559",
+"refseq":"CD2439",
 "sbo":"SBO:0000243"
 }
 },
@@ -33224,6 +33358,7 @@
 "name":"PTS system, beta-glucoside-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.408",
+"refseq":"CD0388",
 "sbo":"SBO:0000243"
 }
 },
@@ -33240,6 +33375,7 @@
 "name":"PTS system, beta-glucoside-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3282",
+"refseq":"CD3137",
 "sbo":"SBO:0000243"
 }
 },
@@ -33248,6 +33384,7 @@
 "name":"PTS system, beta-glucoside-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3260",
+"refseq":"CD3116",
 "sbo":"SBO:0000243"
 }
 },
@@ -33256,6 +33393,7 @@
 "name":"PTS system, beta-glucoside-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3241",
+"refseq":"CD3097",
 "sbo":"SBO:0000243"
 }
 },
@@ -33264,6 +33402,7 @@
 "name":"PTS system, beta-glucoside-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3270",
+"refseq":"CD3125",
 "sbo":"SBO:0000243"
 }
 },
@@ -33272,6 +33411,7 @@
 "name":"Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)",
 "annotation":{
 "patric":"272563.8.peg.2882",
+"refseq":"CD2755",
 "sbo":"SBO:0000243"
 }
 },
@@ -33280,6 +33420,7 @@
 "name":"Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)",
 "annotation":{
 "patric":"272563.8.peg.2194",
+"refseq":"CD2087",
 "sbo":"SBO:0000243"
 }
 },
@@ -33288,6 +33429,7 @@
 "name":"Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)",
 "annotation":{
 "patric":"272563.8.peg.3328",
+"refseq":"CD3177",
 "sbo":"SBO:0000243"
 }
 },
@@ -33296,6 +33438,7 @@
 "name":"Xanthine dehydrogenase, FAD binding subunit (EC 1.17.1.4)",
 "annotation":{
 "patric":"272563.8.peg.2181",
+"refseq":"CD2074",
 "sbo":"SBO:0000243"
 }
 },
@@ -33304,6 +33447,7 @@
 "name":"Xanthine dehydrogenase, FAD binding subunit (EC 1.17.1.4)",
 "annotation":{
 "patric":"272563.8.peg.2187",
+"refseq":"CD2080",
 "sbo":"SBO:0000243"
 }
 },
@@ -33312,6 +33456,7 @@
 "name":"Xanthine dehydrogenase iron-sulfur subunit (EC 1.17.1.4)",
 "annotation":{
 "patric":"272563.8.peg.2188",
+"refseq":"CD2081",
 "sbo":"SBO:0000243"
 }
 },
@@ -33320,6 +33465,7 @@
 "name":"Xanthine dehydrogenase iron-sulfur subunit (EC 1.17.1.4)",
 "annotation":{
 "patric":"272563.8.peg.2195",
+"refseq":"CD2088",
 "sbo":"SBO:0000243"
 }
 },
@@ -33328,6 +33474,7 @@
 "name":"porphobilinogen synthase (EC 4.2.1.24)",
 "annotation":{
 "patric":"272563.8.peg.3582",
+"refseq":"CD3419",
 "sbo":"SBO:0000243"
 }
 },
@@ -33336,6 +33483,7 @@
 "name":"Dihydrolipoamide dehydrogenase (EC 1.8.1.4)",
 "annotation":{
 "patric":"272563.8.peg.760",
+"refseq":"CD0723",
 "sbo":"SBO:0000243"
 }
 },
@@ -33344,6 +33492,7 @@
 "name":"Glycine cleavage system H protein",
 "annotation":{
 "patric":"272563.8.peg.766",
+"refseq":"CD0729",
 "sbo":"SBO:0000243"
 }
 },
@@ -33352,6 +33501,7 @@
 "name":"Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2)",
 "annotation":{
 "patric":"272563.8.peg.1734",
+"refseq":"CD1657",
 "sbo":"SBO:0000243"
 }
 },
@@ -33360,6 +33510,7 @@
 "name":"Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)",
 "annotation":{
 "patric":"272563.8.peg.1735",
+"refseq":"CD1658",
 "sbo":"SBO:0000243"
 }
 },
@@ -33368,6 +33519,7 @@
 "name":"Aspartokinase (EC 2.7.2.4)",
 "annotation":{
 "patric":"272563.8.peg.1389",
+"refseq":"CD1322",
 "sbo":"SBO:0000243"
 }
 },
@@ -33376,6 +33528,7 @@
 "name":"Aspartokinase (EC 2.7.2.4)",
 "annotation":{
 "patric":"272563.8.peg.2161",
+"refseq":"CD2054",
 "sbo":"SBO:0000243"
 }
 },
@@ -33384,6 +33537,7 @@
 "name":"acetylglutamate kinase (EC 2.7.2.8)",
 "annotation":{
 "patric":"272563.8.peg.2137",
+"refseq":"CD2032",
 "sbo":"SBO:0000243"
 }
 },
@@ -33392,6 +33546,7 @@
 "name":"3-ketoacyl-CoA thiolase (EC 2.3.1.16)",
 "annotation":{
 "patric":"272563.8.peg.3115",
+"refseq":"CD2970",
 "sbo":"SBO:0000243"
 }
 },
@@ -33400,6 +33555,7 @@
 "name":"Cysteine synthase (EC 2.5.1.47)",
 "annotation":{
 "patric":"272563.8.peg.1670",
+"refseq":"CD1594",
 "sbo":"SBO:0000243"
 }
 },
@@ -33408,6 +33564,7 @@
 "name":"Asparagine synthetase [glutamine-hydrolyzing] (EC 6.3.5.4)",
 "annotation":{
 "patric":"272563.8.peg.411",
+"refseq":"CD0391",
 "sbo":"SBO:0000243"
 }
 },
@@ -33416,6 +33573,7 @@
 "name":"Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)",
 "annotation":{
 "patric":"272563.8.peg.1473",
+"refseq":"CD1402",
 "sbo":"SBO:0000243"
 }
 },
@@ -33424,6 +33582,7 @@
 "name":"Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)",
 "annotation":{
 "patric":"272563.8.peg.1743",
+"refseq":"CD1666",
 "sbo":"SBO:0000243"
 }
 },
@@ -33432,6 +33591,7 @@
 "name":"2-isopropylmalate synthase (EC 2.3.3.13)",
 "annotation":{
 "patric":"272563.8.peg.2022",
+"refseq":"CD1926",
 "sbo":"SBO:0000243"
 }
 },
@@ -33440,6 +33600,7 @@
 "name":"2-isopropylmalate synthase (EC 2.3.3.13)",
 "annotation":{
 "patric":"272563.8.peg.1040",
+"refseq":"CD0989",
 "sbo":"SBO:0000243"
 }
 },
@@ -33448,6 +33609,7 @@
 "name":"Biotin carboxyl carrier protein of acetyl-CoA carboxylase",
 "annotation":{
 "patric":"272563.8.peg.2035",
+"refseq":"CD1939",
 "sbo":"SBO:0000243"
 }
 },
@@ -33456,6 +33618,7 @@
 "name":"Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)",
 "annotation":{
 "patric":"272563.8.peg.2034",
+"refseq":"CD1938",
 "sbo":"SBO:0000243"
 }
 },
@@ -33464,6 +33627,7 @@
 "name":"Biotin operon repressor",
 "annotation":{
 "patric":"272563.8.peg.3728",
+"refseq":"CD3558",
 "sbo":"SBO:0000243"
 }
 },
@@ -33472,6 +33636,7 @@
 "name":"nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)",
 "annotation":{
 "patric":"272563.8.peg.2647",
+"refseq":"CD2524",
 "sbo":"SBO:0000243"
 }
 },
@@ -33480,6 +33645,7 @@
 "name":"Shikimate kinase I (EC 2.7.1.71)",
 "annotation":{
 "patric":"272563.8.peg.1929",
+"refseq":"CD1838",
 "sbo":"SBO:0000243"
 }
 },
@@ -33488,6 +33654,7 @@
 "name":"Prephenate and/or arogenate dehydrogenase (unknown specificity) (EC 1.3.1.12)(EC 1.3.1.43)",
 "annotation":{
 "patric":"272563.8.peg.1930",
+"refseq":"CD1839",
 "sbo":"SBO:0000243"
 }
 },
@@ -33496,6 +33663,7 @@
 "name":"Mannose-1-phosphate guanylyltransferase (EC 2.7.7.13 )",
 "annotation":{
 "patric":"272563.8.peg.2906",
+"refseq":"CD2779",
 "sbo":"SBO:0000243"
 }
 },
@@ -33504,6 +33672,7 @@
 "name":"Diaminopimelate epimerase (EC 5.1.1.7)",
 "annotation":{
 "patric":"272563.8.peg.2715",
+"refseq":"CD2590",
 "sbo":"SBO:0000243"
 }
 },
@@ -33512,6 +33681,7 @@
 "name":"Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase (EC 3.1.7.2)",
 "annotation":{
 "patric":"272563.8.peg.2871",
+"refseq":"CD2744",
 "sbo":"SBO:0000243"
 }
 },
@@ -33520,6 +33690,7 @@
 "name":"Nitrite reductase probable electron transfer 4Fe-S subunit (EC 1.7.1.4)",
 "annotation":{
 "patric":"272563.8.peg.194",
+"refseq":"CD0175",
 "sbo":"SBO:0000243"
 }
 },
@@ -33528,6 +33699,7 @@
 "name":"Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)",
 "annotation":{
 "patric":"272563.8.peg.195",
+"refseq":"CD0176",
 "sbo":"SBO:0000243"
 }
 },
@@ -33536,6 +33708,7 @@
 "name":"NADH dehydrogenase (EC 1.6.99.3)",
 "annotation":{
 "patric":"272563.8.peg.1886",
+"refseq":"CD1797",
 "sbo":"SBO:0000243"
 }
 },
@@ -33544,6 +33717,7 @@
 "name":"NADH dehydrogenase (EC 1.6.99.3)",
 "annotation":{
 "patric":"272563.8.peg.2663",
+"refseq":"CD2540",
 "sbo":"SBO:0000243"
 }
 },
@@ -33552,6 +33726,7 @@
 "name":"diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26)",
 "annotation":{
 "patric":"272563.8.peg.1778",
+"refseq":"CD1700",
 "sbo":"SBO:0000243"
 }
 },
@@ -33560,6 +33735,7 @@
 "name":"Adenosylcobinamide-phosphate synthase",
 "annotation":{
 "patric":"272563.8.peg.3596",
+"refseq":"CD3433",
 "sbo":"SBO:0000243"
 }
 },
@@ -33568,6 +33744,7 @@
 "name":"Porphobilinogen deaminase (EC 2.5.1.61)",
 "annotation":{
 "patric":"272563.8.peg.3584",
+"refseq":"CD3421",
 "sbo":"SBO:0000243"
 }
 },
@@ -33576,6 +33753,7 @@
 "name":"Acetate kinase (EC 2.7.2.1)",
 "annotation":{
 "patric":"272563.8.peg.1233",
+"refseq":"CD1175",
 "sbo":"SBO:0000243"
 }
 },
@@ -33584,6 +33762,7 @@
 "name":"glycerate kinase (EC 2.7.1.31)",
 "annotation":{
 "patric":"272563.8.peg.3228",
+"refseq":"CD3084",
 "sbo":"SBO:0000243"
 }
 },
@@ -33592,6 +33771,7 @@
 "name":"Pyruvate kinase (EC 2.7.1.40)",
 "annotation":{
 "patric":"272563.8.peg.3557",
+"refseq":"CD3394",
 "sbo":"SBO:0000243"
 }
 },
@@ -33600,6 +33780,7 @@
 "name":"pyridoxal kinase (EC 2.7.1.35)",
 "annotation":{
 "patric":"272563.8.peg.1421",
+"refseq":"CD1353",
 "sbo":"SBO:0000243"
 }
 },
@@ -33608,6 +33789,7 @@
 "name":"Dephospho-CoA kinase (EC 2.7.1.24)",
 "annotation":{
 "patric":"272563.8.peg.1186",
+"refseq":"CD1129",
 "sbo":"SBO:0000243"
 }
 },
@@ -33616,6 +33798,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3259",
+"refseq":"CD3115",
 "sbo":"SBO:0000243"
 }
 },
@@ -33624,6 +33807,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3269",
+"refseq":"CD3124",
 "sbo":"SBO:0000243"
 }
 },
@@ -33632,6 +33816,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.409",
+"refseq":"CD0389",
 "sbo":"SBO:0000243"
 }
 },
@@ -33640,6 +33825,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3240",
+"refseq":"CD3096",
 "sbo":"SBO:0000243"
 }
 },
@@ -33648,6 +33834,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3223",
+"refseq":"CD3079",
 "sbo":"SBO:0000243"
 }
 },
@@ -33656,6 +33843,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.856",
+"refseq":"CD0818",
 "sbo":"SBO:0000243"
 }
 },
@@ -33664,6 +33852,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3281",
+"refseq":"CD3136",
 "sbo":"SBO:0000243"
 }
 },
@@ -33672,6 +33861,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3239",
+"refseq":"CD3095",
 "sbo":"SBO:0000243"
 }
 },
@@ -33680,6 +33870,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3011",
+"refseq":"CD2882",
 "sbo":"SBO:0000243"
 }
 },
@@ -33688,6 +33879,7 @@
 "name":"6-phospho-beta-glucosidase (EC 3.2.1.86)",
 "annotation":{
 "patric":"272563.8.peg.3275",
+"refseq":"CD3130",
 "sbo":"SBO:0000243"
 }
 },
@@ -33696,6 +33888,7 @@
 "name":"ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)",
 "annotation":{
 "patric":"272563.8.peg.1623",
+"refseq":"CD1547",
 "sbo":"SBO:0000243"
 }
 },
@@ -33704,6 +33897,7 @@
 "name":"PTS system, fructose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2383",
+"refseq":"CD2269",
 "sbo":"SBO:0000243"
 }
 },
@@ -33712,6 +33906,7 @@
 "name":"PTS system, fructose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.224",
+"refseq":"CD0206",
 "sbo":"SBO:0000243"
 }
 },
@@ -33720,6 +33915,7 @@
 "name":"PTS system, fructose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3279",
+"refseq":"CD3134",
 "sbo":"SBO:0000243"
 }
 },
@@ -33728,6 +33924,7 @@
 "name":"PTS system, fructose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.225",
+"refseq":"CD0207",
 "sbo":"SBO:0000243"
 }
 },
@@ -33736,6 +33933,7 @@
 "name":"PTS system, fructose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.226",
+"refseq":"CD0208",
 "sbo":"SBO:0000243"
 }
 },
@@ -33744,6 +33942,7 @@
 "name":"Glycerol-3-phosphate ABC transporter, permease protein UgpE (TC 3.A.1.1.3)",
 "annotation":{
 "patric":"272563.8.peg.3578",
+"refseq":"CD3415",
 "sbo":"SBO:0000243"
 }
 },
@@ -33752,6 +33951,7 @@
 "name":"Proton/sodium-glutamate symport protein",
 "annotation":{
 "patric":"272563.8.peg.2286",
+"refseq":"CD2171",
 "sbo":"SBO:0000243"
 }
 },
@@ -33760,6 +33960,7 @@
 "name":"Sodium/glutamate symporter",
 "annotation":{
 "patric":"272563.8.peg.2818",
+"refseq":"CD2693",
 "sbo":"SBO:0000243"
 }
 },
@@ -33768,6 +33969,7 @@
 "name":"Sodium/glutamate symporter",
 "annotation":{
 "patric":"272563.8.peg.1830",
+"refseq":"CD1746",
 "sbo":"SBO:0000243"
 }
 },
@@ -33776,6 +33978,7 @@
 "name":"UDP-N-acetylglucosamine 2-epimerase (EC 5.1.3.14)",
 "annotation":{
 "patric":"272563.8.peg.1085",
+"refseq":"CD1033",
 "sbo":"SBO:0000243"
 }
 },
@@ -33784,6 +33987,7 @@
 "name":"Uroporphyrinogen-III synthase (EC 4.2.1.75)",
 "annotation":{
 "patric":"272563.8.peg.3583",
+"refseq":"CD3420",
 "sbo":"SBO:0000243"
 }
 },
@@ -33792,6 +33996,7 @@
 "name":"Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)",
 "annotation":{
 "patric":"272563.8.peg.2778",
+"refseq":"CD2654",
 "sbo":"SBO:0000243"
 }
 },
@@ -33800,6 +34005,7 @@
 "name":"Adenylate kinase (EC 2.7.4.3)",
 "annotation":{
 "patric":"272563.8.peg.105",
+"refseq":"CD0091",
 "sbo":"SBO:0000243"
 }
 },
@@ -33808,6 +34014,7 @@
 "name":"dCMP deaminase (EC 3.5.4.12)",
 "annotation":{
 "patric":"272563.8.peg.1994",
+"refseq":"CD1899",
 "sbo":"SBO:0000243"
 }
 },
@@ -33816,6 +34023,7 @@
 "name":"dCMP deaminase (EC 3.5.4.12)",
 "annotation":{
 "patric":"272563.8.peg.3642",
+"refseq":"CD3477",
 "sbo":"SBO:0000243"
 }
 },
@@ -33824,6 +34032,7 @@
 "name":"3-dehydroquinate synthase (EC 4.2.3.4)",
 "annotation":{
 "patric":"272563.8.peg.1924",
+"refseq":"CD1833",
 "sbo":"SBO:0000243"
 }
 },
@@ -33832,6 +34041,7 @@
 "name":"Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)",
 "annotation":{
 "patric":"272563.8.peg.921",
+"refseq":"CD0882",
 "sbo":"SBO:0000243"
 }
 },
@@ -33840,6 +34050,7 @@
 "name":"Glycogen biosynthesis protein GlgD, glucose-1-phosphate adenylyltransferase family",
 "annotation":{
 "patric":"272563.8.peg.922",
+"refseq":"CD0883",
 "sbo":"SBO:0000243"
 }
 },
@@ -33848,6 +34059,7 @@
 "name":"glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)",
 "annotation":{
 "patric":"272563.8.peg.3683",
+"refseq":"CD3515",
 "sbo":"SBO:0000243"
 }
 },
@@ -33856,6 +34068,7 @@
 "name":"Copper-translocating P-type ATPase (EC 3.6.3.4)",
 "annotation":{
 "patric":"272563.8.peg.2223",
+"refseq":"CD2115",
 "sbo":"SBO:0000243"
 }
 },
@@ -33872,6 +34085,7 @@
 "name":"Serine hydroxymethyltransferase (EC 2.1.2.1)",
 "annotation":{
 "patric":"272563.8.peg.2853",
+"refseq":"CD2726",
 "sbo":"SBO:0000243"
 }
 },
@@ -33880,6 +34094,7 @@
 "name":"Serine hydroxymethyltransferase (EC 2.1.2.1)",
 "annotation":{
 "patric":"272563.8.peg.2962",
+"refseq":"CD2834",
 "sbo":"SBO:0000243"
 }
 },
@@ -33888,6 +34103,7 @@
 "name":"Tagatose-6-phosphate kinase (EC 2.7.1.144)",
 "annotation":{
 "patric":"272563.8.peg.3616",
+"refseq":"CD3451",
 "sbo":"SBO:0000243"
 }
 },
@@ -33896,6 +34112,7 @@
 "name":"1-phosphofructokinase (EC 2.7.1.56)",
 "annotation":{
 "patric":"272563.8.peg.2384",
+"refseq":"CD2270",
 "sbo":"SBO:0000243"
 }
 },
@@ -33904,6 +34121,7 @@
 "name":"Argininosuccinate lyase (EC 4.3.2.1)",
 "annotation":{
 "patric":"272563.8.peg.2622",
+"refseq":"CD2500",
 "sbo":"SBO:0000243"
 }
 },
@@ -33912,6 +34130,7 @@
 "name":"Histidinol-phosphatase (EC 3.1.3.15)",
 "annotation":{
 "patric":"272563.8.peg.774",
+"refseq":"CD0737",
 "sbo":"SBO:0000243"
 }
 },
@@ -33920,6 +34139,7 @@
 "name":"Histidinol-phosphatase (EC 3.1.3.15)",
 "annotation":{
 "patric":"272563.8.peg.2306",
+"refseq":"CD2191",
 "sbo":"SBO:0000243"
 }
 },
@@ -33936,6 +34156,7 @@
 "name":"Adenine deaminase (EC 3.5.4.2)",
 "annotation":{
 "patric":"272563.8.peg.1912",
+"refseq":"CD1820",
 "sbo":"SBO:0000243"
 }
 },
@@ -33944,6 +34165,7 @@
 "name":"mannosylglycerate hydrolase (EC 3.2.1.170)",
 "annotation":{
 "patric":"272563.8.peg.3229",
+"refseq":"CD3085",
 "sbo":"SBO:0000243"
 }
 },
@@ -33952,6 +34174,7 @@
 "name":"mannosylglycerate hydrolase (EC 3.2.1.170)",
 "annotation":{
 "patric":"272563.8.peg.2693",
+"refseq":"CD2569",
 "sbo":"SBO:0000243"
 }
 },
@@ -33960,6 +34183,7 @@
 "name":"methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5)",
 "annotation":{
 "patric":"272563.8.peg.757",
+"refseq":"CD0720",
 "sbo":"SBO:0000243"
 }
 },
@@ -33968,6 +34192,7 @@
 "name":"Acetaldehyde dehydrogenase (EC 1.2.1.10)",
 "annotation":{
 "patric":"272563.8.peg.354",
+"refseq":"CD0334",
 "sbo":"SBO:0000243"
 }
 },
@@ -33976,6 +34201,7 @@
 "name":"Acetaldehyde dehydrogenase (EC 1.2.1.10)",
 "annotation":{
 "patric":"272563.8.peg.2013",
+"refseq":"CD1917",
 "sbo":"SBO:0000243"
 }
 },
@@ -33984,6 +34210,7 @@
 "name":"Acetaldehyde dehydrogenase (EC 1.2.1.10)",
 "annotation":{
 "patric":"272563.8.peg.3111",
+"refseq":"CD2966",
 "sbo":"SBO:0000243"
 }
 },
@@ -33992,6 +34219,7 @@
 "name":"1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)",
 "annotation":{
 "patric":"272563.8.peg.2243",
+"refseq":"CD2130",
 "sbo":"SBO:0000243"
 }
 },
@@ -34000,6 +34228,7 @@
 "name":"aminodeoxychorismate lyase (EC 4.1.3.38)",
 "annotation":{
 "patric":"272563.8.peg.1519",
+"refseq":"CD1447",
 "sbo":"SBO:0000243"
 }
 },
@@ -34008,6 +34237,7 @@
 "name":"Acetyl-CoA acetyltransferase (EC 2.3.1.9)",
 "annotation":{
 "patric":"272563.8.peg.2800",
+"refseq":"CD2676",
 "sbo":"SBO:0000243"
 }
 },
@@ -34016,6 +34246,7 @@
 "name":"Acetyl-CoA acetyltransferase (EC 2.3.1.9)",
 "annotation":{
 "patric":"272563.8.peg.1111",
+"refseq":"CD1059",
 "sbo":"SBO:0000243"
 }
 },
@@ -34024,6 +34255,7 @@
 "name":"Orotate phosphoribosyltransferase (EC 2.4.2.10)",
 "annotation":{
 "patric":"272563.8.peg.205",
+"refseq":"CD0187",
 "sbo":"SBO:0000243"
 }
 },
@@ -34032,6 +34264,7 @@
 "name":"amidophosphoribosyltransferase (EC 2.4.2.14)",
 "annotation":{
 "patric":"272563.8.peg.238",
+"refseq":"CD0220",
 "sbo":"SBO:0000243"
 }
 },
@@ -34040,6 +34273,7 @@
 "name":"GTP cyclohydrolase I (EC 3.5.4.16) type 1",
 "annotation":{
 "patric":"272563.8.peg.1521",
+"refseq":"CD1449",
 "sbo":"SBO:0000243"
 }
 },
@@ -34048,6 +34282,7 @@
 "name":"Fructose-1,6-bisphosphatase, Bacillus type (EC 3.1.3.11)",
 "annotation":{
 "patric":"272563.8.peg.1250",
+"refseq":"CD1191",
 "sbo":"SBO:0000243"
 }
 },
@@ -34056,6 +34291,7 @@
 "name":"Aldehyde dehydrogenase (EC 1.2.1.3)",
 "annotation":{
 "patric":"272563.8.peg.2321",
+"refseq":"CD2206",
 "sbo":"SBO:0000243"
 }
 },
@@ -34064,6 +34300,7 @@
 "name":"Aspartate--ammonia ligase (EC 6.3.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2820",
+"refseq":"CD2695",
 "sbo":"SBO:0000243"
 }
 },
@@ -34072,6 +34309,7 @@
 "name":"NAD kinase (EC 2.7.1.23)",
 "annotation":{
 "patric":"272563.8.peg.1101",
+"refseq":"CD1049",
 "sbo":"SBO:0000243"
 }
 },
@@ -34080,6 +34318,7 @@
 "name":"PTS system, mannitol-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2451",
+"refseq":"CD2334",
 "sbo":"SBO:0000243"
 }
 },
@@ -34088,6 +34327,7 @@
 "name":"PTS system, mannitol-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3804",
+"refseq":"CD3631",
 "sbo":"SBO:0000243"
 }
 },
@@ -34096,6 +34336,7 @@
 "name":"PTS system, mannitol-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2449",
+"refseq":"CD2332",
 "sbo":"SBO:0000243"
 }
 },
@@ -34104,6 +34345,7 @@
 "name":"PTS system, mannitol-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2450",
+"refseq":"CD2333",
 "sbo":"SBO:0000243"
 }
 },
@@ -34112,6 +34354,7 @@
 "name":"Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)",
 "annotation":{
 "patric":"272563.8.peg.2754",
+"refseq":"CD2630",
 "sbo":"SBO:0000243"
 }
 },
@@ -34120,6 +34363,7 @@
 "name":"D-beta-hydroxybutyrate permease",
 "annotation":{
 "patric":"272563.8.peg.838",
+"refseq":"CD0801",
 "sbo":"SBO:0000243"
 }
 },
@@ -34128,6 +34372,7 @@
 "name":"D-beta-hydroxybutyrate permease",
 "annotation":{
 "patric":"272563.8.peg.2804",
+"refseq":"CD2680",
 "sbo":"SBO:0000243"
 }
 },
@@ -34136,6 +34381,7 @@
 "name":"Histidinol dehydrogenase (EC 1.1.1.23)",
 "annotation":{
 "patric":"272563.8.peg.1657",
+"refseq":"CD1582",
 "sbo":"SBO:0000243"
 }
 },
@@ -34144,6 +34390,7 @@
 "name":"Maltose phosphorylase (EC 2.4.1.8)",
 "annotation":{
 "patric":"272563.8.peg.2303",
+"refseq":"CD2188",
 "sbo":"SBO:0000243"
 }
 },
@@ -34152,6 +34399,7 @@
 "name":"Gamma-glutamyltranspeptidase (EC 2.3.2.2)",
 "annotation":{
 "patric":"272563.8.peg.1610",
+"refseq":"CD1534",
 "sbo":"SBO:0000243"
 }
 },
@@ -34160,6 +34408,7 @@
 "name":"mannose-6-phosphate isomerase (EC 5.3.1.8)",
 "annotation":{
 "patric":"272563.8.peg.2613",
+"refseq":"CD2491",
 "sbo":"SBO:0000243"
 }
 },
@@ -34168,6 +34417,7 @@
 "name":"Glucose-6-phosphate isomerase (EC 5.3.1.9)",
 "annotation":{
 "patric":"272563.8.peg.3438",
+"refseq":"CD3285",
 "sbo":"SBO:0000243"
 }
 },
@@ -34176,6 +34426,7 @@
 "name":"L-lactate dehydrogenase (EC 1.1.1.27)",
 "annotation":{
 "patric":"272563.8.peg.2278",
+"refseq":"CD2164",
 "sbo":"SBO:0000243"
 }
 },
@@ -34184,6 +34435,7 @@
 "name":"Arginine/ornithine antiporter ArcD",
 "annotation":{
 "patric":"272563.8.peg.3244",
+"refseq":"CD3100",
 "sbo":"SBO:0000243"
 }
 },
@@ -34192,6 +34444,7 @@
 "name":"Arginine/ornithine antiporter ArcD",
 "annotation":{
 "patric":"272563.8.peg.1786",
+"refseq":"CD1707",
 "sbo":"SBO:0000243"
 }
 },
@@ -34200,6 +34453,7 @@
 "name":"Alkanesulfonates transport system permease protein",
 "annotation":{
 "patric":"272563.8.peg.1554",
+"refseq":"CD1482",
 "sbo":"SBO:0000243"
 }
 },
@@ -34208,6 +34462,7 @@
 "name":"Alkanesulfonates transport system permease protein",
 "annotation":{
 "patric":"272563.8.peg.3135",
+"refseq":"CD2991",
 "sbo":"SBO:0000243"
 }
 },
@@ -34216,6 +34471,7 @@
 "name":"Alkanesulfonates-binding protein",
 "annotation":{
 "patric":"272563.8.peg.1556",
+"refseq":"CD1484",
 "sbo":"SBO:0000243"
 }
 },
@@ -34224,6 +34480,7 @@
 "name":"Alkanesulfonates-binding protein",
 "annotation":{
 "patric":"272563.8.peg.2482",
+"refseq":"CD2365",
 "sbo":"SBO:0000243"
 }
 },
@@ -34232,6 +34489,7 @@
 "name":"Alkanesulfonates ABC transporter ATP-binding protein",
 "annotation":{
 "patric":"272563.8.peg.3134",
+"refseq":"CD2990",
 "sbo":"SBO:0000243"
 }
 },
@@ -34240,6 +34498,7 @@
 "name":"Alkanesulfonates ABC transporter ATP-binding protein",
 "annotation":{
 "patric":"272563.8.peg.1555",
+"refseq":"CD1483",
 "sbo":"SBO:0000243"
 }
 },
@@ -34248,6 +34507,7 @@
 "name":"Alkanesulfonates ABC transporter ATP-binding protein",
 "annotation":{
 "patric":"272563.8.peg.1052",
+"refseq":"CD1001",
 "sbo":"SBO:0000243"
 }
 },
@@ -34256,6 +34516,7 @@
 "name":"prephenate dehydratase (EC 4.2.1.51)",
 "annotation":{
 "patric":"272563.8.peg.1927",
+"refseq":"CD1836",
 "sbo":"SBO:0000243"
 }
 },
@@ -34264,6 +34525,7 @@
 "name":"O-succinylhomoserine sulfhydrylase (EC 4.2.99.9)",
 "annotation":{
 "patric":"272563.8.peg.1916",
+"refseq":"CD1825",
 "sbo":"SBO:0000243"
 }
 },
@@ -34272,6 +34534,7 @@
 "name":"2',3'-cyclic-nucleotide 2'-phosphodiesterase (EC 3.1.4.16)",
 "annotation":{
 "patric":"272563.8.peg.725",
+"refseq":"CD0690",
 "sbo":"SBO:0000243"
 }
 },
@@ -34280,6 +34543,7 @@
 "name":"2',3'-cyclic-nucleotide 2'-phosphodiesterase (EC 3.1.4.16)",
 "annotation":{
 "patric":"272563.8.peg.217",
+"refseq":"CD0199",
 "sbo":"SBO:0000243"
 }
 },
@@ -34288,6 +34552,7 @@
 "name":"2',3'-cyclic-nucleotide 2'-phosphodiesterase (EC 3.1.4.16)",
 "annotation":{
 "patric":"272563.8.peg.724",
+"refseq":"CD0689",
 "sbo":"SBO:0000243"
 }
 },
@@ -34296,6 +34561,7 @@
 "name":"Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)",
 "annotation":{
 "patric":"272563.8.peg.2806",
+"refseq":"CD2682",
 "sbo":"SBO:0000243"
 }
 },
@@ -34304,6 +34570,7 @@
 "name":"Phosphonoacetaldehyde hydrolase (EC 3.11.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2977",
+"refseq":"CD2849",
 "sbo":"SBO:0000243"
 }
 },
@@ -34312,6 +34579,7 @@
 "name":"ornithine racemase (EC 5.1.1.12)",
 "annotation":{
 "patric":"272563.8.peg.472",
+"refseq":"CD0448",
 "sbo":"SBO:0000243"
 }
 },
@@ -34320,6 +34588,7 @@
 "name":"Serine--pyruvate aminotransferase (EC 2.6.1.51)",
 "annotation":{
 "patric":"272563.8.peg.1045",
+"refseq":"CD0994",
 "sbo":"SBO:0000243"
 }
 },
@@ -34328,6 +34597,7 @@
 "name":"Ferrous iron transport protein B",
 "annotation":{
 "patric":"272563.8.peg.3427",
+"refseq":"CD3274",
 "sbo":"SBO:0000243"
 }
 },
@@ -34336,6 +34606,7 @@
 "name":"Ferrous iron transport protein B",
 "annotation":{
 "patric":"272563.8.peg.1551",
+"refseq":"CD1479",
 "sbo":"SBO:0000243"
 }
 },
@@ -34344,6 +34615,7 @@
 "name":"Ferrous iron transport protein B",
 "annotation":{
 "patric":"272563.8.peg.1593",
+"refseq":"CD1517",
 "sbo":"SBO:0000243"
 }
 },
@@ -34352,6 +34624,7 @@
 "name":"Ornithine cyclodeaminase (EC 4.3.1.12)",
 "annotation":{
 "patric":"272563.8.peg.570",
+"refseq":"CD0544",
 "sbo":"SBO:0000243"
 }
 },
@@ -34360,6 +34633,7 @@
 "name":"PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3174",
+"refseq":"CD3030",
 "sbo":"SBO:0000243"
 }
 },
@@ -34368,6 +34642,7 @@
 "name":"PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2632",
+"refseq":"CD2510",
 "sbo":"SBO:0000243"
 }
 },
@@ -34376,6 +34651,7 @@
 "name":"PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.1403",
+"refseq":"CD1336",
 "sbo":"SBO:0000243"
 }
 },
@@ -34384,6 +34660,7 @@
 "name":"peptide deformylase (EC 3.5.1.88)",
 "annotation":{
 "patric":"272563.8.peg.2709",
+"refseq":"CD2585",
 "sbo":"SBO:0000243"
 }
 },
@@ -34392,6 +34669,7 @@
 "name":"peptide deformylase (EC 3.5.1.88)",
 "annotation":{
 "patric":"272563.8.peg.1842",
+"refseq":"CD1756",
 "sbo":"SBO:0000243"
 }
 },
@@ -34400,6 +34678,7 @@
 "name":"nicotinate phosphoribosyltransferase (EC 2.4.2.11)",
 "annotation":{
 "patric":"272563.8.peg.3711",
+"refseq":"CD3543",
 "sbo":"SBO:0000243"
 }
 },
@@ -34408,6 +34687,7 @@
 "name":"2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)",
 "annotation":{
 "patric":"272563.8.peg.2940",
+"refseq":"CD2813",
 "sbo":"SBO:0000243"
 }
 },
@@ -34416,6 +34696,7 @@
 "name":"uracil phosphoribosyltransferase (EC 2.4.2.9)",
 "annotation":{
 "patric":"272563.8.peg.3645",
+"refseq":"CD3479",
 "sbo":"SBO:0000243"
 }
 },
@@ -34424,6 +34705,7 @@
 "name":"Dihydroorotase (EC 3.5.2.3)",
 "annotation":{
 "patric":"272563.8.peg.1602",
+"refseq":"CD1526",
 "sbo":"SBO:0000243"
 }
 },
@@ -34432,6 +34714,7 @@
 "name":"Phosphate transport system permease protein PstC (TC 3.A.1.7.1)",
 "annotation":{
 "patric":"272563.8.peg.3416",
+"refseq":"CD3263",
 "sbo":"SBO:0000243"
 }
 },
@@ -34440,6 +34723,7 @@
 "name":"Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)",
 "annotation":{
 "patric":"272563.8.peg.3414",
+"refseq":"CD3261",
 "sbo":"SBO:0000243"
 }
 },
@@ -34448,6 +34732,7 @@
 "name":"Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)",
 "annotation":{
 "patric":"272563.8.peg.3421",
+"refseq":"CD3268",
 "sbo":"SBO:0000243"
 }
 },
@@ -34456,6 +34741,7 @@
 "name":"Phosphate transport system permease protein PstA (TC 3.A.1.7.1)",
 "annotation":{
 "patric":"272563.8.peg.3415",
+"refseq":"CD3262",
 "sbo":"SBO:0000243"
 }
 },
@@ -34464,6 +34750,7 @@
 "name":"Homoserine dehydrogenase (EC 1.1.1.3)",
 "annotation":{
 "patric":"272563.8.peg.1224",
+"refseq":"CD1166",
 "sbo":"SBO:0000243"
 }
 },
@@ -34472,6 +34759,7 @@
 "name":"Homoserine dehydrogenase (EC 1.1.1.3)",
 "annotation":{
 "patric":"272563.8.peg.2531",
+"refseq":"CD2413",
 "sbo":"SBO:0000243"
 }
 },
@@ -34480,6 +34768,7 @@
 "name":"Homoserine dehydrogenase (EC 1.1.1.3)",
 "annotation":{
 "patric":"272563.8.peg.1655",
+"refseq":"CD1580",
 "sbo":"SBO:0000243"
 }
 },
@@ -34488,6 +34777,7 @@
 "name":"UDP-glucose 4-epimerase (EC 5.1.3.2)",
 "annotation":{
 "patric":"272563.8.peg.2839",
+"refseq":"CD2714",
 "sbo":"SBO:0000243"
 }
 },
@@ -34496,6 +34786,7 @@
 "name":"Glutamyl-tRNA synthetase (EC 6.1.1.17)",
 "annotation":{
 "patric":"272563.8.peg.60",
+"refseq":"CD0051",
 "sbo":"SBO:0000243"
 }
 },
@@ -34504,6 +34795,7 @@
 "name":"Acetylornithine aminotransferase (EC 2.6.1.11)",
 "annotation":{
 "patric":"272563.8.peg.2136",
+"refseq":"CD2031",
 "sbo":"SBO:0000243"
 }
 },
@@ -34512,6 +34804,7 @@
 "name":"Cystathionine beta-lyase (EC 4.4.1.8)",
 "annotation":{
 "patric":"272563.8.peg.2821",
+"refseq":"CD2696",
 "sbo":"SBO:0000243"
 }
 },
@@ -34520,6 +34813,7 @@
 "name":"Cystathionine beta-lyase (EC 4.4.1.8)",
 "annotation":{
 "patric":"272563.8.peg.2860",
+"refseq":"CD2733",
 "sbo":"SBO:0000243"
 }
 },
@@ -34528,6 +34822,7 @@
 "name":"galactoside O-acetyltransferase (EC 2.3.1.18)",
 "annotation":{
 "patric":"272563.8.peg.1744",
+"refseq":"CD1667",
 "sbo":"SBO:0000243"
 }
 },
@@ -34536,6 +34831,7 @@
 "name":"UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)",
 "annotation":{
 "patric":"272563.8.peg.139",
+"refseq":"CD0123",
 "sbo":"SBO:0000243"
 }
 },
@@ -34544,6 +34840,7 @@
 "name":"Riboflavin kinase (EC 2.7.1.26)",
 "annotation":{
 "patric":"272563.8.peg.1382",
+"refseq":"CD1315",
 "sbo":"SBO:0000243"
 }
 },
@@ -34552,6 +34849,7 @@
 "name":"Triosephosphate isomerase (EC 5.3.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3323",
+"refseq":"CD3172",
 "sbo":"SBO:0000243"
 }
 },
@@ -34560,6 +34858,7 @@
 "name":"Fructose-bisphosphate aldolase class II (EC 4.1.2.13)",
 "annotation":{
 "patric":"272563.8.peg.423",
+"refseq":"CD0403",
 "sbo":"SBO:0000243"
 }
 },
@@ -34568,6 +34867,7 @@
 "name":"Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)",
 "annotation":{
 "patric":"272563.8.peg.2033",
+"refseq":"CD1937",
 "sbo":"SBO:0000243"
 }
 },
@@ -34576,6 +34876,7 @@
 "name":"Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)",
 "annotation":{
 "patric":"272563.8.peg.2032",
+"refseq":"CD1936",
 "sbo":"SBO:0000243"
 }
 },
@@ -34584,6 +34885,7 @@
 "name":"Phosphopantetheine adenylyltransferase (EC 2.7.7.3)",
 "annotation":{
 "patric":"272563.8.peg.2680",
+"refseq":"CD2558",
 "sbo":"SBO:0000243"
 }
 },
@@ -34592,6 +34894,7 @@
 "name":"L(+)-tartrate dehydratase beta subunit (EC 4.2.1.32)",
 "annotation":{
 "patric":"272563.8.peg.1055",
+"refseq":"CD1004",
 "sbo":"SBO:0000243"
 }
 },
@@ -34600,6 +34903,7 @@
 "name":"L(+)-tartrate dehydratase alpha subunit (EC 4.2.1.32)",
 "annotation":{
 "patric":"272563.8.peg.1054",
+"refseq":"CD1003",
 "sbo":"SBO:0000243"
 }
 },
@@ -34608,6 +34912,7 @@
 "name":"2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)",
 "annotation":{
 "patric":"272563.8.peg.3799",
+"refseq":"CD3626",
 "sbo":"SBO:0000243"
 }
 },
@@ -34616,6 +34921,7 @@
 "name":"L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)",
 "annotation":{
 "patric":"272563.8.peg.3595",
+"refseq":"CD3432",
 "sbo":"SBO:0000243"
 }
 },
@@ -34624,6 +34930,7 @@
 "name":"D-lactate dehydrogenase (EC 1.1.1.28)",
 "annotation":{
 "patric":"272563.8.peg.414",
+"refseq":"CD0394",
 "sbo":"SBO:0000243"
 }
 },
@@ -34632,6 +34939,7 @@
 "name":"Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)",
 "annotation":{
 "patric":"272563.8.peg.3601",
+"refseq":"CD3438",
 "sbo":"SBO:0000243"
 }
 },
@@ -34640,6 +34948,7 @@
 "name":"5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)",
 "annotation":{
 "patric":"272563.8.peg.3621",
+"refseq":"CD3456",
 "sbo":"SBO:0000243"
 }
 },
@@ -34648,6 +34957,7 @@
 "name":"alanine transaminase (EC 2.6.1.2)",
 "annotation":{
 "patric":"272563.8.peg.1406",
+"refseq":"CD1339",
 "sbo":"SBO:0000243"
 }
 },
@@ -34656,6 +34966,7 @@
 "name":"alcohol dehydrogenase (EC 1.1.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3249",
+"refseq":"CD3105",
 "sbo":"SBO:0000243"
 }
 },
@@ -34664,6 +34975,7 @@
 "name":"alcohol dehydrogenase (EC 1.1.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3150",
+"refseq":"CD3006",
 "sbo":"SBO:0000243"
 }
 },
@@ -34672,6 +34984,7 @@
 "name":"6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)",
 "annotation":{
 "patric":"272563.8.peg.1775",
+"refseq":"CD1697",
 "sbo":"SBO:0000243"
 }
 },
@@ -34680,6 +34993,7 @@
 "name":"Xylose isomerase (EC 5.3.1.5)",
 "annotation":{
 "patric":"272563.8.peg.3208",
+"refseq":"CD3064",
 "sbo":"SBO:0000243"
 }
 },
@@ -34688,6 +35002,7 @@
 "name":"Phosphoenolpyruvate synthase (EC 2.7.9.2)",
 "annotation":{
 "patric":"272563.8.peg.610",
+"refseq":"CD0582",
 "sbo":"SBO:0000243"
 }
 },
@@ -34696,6 +35011,7 @@
 "name":"phosphopentomutase (EC 5.4.2.7)",
 "annotation":{
 "patric":"272563.8.peg.1282",
+"refseq":"CD1223",
 "sbo":"SBO:0000243"
 }
 },
@@ -34704,6 +35020,7 @@
 "name":"Threonine dehydratase, catabolic (EC 4.3.1.19)",
 "annotation":{
 "patric":"272563.8.peg.2636",
+"refseq":"CD2514",
 "sbo":"SBO:0000243"
 }
 },
@@ -34712,6 +35029,7 @@
 "name":"UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)",
 "annotation":{
 "patric":"272563.8.peg.2840",
+"refseq":"CD2715",
 "sbo":"SBO:0000243"
 }
 },
@@ -34720,6 +35038,7 @@
 "name":"UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)",
 "annotation":{
 "patric":"272563.8.peg.3656",
+"refseq":"CD3488",
 "sbo":"SBO:0000243"
 }
 },
@@ -34728,6 +35047,7 @@
 "name":"DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)",
 "annotation":{
 "patric":"272563.8.peg.77",
+"refseq":"CD0066",
 "sbo":"SBO:0000243"
 }
 },
@@ -34736,6 +35056,7 @@
 "name":"Transcription termination protein NusA",
 "annotation":{
 "patric":"272563.8.peg.1373",
+"refseq":"CD1307",
 "sbo":"SBO:0000243"
 }
 },
@@ -34744,6 +35065,7 @@
 "name":"DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)",
 "annotation":{
 "patric":"272563.8.peg.113",
+"refseq":"CD0098",
 "sbo":"SBO:0000243"
 }
 },
@@ -34752,6 +35074,7 @@
 "name":"Ribonuclease P protein component (EC 3.1.26.5)",
 "annotation":{
 "patric":"272563.8.peg.3857",
+"refseq":"CD3679",
 "sbo":"SBO:0000243"
 }
 },
@@ -34760,6 +35083,7 @@
 "name":"Ribonuclease III (EC 3.1.26.3)",
 "annotation":{
 "patric":"272563.8.peg.1312",
+"refseq":"CD1248",
 "sbo":"SBO:0000243"
 }
 },
@@ -34768,6 +35092,7 @@
 "name":"RNA polymerase sigma factor RpoD",
 "annotation":{
 "patric":"272563.8.peg.1527",
+"refseq":"CD1455",
 "sbo":"SBO:0000243"
 }
 },
@@ -34776,6 +35101,7 @@
 "name":"RNA polymerase sigma factor RpoD",
 "annotation":{
 "patric":"272563.8.peg.1570",
+"refseq":"CD1498",
 "sbo":"SBO:0000243"
 }
 },
@@ -34784,6 +35110,7 @@
 "name":"DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)",
 "annotation":{
 "patric":"272563.8.peg.78",
+"refseq":"CD0067",
 "sbo":"SBO:0000243"
 }
 },
@@ -34792,6 +35119,7 @@
 "name":"Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)",
 "annotation":{
 "patric":"272563.8.peg.1928",
+"refseq":"CD1837",
 "sbo":"SBO:0000243"
 }
 },
@@ -34800,6 +35128,7 @@
 "name":"Shikimate/quinate 5-dehydrogenase I beta (EC 1.1.1.282)",
 "annotation":{
 "patric":"272563.8.peg.2833",
+"refseq":"CD2708",
 "sbo":"SBO:0000243"
 }
 },
@@ -34808,6 +35137,7 @@
 "name":"PTS system, sucrose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.493",
+"refseq":"CD0469",
 "sbo":"SBO:0000243"
 }
 },
@@ -34816,6 +35146,7 @@
 "name":"ribokinase (EC 2.7.1.15)",
 "annotation":{
 "patric":"272563.8.peg.320",
+"refseq":"CD0299",
 "sbo":"SBO:0000243"
 }
 },
@@ -34824,6 +35155,7 @@
 "name":"Adenine phosphoribosyltransferase (EC 2.4.2.7)",
 "annotation":{
 "patric":"272563.8.peg.2872",
+"refseq":"CD2745",
 "sbo":"SBO:0000243"
 }
 },
@@ -34832,6 +35164,7 @@
 "name":"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)",
 "annotation":{
 "patric":"272563.8.peg.57",
+"refseq":"CD0048",
 "sbo":"SBO:0000243"
 }
 },
@@ -34840,6 +35173,7 @@
 "name":"Cobyric acid synthase",
 "annotation":{
 "patric":"272563.8.peg.3598",
+"refseq":"CD3435",
 "sbo":"SBO:0000243"
 }
 },
@@ -34848,6 +35182,7 @@
 "name":"Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)",
 "annotation":{
 "patric":"272563.8.peg.1628",
+"refseq":"CD1552",
 "sbo":"SBO:0000243"
 }
 },
@@ -34856,6 +35191,7 @@
 "name":"altronate dehydratase (EC 4.2.1.7)",
 "annotation":{
 "patric":"272563.8.peg.3147",
+"refseq":"CD3003",
 "sbo":"SBO:0000243"
 }
 },
@@ -34864,6 +35200,7 @@
 "name":"altronate dehydratase (EC 4.2.1.7)",
 "annotation":{
 "patric":"272563.8.peg.3000",
+"refseq":"CD2871",
 "sbo":"SBO:0000243"
 }
 },
@@ -34872,6 +35209,7 @@
 "name":"altronate dehydratase (EC 4.2.1.7)",
 "annotation":{
 "patric":"272563.8.peg.3001",
+"refseq":"CD2872",
 "sbo":"SBO:0000243"
 }
 },
@@ -34880,6 +35218,7 @@
 "name":"altronate dehydratase (EC 4.2.1.7)",
 "annotation":{
 "patric":"272563.8.peg.3146",
+"refseq":"CD3002",
 "sbo":"SBO:0000243"
 }
 },
@@ -34888,6 +35227,7 @@
 "name":"Spore photoproduct lyase (EC 4.1.99.-)",
 "annotation":{
 "patric":"272563.8.peg.295",
+"refseq":"CD0275",
 "sbo":"SBO:0000243"
 }
 },
@@ -34896,6 +35236,7 @@
 "name":"Pyruvate formate-lyase (EC 2.3.1.54)",
 "annotation":{
 "patric":"272563.8.peg.3435",
+"refseq":"CD3282",
 "sbo":"SBO:0000243"
 }
 },
@@ -34904,6 +35245,7 @@
 "name":"Pyruvate formate-lyase (EC 2.3.1.54)",
 "annotation":{
 "patric":"272563.8.peg.1175",
+"refseq":"CD1120",
 "sbo":"SBO:0000243"
 }
 },
@@ -34912,6 +35254,7 @@
 "name":"Pyruvate formate-lyase (EC 2.3.1.54)",
 "annotation":{
 "patric":"272563.8.peg.796",
+"refseq":"CD0759",
 "sbo":"SBO:0000243"
 }
 },
@@ -34920,6 +35263,7 @@
 "name":"Lipoate-protein ligase A",
 "annotation":{
 "patric":"272563.8.peg.770",
+"refseq":"CD0733",
 "sbo":"SBO:0000243"
 }
 },
@@ -34928,6 +35272,7 @@
 "name":"Lipoate-protein ligase A",
 "annotation":{
 "patric":"272563.8.peg.55",
+"refseq":"CD0046",
 "sbo":"SBO:0000243"
 }
 },
@@ -34936,6 +35281,7 @@
 "name":"Lipoate-protein ligase A",
 "annotation":{
 "patric":"272563.8.peg.1731",
+"refseq":"CD1654",
 "sbo":"SBO:0000243"
 }
 },
@@ -34944,6 +35290,7 @@
 "name":"cobalt-precorrin-7 (C5)-methyltransferase (EC 2.1.1.289)",
 "annotation":{
 "patric":"272563.8.peg.3591",
+"refseq":"CD3428",
 "sbo":"SBO:0000243"
 }
 },
@@ -34952,6 +35299,7 @@
 "name":"NAD-specific glutamate dehydrogenase (EC 1.4.1.2)",
 "annotation":{
 "patric":"272563.8.peg.198",
+"refseq":"CD0179",
 "sbo":"SBO:0000243"
 }
 },
@@ -34960,6 +35308,7 @@
 "name":"PTS system, galactitol-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.52",
+"refseq":"CD0043",
 "sbo":"SBO:0000243"
 }
 },
@@ -34968,6 +35317,7 @@
 "name":"PTS system, galactitol-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2394",
+"refseq":"CD2280",
 "sbo":"SBO:0000243"
 }
 },
@@ -34976,6 +35326,7 @@
 "name":"PTS system, galactitol-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2442",
+"refseq":"CD2325",
 "sbo":"SBO:0000243"
 }
 },
@@ -34984,6 +35335,7 @@
 "name":"PTS system, galactitol-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2444",
+"refseq":"CD2327",
 "sbo":"SBO:0000243"
 }
 },
@@ -34992,6 +35344,7 @@
 "name":"PTS system, galactitol-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.50",
+"refseq":"CD0041",
 "sbo":"SBO:0000243"
 }
 },
@@ -35000,6 +35353,7 @@
 "name":"PTS system, galactitol-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2396",
+"refseq":"CD2282",
 "sbo":"SBO:0000243"
 }
 },
@@ -35008,6 +35362,7 @@
 "name":"PTS system, galactitol-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2395",
+"refseq":"CD2281",
 "sbo":"SBO:0000243"
 }
 },
@@ -35016,6 +35371,7 @@
 "name":"PTS system, galactitol-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.1137",
+"refseq":"CD1083",
 "sbo":"SBO:0000243"
 }
 },
@@ -35024,6 +35380,7 @@
 "name":"PTS system, galactitol-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2443",
+"refseq":"CD2326",
 "sbo":"SBO:0000243"
 }
 },
@@ -35032,6 +35389,7 @@
 "name":"PTS system, galactitol-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.51",
+"refseq":"CD0042",
 "sbo":"SBO:0000243"
 }
 },
@@ -35040,6 +35398,7 @@
 "name":"undecaprenyl-phosphate galactose phosphotransferase (EC 2.7.8.6)",
 "annotation":{
 "patric":"272563.8.peg.2910",
+"refseq":"CD2783",
 "sbo":"SBO:0000243"
 }
 },
@@ -35048,6 +35407,7 @@
 "name":"3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11)",
 "annotation":{
 "patric":"272563.8.peg.1587",
+"refseq":"CD1513",
 "sbo":"SBO:0000243"
 }
 },
@@ -35056,6 +35416,7 @@
 "name":"2-keto-3-deoxygluconate permease (KDG permease)",
 "annotation":{
 "patric":"272563.8.peg.3148",
+"refseq":"CD3004",
 "sbo":"SBO:0000243"
 }
 },
@@ -35064,6 +35425,7 @@
 "name":"2-keto-3-deoxygluconate permease (KDG permease)",
 "annotation":{
 "patric":"272563.8.peg.2999",
+"refseq":"CD2870",
 "sbo":"SBO:0000243"
 }
 },
@@ -35072,6 +35434,7 @@
 "name":"Glycogen synthase, ADP-glucose transglucosylase (EC 2.4.1.21)",
 "annotation":{
 "patric":"272563.8.peg.923",
+"refseq":"CD0884",
 "sbo":"SBO:0000243"
 }
 },
@@ -35080,6 +35443,7 @@
 "name":"S-adenosylmethionine synthetase (EC 2.5.1.6)",
 "annotation":{
 "patric":"272563.8.peg.146",
+"refseq":"CD0130",
 "sbo":"SBO:0000243"
 }
 },
@@ -35088,6 +35452,7 @@
 "name":"nicotinamide-nucleotide amidase (EC 3.5.1.42)",
 "annotation":{
 "patric":"272563.8.peg.1481",
+"refseq":"CD1409",
 "sbo":"SBO:0000243"
 }
 },
@@ -35096,6 +35461,7 @@
 "name":"Superoxide dismutase [Mn] (EC 1.15.1.1)",
 "annotation":{
 "patric":"272563.8.peg.1708",
+"refseq":"CD1631",
 "sbo":"SBO:0000243"
 }
 },
@@ -35104,6 +35470,7 @@
 "name":"Dihydrolipoamide acetyltransferase component (E2) of acetoin dehydrogenase complex (EC 2.3.1.-)",
 "annotation":{
 "patric":"272563.8.peg.47",
+"refseq":"CD0038",
 "sbo":"SBO:0000243"
 }
 },
@@ -35112,6 +35479,7 @@
 "name":"transaldolase (EC 2.2.1.2)",
 "annotation":{
 "patric":"272563.8.peg.2218",
+"refseq":"CD2110",
 "sbo":"SBO:0000243"
 }
 },
@@ -35120,6 +35488,7 @@
 "name":"transaldolase (EC 2.2.1.2)",
 "annotation":{
 "patric":"272563.8.peg.3250",
+"refseq":"CD3106",
 "sbo":"SBO:0000243"
 }
 },
@@ -35128,6 +35497,7 @@
 "name":"transaldolase (EC 2.2.1.2)",
 "annotation":{
 "patric":"272563.8.peg.2446",
+"refseq":"CD2329",
 "sbo":"SBO:0000243"
 }
 },
@@ -35136,6 +35506,7 @@
 "name":"beta-phosphoglucomutase (EC 5.4.2.6)",
 "annotation":{
 "patric":"272563.8.peg.3273",
+"refseq":"CD3128",
 "sbo":"SBO:0000243"
 }
 },
@@ -35144,6 +35515,7 @@
 "name":"beta-phosphoglucomutase (EC 5.4.2.6)",
 "annotation":{
 "patric":"272563.8.peg.2304",
+"refseq":"CD2189",
 "sbo":"SBO:0000243"
 }
 },
@@ -35152,6 +35524,7 @@
 "name":"Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7)",
 "annotation":{
 "patric":"272563.8.peg.1676",
+"refseq":"CD1599",
 "sbo":"SBO:0000243"
 }
 },
@@ -35160,6 +35533,7 @@
 "name":"Xyloside transporter XynT",
 "annotation":{
 "patric":"272563.8.peg.43",
+"refseq":"CD0034",
 "sbo":"SBO:0000243"
 }
 },
@@ -35168,6 +35542,7 @@
 "name":"Maltose O-acetyltransferase (EC 2.3.1.79)",
 "annotation":{
 "patric":"272563.8.peg.911",
+"refseq":"CD0872",
 "sbo":"SBO:0000243"
 }
 },
@@ -35176,6 +35551,7 @@
 "name":"Iron compound ABC uptake transporter ATP-binding protein",
 "annotation":{
 "patric":"272563.8.peg.1726",
+"refseq":"CD1649",
 "sbo":"SBO:0000243"
 }
 },
@@ -35184,6 +35560,7 @@
 "name":"Iron compound ABC uptake transporter permease protein",
 "annotation":{
 "patric":"272563.8.peg.1725",
+"refseq":"CD1648",
 "sbo":"SBO:0000243"
 }
 },
@@ -35192,6 +35569,7 @@
 "name":"Iron compound ABC uptake transporter permease protein",
 "annotation":{
 "patric":"272563.8.peg.1724",
+"refseq":"CD1647",
 "sbo":"SBO:0000243"
 }
 },
@@ -35200,6 +35578,7 @@
 "name":"Iron compound ABC uptake transporter substrate-binding protein",
 "annotation":{
 "patric":"272563.8.peg.1727",
+"refseq":"CD1650",
 "sbo":"SBO:0000243"
 }
 },
@@ -35208,6 +35587,7 @@
 "name":"choline-phosphate cytidylyltransferase (EC 2.7.7.15)",
 "annotation":{
 "patric":"272563.8.peg.229",
+"refseq":"CD0211",
 "sbo":"SBO:0000243"
 }
 },
@@ -35216,6 +35596,7 @@
 "name":"4-hydroxybutanoyl-CoA dehydratase (EC 4.2.1.-)",
 "annotation":{
 "patric":"272563.8.peg.2458",
+"refseq":"CD2341",
 "sbo":"SBO:0000243"
 }
 },
@@ -35224,6 +35605,7 @@
 "name":"Homoserine kinase (EC 2.7.1.39)",
 "annotation":{
 "patric":"272563.8.peg.2230",
+"refseq":"CD2119",
 "sbo":"SBO:0000243"
 }
 },
@@ -35232,6 +35614,7 @@
 "name":"Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140)",
 "annotation":{
 "patric":"272563.8.peg.805",
+"refseq":"CD0768",
 "sbo":"SBO:0000243"
 }
 },
@@ -35240,6 +35623,7 @@
 "name":"4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)",
 "annotation":{
 "patric":"272563.8.peg.3736",
+"refseq":"CD3566",
 "sbo":"SBO:0000243"
 }
 },
@@ -35248,6 +35632,7 @@
 "name":"Phosphoglycerate kinase (EC 2.7.2.3)",
 "annotation":{
 "patric":"272563.8.peg.3324",
+"refseq":"CD3173",
 "sbo":"SBO:0000243"
 }
 },
@@ -35256,6 +35641,7 @@
 "name":"butyrate kinase (EC 2.7.2.7)",
 "annotation":{
 "patric":"272563.8.peg.129",
+"refseq":"CD0113",
 "sbo":"SBO:0000243"
 }
 },
@@ -35264,6 +35650,7 @@
 "name":"butyrate kinase (EC 2.7.2.7)",
 "annotation":{
 "patric":"272563.8.peg.2496",
+"refseq":"CD2379",
 "sbo":"SBO:0000243"
 }
 },
@@ -35272,6 +35659,7 @@
 "name":"Adenylosuccinate synthetase (EC 6.3.4.4)",
 "annotation":{
 "patric":"272563.8.peg.3830",
+"refseq":"CD3655",
 "sbo":"SBO:0000243"
 }
 },
@@ -35280,6 +35668,7 @@
 "name":"methionyl-tRNA formyltransferase (EC 2.1.2.9)",
 "annotation":{
 "patric":"272563.8.peg.2708",
+"refseq":"CD2584",
 "sbo":"SBO:0000243"
 }
 },
@@ -35288,6 +35677,7 @@
 "name":"Methylglyoxal synthase (EC 4.2.3.3)",
 "annotation":{
 "patric":"272563.8.peg.1211",
+"refseq":"CD1153",
 "sbo":"SBO:0000243"
 }
 },
@@ -35296,6 +35686,7 @@
 "name":"Chorismate synthase (EC 4.2.3.5)",
 "annotation":{
 "patric":"272563.8.peg.1926",
+"refseq":"CD1835",
 "sbo":"SBO:0000243"
 }
 },
@@ -35304,6 +35695,7 @@
 "name":"Ribosomal small subunit pseudouridine synthase A (EC 4.2.1.70)",
 "annotation":{
 "patric":"272563.8.peg.425",
+"refseq":"CD0405",
 "sbo":"SBO:0000243"
 }
 },
@@ -35312,6 +35704,7 @@
 "name":"Ribosomal large subunit pseudouridine synthase B (EC 4.2.1.70)",
 "annotation":{
 "patric":"272563.8.peg.2156",
+"refseq":"CD2050",
 "sbo":"SBO:0000243"
 }
 },
@@ -35320,6 +35713,7 @@
 "name":"Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70)",
 "annotation":{
 "patric":"272563.8.peg.2721",
+"refseq":"CD2596",
 "sbo":"SBO:0000243"
 }
 },
@@ -35328,6 +35722,7 @@
 "name":"PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3245",
+"refseq":"CD3101",
 "sbo":"SBO:0000243"
 }
 },
@@ -35336,6 +35731,7 @@
 "name":"Formate dehydrogenase H (EC 1.2.1.2)",
 "annotation":{
 "patric":"272563.8.peg.3472",
+"refseq":"CD3317",
 "sbo":"SBO:0000243"
 }
 },
@@ -35344,6 +35740,7 @@
 "name":"Formate--tetrahydrofolate ligase (EC 6.3.4.3)",
 "annotation":{
 "patric":"272563.8.peg.755",
+"refseq":"CD0718",
 "sbo":"SBO:0000243"
 }
 },
@@ -35352,6 +35749,7 @@
 "name":"Sodium:alanine symporter family protein",
 "annotation":{
 "patric":"272563.8.peg.1774",
+"refseq":"CD1696",
 "sbo":"SBO:0000243"
 }
 },
@@ -35360,6 +35758,7 @@
 "name":"hydroxylamine reductase (EC 1.7.99.1)",
 "annotation":{
 "patric":"272563.8.peg.2282",
+"refseq":"CD2168",
 "sbo":"SBO:0000243"
 }
 },
@@ -35368,6 +35767,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2400",
+"refseq":"CD2285",
 "sbo":"SBO:0000243"
 }
 },
@@ -35376,6 +35776,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2955",
+"refseq":"CD2828",
 "sbo":"SBO:0000243"
 }
 },
@@ -35384,6 +35785,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.1124",
+"refseq":"CD1070",
 "sbo":"SBO:0000243"
 }
 },
@@ -35392,6 +35794,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3606",
+"refseq":"CD3441",
 "sbo":"SBO:0000243"
 }
 },
@@ -35400,6 +35803,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3510",
+"refseq":"CD3353",
 "sbo":"SBO:0000243"
 }
 },
@@ -35408,6 +35812,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2606",
+"refseq":"CD2484",
 "sbo":"SBO:0000243"
 }
 },
@@ -35416,6 +35821,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.1479",
+"refseq":"CD1407",
 "sbo":"SBO:0000243"
 }
 },
@@ -35424,6 +35830,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.122",
+"refseq":"CD0107",
 "sbo":"SBO:0000243"
 }
 },
@@ -35432,6 +35839,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2369",
+"refseq":"CD2253",
 "sbo":"SBO:0000243"
 }
 },
@@ -35440,6 +35848,7 @@
 "name":"Aspartate aminotransferase (EC 2.6.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2499",
+"refseq":"CD2382",
 "sbo":"SBO:0000243"
 }
 },
@@ -35448,6 +35857,7 @@
 "name":"LSU ribosomal protein L34p",
 "annotation":{
 "patric":"272563.8.peg.3858",
+"refseq":"CD3680",
 "sbo":"SBO:0000243"
 }
 },
@@ -35456,6 +35866,7 @@
 "name":"LSU ribosomal protein L22p (L17e)",
 "annotation":{
 "patric":"272563.8.peg.89",
+"refseq":"CD0078",
 "sbo":"SBO:0000243"
 }
 },
@@ -35464,6 +35875,7 @@
 "name":"Valyl-tRNA synthetase (EC 6.1.1.9)",
 "annotation":{
 "patric":"272563.8.peg.3409",
+"refseq":"CD3256",
 "sbo":"SBO:0000243"
 }
 },
@@ -35472,6 +35884,7 @@
 "name":"Alanyl-tRNA synthetase (EC 6.1.1.7)",
 "annotation":{
 "patric":"272563.8.peg.1347",
+"refseq":"CD1282",
 "sbo":"SBO:0000243"
 }
 },
@@ -35480,6 +35893,7 @@
 "name":"LSU ribosomal protein L14p (L23e)",
 "annotation":{
 "patric":"272563.8.peg.94",
+"refseq":"CD0082",
 "sbo":"SBO:0000243"
 }
 },
@@ -35488,6 +35902,7 @@
 "name":"SSU ribosomal protein S10p (S20e)",
 "annotation":{
 "patric":"272563.8.peg.83",
+"refseq":"CD0072",
 "sbo":"SBO:0000243"
 }
 },
@@ -35496,6 +35911,7 @@
 "name":"LSU ribosomal protein L32p",
 "annotation":{
 "patric":"272563.8.peg.1235",
+"refseq":"CD1176A",
 "sbo":"SBO:0000243"
 }
 },
@@ -35504,6 +35920,7 @@
 "name":"SSU ribosomal protein S2p (SAe)",
 "annotation":{
 "patric":"272563.8.peg.2253",
+"refseq":"CD2140",
 "sbo":"SBO:0000243"
 }
 },
@@ -35512,6 +35929,7 @@
 "name":"LSU ribosomal protein L33p",
 "annotation":{
 "patric":"272563.8.peg.69",
+"refseq":"CD0058A",
 "sbo":"SBO:0000243"
 }
 },
@@ -35520,6 +35938,7 @@
 "name":"LSU ribosomal protein L24p (L26e)",
 "annotation":{
 "patric":"272563.8.peg.95",
+"refseq":"CD0083",
 "sbo":"SBO:0000243"
 }
 },
@@ -35528,6 +35947,7 @@
 "name":"SSU ribosomal protein S15p (S13e)",
 "annotation":{
 "patric":"272563.8.peg.1383",
+"refseq":"CD1316",
 "sbo":"SBO:0000243"
 }
 },
@@ -35536,6 +35956,7 @@
 "name":"SSU ribosomal protein S7p (S5e)",
 "annotation":{
 "patric":"272563.8.peg.80",
+"refseq":"CD0069",
 "sbo":"SBO:0000243"
 }
 },
@@ -35544,6 +35965,7 @@
 "name":"Methionyl-tRNA synthetase (EC 6.1.1.10)",
 "annotation":{
 "patric":"272563.8.peg.3708",
+"refseq":"CD3540",
 "sbo":"SBO:0000243"
 }
 },
@@ -35552,6 +35974,7 @@
 "name":"Asparaginyl-tRNA synthetase (EC 6.1.1.22)",
 "annotation":{
 "patric":"272563.8.peg.2360",
+"refseq":"CD2245",
 "sbo":"SBO:0000243"
 }
 },
@@ -35560,6 +35983,7 @@
 "name":"Arginyl-tRNA synthetase (EC 6.1.1.19)",
 "annotation":{
 "patric":"272563.8.peg.746",
+"refseq":"CD0711",
 "sbo":"SBO:0000243"
 }
 },
@@ -35568,6 +35992,7 @@
 "name":"Seryl-tRNA synthetase (EC 6.1.1.11)",
 "annotation":{
 "patric":"272563.8.peg.22",
+"refseq":"CD0014",
 "sbo":"SBO:0000243"
 }
 },
@@ -35576,6 +36001,7 @@
 "name":"Seryl-tRNA synthetase (EC 6.1.1.11)",
 "annotation":{
 "patric":"272563.8.peg.2968",
+"refseq":"CD2840",
 "sbo":"SBO:0000243"
 }
 },
@@ -35584,6 +36010,7 @@
 "name":"LSU ribosomal protein L15p (L27Ae)",
 "annotation":{
 "patric":"272563.8.peg.103",
+"refseq":"CD0089",
 "sbo":"SBO:0000243"
 }
 },
@@ -35592,6 +36019,7 @@
 "name":"LSU ribosomal protein L27p",
 "annotation":{
 "patric":"272563.8.peg.1221",
+"refseq":"CD1163",
 "sbo":"SBO:0000243"
 }
 },
@@ -35600,6 +36028,7 @@
 "name":"SSU ribosomal protein S4p (S9e)",
 "annotation":{
 "patric":"272563.8.peg.112",
+"refseq":"CD0097",
 "sbo":"SBO:0000243"
 }
 },
@@ -35608,6 +36037,7 @@
 "name":"Tryptophanyl-tRNA synthetase (EC 6.1.1.2)",
 "annotation":{
 "patric":"272563.8.peg.2733",
+"refseq":"CD2610",
 "sbo":"SBO:0000243"
 }
 },
@@ -35616,6 +36046,7 @@
 "name":"Histidyl-tRNA synthetase (EC 6.1.1.21)",
 "annotation":{
 "patric":"272563.8.peg.2867",
+"refseq":"CD2740",
 "sbo":"SBO:0000243"
 }
 },
@@ -35624,6 +36055,7 @@
 "name":"SSU ribosomal protein S18p",
 "annotation":{
 "patric":"272563.8.peg.3837",
+"refseq":"CD3661A",
 "sbo":"SBO:0000243"
 }
 },
@@ -35632,6 +36064,7 @@
 "name":"Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)",
 "annotation":{
 "patric":"272563.8.peg.3722",
+"refseq":"CD3552",
 "sbo":"SBO:0000243"
 }
 },
@@ -35640,6 +36073,7 @@
 "name":"SSU ribosomal protein S9p (S16e)",
 "annotation":{
 "patric":"272563.8.peg.120",
+"refseq":"CD0105",
 "sbo":"SBO:0000243"
 }
 },
@@ -35648,6 +36082,7 @@
 "name":"Isoleucyl-tRNA synthetase (EC 6.1.1.5)",
 "annotation":{
 "patric":"272563.8.peg.2741",
+"refseq":"CD2618",
 "sbo":"SBO:0000243"
 }
 },
@@ -35656,6 +36091,7 @@
 "name":"Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)",
 "annotation":{
 "patric":"272563.8.peg.734",
+"refseq":"CD0699",
 "sbo":"SBO:0000243"
 }
 },
@@ -35664,6 +36100,7 @@
 "name":"LSU ribosomal protein L13p (L13Ae)",
 "annotation":{
 "patric":"272563.8.peg.119",
+"refseq":"CD0104",
 "sbo":"SBO:0000243"
 }
 },
@@ -35672,6 +36109,7 @@
 "name":"LSU ribosomal protein L5p (L11e)",
 "annotation":{
 "patric":"272563.8.peg.96",
+"refseq":"CD0084",
 "sbo":"SBO:0000243"
 }
 },
@@ -35680,6 +36118,7 @@
 "name":"SSU ribosomal protein S17p (S11e)",
 "annotation":{
 "patric":"272563.8.peg.93",
+"refseq":"CD0081",
 "sbo":"SBO:0000243"
 }
 },
@@ -35688,6 +36127,7 @@
 "name":"Tyrosyl-tRNA synthetase (EC 6.1.1.1)",
 "annotation":{
 "patric":"272563.8.peg.1597",
+"refseq":"CD1521",
 "sbo":"SBO:0000243"
 }
 },
@@ -35696,6 +36136,7 @@
 "name":"tRNA(Ile)-lysidine synthetase",
 "annotation":{
 "patric":"272563.8.peg.3730",
+"refseq":"CD3560",
 "sbo":"SBO:0000243"
 }
 },
@@ -35704,6 +36145,7 @@
 "name":"LSU ribosomal protein L19p",
 "annotation":{
 "patric":"272563.8.peg.1322",
+"refseq":"CD1257",
 "sbo":"SBO:0000243"
 }
 },
@@ -35712,6 +36154,7 @@
 "name":"LSU ribosomal protein L35p",
 "annotation":{
 "patric":"272563.8.peg.721",
+"refseq":"CD0686",
 "sbo":"SBO:0000243"
 }
 },
@@ -35720,6 +36163,7 @@
 "name":"SSU ribosomal protein S14p (S29e)",
 "annotation":{
 "patric":"272563.8.peg.97",
+"refseq":"CD0084A",
 "sbo":"SBO:0000243"
 }
 },
@@ -35728,6 +36172,7 @@
 "name":"LSU ribosomal protein L28p",
 "annotation":{
 "patric":"272563.8.peg.2685",
+"refseq":"CD2562A",
 "sbo":"SBO:0000243"
 }
 },
@@ -35736,6 +36181,7 @@
 "name":"SSU ribosomal protein S19p (S15e)",
 "annotation":{
 "patric":"272563.8.peg.88",
+"refseq":"CD0077",
 "sbo":"SBO:0000243"
 }
 },
@@ -35744,6 +36190,7 @@
 "name":"LSU ribosomal protein L16p (L10e)",
 "annotation":{
 "patric":"272563.8.peg.91",
+"refseq":"CD0080",
 "sbo":"SBO:0000243"
 }
 },
@@ -35752,6 +36199,7 @@
 "name":"LSU ribosomal protein L10p (P0)",
 "annotation":{
 "patric":"272563.8.peg.74",
+"refseq":"CD0063",
 "sbo":"SBO:0000243"
 }
 },
@@ -35760,6 +36208,7 @@
 "name":"LSU ribosomal protein L29p (L35e)",
 "annotation":{
 "patric":"272563.8.peg.92",
+"refseq":"CD0080A",
 "sbo":"SBO:0000243"
 }
 },
@@ -35768,6 +36217,7 @@
 "name":"SSU ribosomal protein S11p (S14e)",
 "annotation":{
 "patric":"272563.8.peg.111",
+"refseq":"CD0096",
 "sbo":"SBO:0000243"
 }
 },
@@ -35776,6 +36226,7 @@
 "name":"SSU ribosomal protein S21p",
 "annotation":{
 "patric":"272563.8.peg.2567",
+"refseq":"CD2446a",
 "sbo":"SBO:0000243"
 }
 },
@@ -35784,6 +36235,7 @@
 "name":"Cysteinyl-tRNA synthetase (EC 6.1.1.16)",
 "annotation":{
 "patric":"272563.8.peg.62",
+"refseq":"CD0052",
 "sbo":"SBO:0000243"
 }
 },
@@ -35792,6 +36244,7 @@
 "name":"LSU ribosomal protein L1p (L10Ae)",
 "annotation":{
 "patric":"272563.8.peg.73",
+"refseq":"CD0062",
 "sbo":"SBO:0000243"
 }
 },
@@ -35800,6 +36253,7 @@
 "name":"Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)",
 "annotation":{
 "patric":"272563.8.peg.2552",
+"refseq":"CD2433",
 "sbo":"SBO:0000243"
 }
 },
@@ -35808,6 +36262,7 @@
 "name":"LSU ribosomal protein L23p (L23Ae)",
 "annotation":{
 "patric":"272563.8.peg.86",
+"refseq":"CD0075",
 "sbo":"SBO:0000243"
 }
 },
@@ -35816,6 +36271,7 @@
 "name":"Aspartyl-tRNA synthetase (EC 6.1.1.12)",
 "annotation":{
 "patric":"272563.8.peg.2866",
+"refseq":"CD2739",
 "sbo":"SBO:0000243"
 }
 },
@@ -35824,6 +36280,7 @@
 "name":"SSU ribosomal protein S5p (S2e)",
 "annotation":{
 "patric":"272563.8.peg.101",
+"refseq":"CD0088",
 "sbo":"SBO:0000243"
 }
 },
@@ -35832,6 +36289,7 @@
 "name":"LSU ribosomal protein L18p (L5e)",
 "annotation":{
 "patric":"272563.8.peg.100",
+"refseq":"CD0087",
 "sbo":"SBO:0000243"
 }
 },
@@ -35840,6 +36298,7 @@
 "name":"SSU ribosomal protein S8p (S15Ae)",
 "annotation":{
 "patric":"272563.8.peg.98",
+"refseq":"CD0085",
 "sbo":"SBO:0000243"
 }
 },
@@ -35848,6 +36307,7 @@
 "name":"SSU ribosomal protein S16p",
 "annotation":{
 "patric":"272563.8.peg.1318",
+"refseq":"CD1253",
 "sbo":"SBO:0000243"
 }
 },
@@ -35856,6 +36316,7 @@
 "name":"SSU ribosomal protein S20p",
 "annotation":{
 "patric":"272563.8.peg.2595",
+"refseq":"CD2473",
 "sbo":"SBO:0000243"
 }
 },
@@ -35864,6 +36325,7 @@
 "name":"LSU ribosomal protein L6p (L9e)",
 "annotation":{
 "patric":"272563.8.peg.99",
+"refseq":"CD0086",
 "sbo":"SBO:0000243"
 }
 },
@@ -35872,6 +36334,7 @@
 "name":"Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)",
 "annotation":{
 "patric":"272563.8.peg.735",
+"refseq":"CD0700",
 "sbo":"SBO:0000243"
 }
 },
@@ -35880,6 +36343,7 @@
 "name":"LSU ribosomal protein L4p (L1e)",
 "annotation":{
 "patric":"272563.8.peg.85",
+"refseq":"CD0074",
 "sbo":"SBO:0000243"
 }
 },
@@ -35888,6 +36352,7 @@
 "name":"LSU ribosomal protein L17p",
 "annotation":{
 "patric":"272563.8.peg.114",
+"refseq":"CD0099",
 "sbo":"SBO:0000243"
 }
 },
@@ -35896,6 +36361,7 @@
 "name":"Leucyl-tRNA synthetase (EC 6.1.1.4)",
 "annotation":{
 "patric":"272563.8.peg.2644",
+"refseq":"CD2521",
 "sbo":"SBO:0000243"
 }
 },
@@ -35904,6 +36370,7 @@
 "name":"LSU ribosomal protein L36p",
 "annotation":{
 "patric":"272563.8.peg.109",
+"refseq":"CD0094A",
 "sbo":"SBO:0000243"
 }
 },
@@ -35912,6 +36379,7 @@
 "name":"LSU ribosomal protein L9p",
 "annotation":{
 "patric":"272563.8.peg.3833",
+"refseq":"CD3658",
 "sbo":"SBO:0000243"
 }
 },
@@ -35920,6 +36388,7 @@
 "name":"SSU ribosomal protein S13p (S18e)",
 "annotation":{
 "patric":"272563.8.peg.110",
+"refseq":"CD0095",
 "sbo":"SBO:0000243"
 }
 },
@@ -35928,6 +36397,7 @@
 "name":"LSU ribosomal protein L2p (L8e)",
 "annotation":{
 "patric":"272563.8.peg.87",
+"refseq":"CD0076",
 "sbo":"SBO:0000243"
 }
 },
@@ -35936,6 +36406,7 @@
 "name":"LSU ribosomal protein L21p",
 "annotation":{
 "patric":"272563.8.peg.1219",
+"refseq":"CD1161",
 "sbo":"SBO:0000243"
 }
 },
@@ -35944,6 +36415,7 @@
 "name":"Threonyl-tRNA synthetase (EC 6.1.1.3)",
 "annotation":{
 "patric":"272563.8.peg.601",
+"refseq":"CD0574",
 "sbo":"SBO:0000243"
 }
 },
@@ -35952,6 +36424,7 @@
 "name":"SSU ribosomal protein S3p (S3e)",
 "annotation":{
 "patric":"272563.8.peg.90",
+"refseq":"CD0079",
 "sbo":"SBO:0000243"
 }
 },
@@ -35960,6 +36433,7 @@
 "name":"LSU ribosomal protein L20p",
 "annotation":{
 "patric":"272563.8.peg.722",
+"refseq":"CD0687",
 "sbo":"SBO:0000243"
 }
 },
@@ -35968,6 +36442,7 @@
 "name":"Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)",
 "annotation":{
 "patric":"272563.8.peg.2551",
+"refseq":"CD2432",
 "sbo":"SBO:0000243"
 }
 },
@@ -35976,6 +36451,7 @@
 "name":"SSU ribosomal protein S12p (S23e)",
 "annotation":{
 "patric":"272563.8.peg.79",
+"refseq":"CD0068",
 "sbo":"SBO:0000243"
 }
 },
@@ -35984,6 +36460,7 @@
 "name":"LSU ribosomal protein L3p (L3e)",
 "annotation":{
 "patric":"272563.8.peg.84",
+"refseq":"CD0073",
 "sbo":"SBO:0000243"
 }
 },
@@ -35992,6 +36469,7 @@
 "name":"SSU ribosomal protein S6p",
 "annotation":{
 "patric":"272563.8.peg.3839",
+"refseq":"CD3663",
 "sbo":"SBO:0000243"
 }
 },
@@ -36000,6 +36478,7 @@
 "name":"LSU ribosomal protein L30p (L7e)",
 "annotation":{
 "patric":"272563.8.peg.102",
+"refseq":"CD0088A",
 "sbo":"SBO:0000243"
 }
 },
@@ -36008,6 +36487,7 @@
 "name":"LSU ribosomal protein L31p",
 "annotation":{
 "patric":"272563.8.peg.3653",
+"refseq":"CD3486A",
 "sbo":"SBO:0000243"
 }
 },
@@ -36016,6 +36496,7 @@
 "name":"Formiminotetrahydrofolate cyclodeaminase (EC 4.3.1.4)",
 "annotation":{
 "patric":"272563.8.peg.756",
+"refseq":"CD0719",
 "sbo":"SBO:0000243"
 }
 },
@@ -36024,6 +36505,7 @@
 "name":"N-acetylmannosamine kinase (EC 2.7.1.60)",
 "annotation":{
 "patric":"272563.8.peg.2351",
+"refseq":"CD2236",
 "sbo":"SBO:0000243"
 }
 },
@@ -36032,6 +36514,7 @@
 "name":"cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)",
 "annotation":{
 "patric":"272563.8.peg.196",
+"refseq":"CD0177",
 "sbo":"SBO:0000243"
 }
 },
@@ -36040,6 +36523,7 @@
 "name":"Xanthine permease",
 "annotation":{
 "patric":"272563.8.peg.2197",
+"refseq":"CD2090",
 "sbo":"SBO:0000243"
 }
 },
@@ -36048,6 +36532,7 @@
 "name":"Xanthine permease",
 "annotation":{
 "patric":"272563.8.peg.2198",
+"refseq":"CD2091",
 "sbo":"SBO:0000243"
 }
 },
@@ -36056,6 +36541,7 @@
 "name":"Xanthine permease",
 "annotation":{
 "patric":"272563.8.peg.2182",
+"refseq":"CD2075",
 "sbo":"SBO:0000243"
 }
 },
@@ -36064,6 +36550,7 @@
 "name":"ribulose-phosphate 3-epimerase (EC 5.1.3.1)",
 "annotation":{
 "patric":"272563.8.peg.2436",
+"refseq":"CD2319",
 "sbo":"SBO:0000243"
 }
 },
@@ -36072,6 +36559,7 @@
 "name":"ribulose-phosphate 3-epimerase (EC 5.1.3.1)",
 "annotation":{
 "patric":"272563.8.peg.3253",
+"refseq":"CD3109",
 "sbo":"SBO:0000243"
 }
 },
@@ -36080,6 +36568,7 @@
 "name":"ribulose-phosphate 3-epimerase (EC 5.1.3.1)",
 "annotation":{
 "patric":"272563.8.peg.2699",
+"refseq":"CD2575",
 "sbo":"SBO:0000243"
 }
 },
@@ -36088,6 +36577,7 @@
 "name":"Glutamine synthetase, clostridia type (EC 6.3.1.2)",
 "annotation":{
 "patric":"272563.8.peg.1411",
+"refseq":"CD1343",
 "sbo":"SBO:0000243"
 }
 },
@@ -36096,6 +36586,7 @@
 "name":"Mannitol-1-phosphate 5-dehydrogenase (EC 1.1.1.17)",
 "annotation":{
 "patric":"272563.8.peg.2448",
+"refseq":"CD2331",
 "sbo":"SBO:0000243"
 }
 },
@@ -36104,6 +36595,7 @@
 "name":"Cytosine/purine/uracil/thiamine/allantoin permease family protein",
 "annotation":{
 "patric":"272563.8.peg.1796",
+"refseq":"CD1716",
 "sbo":"SBO:0000243"
 }
 },
@@ -36112,6 +36604,7 @@
 "name":"2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)",
 "annotation":{
 "patric":"272563.8.peg.1524",
+"refseq":"CD1452",
 "sbo":"SBO:0000243"
 }
 },
@@ -36120,6 +36613,7 @@
 "name":"Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)",
 "annotation":{
 "patric":"272563.8.peg.1629",
+"refseq":"CD1553",
 "sbo":"SBO:0000243"
 }
 },
@@ -36128,6 +36622,7 @@
 "name":"Substrate-specific component RibU of riboflavin ECF transporter",
 "annotation":{
 "patric":"272563.8.peg.164",
+"refseq":"CD0147",
 "sbo":"SBO:0000243"
 }
 },
@@ -36136,6 +36631,7 @@
 "name":"Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)",
 "annotation":{
 "patric":"272563.8.peg.237",
+"refseq":"CD0219",
 "sbo":"SBO:0000243"
 }
 },
@@ -36144,6 +36640,7 @@
 "name":"Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)",
 "annotation":{
 "patric":"272563.8.peg.513",
+"refseq":"CD0489",
 "sbo":"SBO:0000243"
 }
 },
@@ -36152,6 +36649,7 @@
 "name":"phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)",
 "annotation":{
 "patric":"272563.8.peg.239",
+"refseq":"CD0221",
 "sbo":"SBO:0000243"
 }
 },
@@ -36160,6 +36658,7 @@
 "name":"Undecaprenyl diphosphate synthase (EC 2.5.1.31)",
 "annotation":{
 "patric":"272563.8.peg.2889",
+"refseq":"CD2762",
 "sbo":"SBO:0000243"
 }
 },
@@ -36168,6 +36667,7 @@
 "name":"Undecaprenyl diphosphate synthase (EC 2.5.1.31)",
 "annotation":{
 "patric":"272563.8.peg.2248",
+"refseq":"CD2136",
 "sbo":"SBO:0000243"
 }
 },
@@ -36176,6 +36676,7 @@
 "name":"Trehalose-6-phosphate hydrolase (EC 3.2.1.93)",
 "annotation":{
 "patric":"272563.8.peg.3235",
+"refseq":"CD3091",
 "sbo":"SBO:0000243"
 }
 },
@@ -36184,6 +36685,7 @@
 "name":"3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)",
 "annotation":{
 "patric":"272563.8.peg.1042",
+"refseq":"CD0991",
 "sbo":"SBO:0000243"
 }
 },
@@ -36192,6 +36694,7 @@
 "name":"3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)",
 "annotation":{
 "patric":"272563.8.peg.1041",
+"refseq":"CD0990",
 "sbo":"SBO:0000243"
 }
 },
@@ -36200,6 +36703,7 @@
 "name":"3-isopropylmalate dehydrogenase (EC 1.1.1.85)",
 "annotation":{
 "patric":"272563.8.peg.1043",
+"refseq":"CD0992",
 "sbo":"SBO:0000243"
 }
 },
@@ -36208,6 +36712,7 @@
 "name":"Maltose/maltodextrin transport ATP-binding protein MalK (EC 3.6.3.19)",
 "annotation":{
 "patric":"272563.8.peg.3580",
+"refseq":"CD3417",
 "sbo":"SBO:0000243"
 }
 },
@@ -36216,6 +36721,7 @@
 "name":"Xanthine phosphoribosyltransferase (EC 2.4.2.22)",
 "annotation":{
 "patric":"272563.8.peg.2447",
+"refseq":"CD2330",
 "sbo":"SBO:0000243"
 }
 },
@@ -36224,6 +36730,7 @@
 "name":"Pyrimidine operon regulatory protein PyrR",
 "annotation":{
 "patric":"272563.8.peg.2720",
+"refseq":"CD2595",
 "sbo":"SBO:0000243"
 }
 },
@@ -36232,6 +36739,7 @@
 "name":"PTS system, glucitol/sorbitol-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.804",
+"refseq":"CD0767",
 "sbo":"SBO:0000243"
 }
 },
@@ -36240,6 +36748,7 @@
 "name":"PTS system, glucitol/sorbitol-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2532",
+"refseq":"CD2414",
 "sbo":"SBO:0000243"
 }
 },
@@ -36248,6 +36757,7 @@
 "name":"PTS system, glucitol/sorbitol-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.801",
+"refseq":"CD0764",
 "sbo":"SBO:0000243"
 }
 },
@@ -36256,6 +36766,7 @@
 "name":"PTS system, glucitol/sorbitol-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2536",
+"refseq":"CD2418",
 "sbo":"SBO:0000243"
 }
 },
@@ -36264,6 +36775,7 @@
 "name":"phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)",
 "annotation":{
 "patric":"272563.8.peg.240",
+"refseq":"CD0222",
 "sbo":"SBO:0000243"
 }
 },
@@ -36272,6 +36784,7 @@
 "name":"tRNA dimethylallyltransferase (EC 2.5.1.75)",
 "annotation":{
 "patric":"272563.8.peg.2071",
+"refseq":"CD1975",
 "sbo":"SBO:0000243"
 }
 },
@@ -36280,6 +36793,7 @@
 "name":"Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)",
 "annotation":{
 "patric":"272563.8.peg.2487",
+"refseq":"CD2370",
 "sbo":"SBO:0000243"
 }
 },
@@ -36288,6 +36802,7 @@
 "name":"fructokinase (EC 2.7.1.4)",
 "annotation":{
 "patric":"272563.8.peg.1895",
+"refseq":"CD1806",
 "sbo":"SBO:0000243"
 }
 },
@@ -36296,6 +36811,7 @@
 "name":"phosphate butyryltransferase (EC 2.3.1.19)",
 "annotation":{
 "patric":"272563.8.peg.128",
+"refseq":"CD0112",
 "sbo":"SBO:0000243"
 }
 },
@@ -36304,6 +36820,7 @@
 "name":"N-acyl-D-amino-acid deacylase (EC 3.5.1.81)",
 "annotation":{
 "patric":"272563.8.peg.2988",
+"refseq":"CD2859",
 "sbo":"SBO:0000243"
 }
 },
@@ -36312,6 +36829,7 @@
 "name":"N-acyl-D-amino-acid deacylase (EC 3.5.1.81)",
 "annotation":{
 "patric":"272563.8.peg.3333",
+"refseq":"CD3182",
 "sbo":"SBO:0000243"
 }
 },
@@ -36320,6 +36838,7 @@
 "name":"galactitol-1-phosphate 5-dehydrogenase (EC 1.1.1.251)",
 "annotation":{
 "patric":"272563.8.peg.514",
+"refseq":"CD0490",
 "sbo":"SBO:0000243"
 }
 },
@@ -36328,6 +36847,7 @@
 "name":"galactitol-1-phosphate 5-dehydrogenase (EC 1.1.1.251)",
 "annotation":{
 "patric":"272563.8.peg.2441",
+"refseq":"CD2324",
 "sbo":"SBO:0000243"
 }
 },
@@ -36336,6 +36856,7 @@
 "name":"galactitol-1-phosphate 5-dehydrogenase (EC 1.1.1.251)",
 "annotation":{
 "patric":"272563.8.peg.2393",
+"refseq":"CD2279",
 "sbo":"SBO:0000243"
 }
 },
@@ -36344,6 +36865,7 @@
 "name":"galactitol-1-phosphate 5-dehydrogenase (EC 1.1.1.251)",
 "annotation":{
 "patric":"272563.8.peg.2440",
+"refseq":"CD2323",
 "sbo":"SBO:0000243"
 }
 },
@@ -36352,6 +36874,7 @@
 "name":"S-adenosylhomocysteine deaminase (EC 3.5.4.28)",
 "annotation":{
 "patric":"272563.8.peg.2830",
+"refseq":"CD2705",
 "sbo":"SBO:0000243"
 }
 },
@@ -36360,6 +36883,7 @@
 "name":"pyruvate, phosphate dikinase (EC 2.7.9.1)",
 "annotation":{
 "patric":"272563.8.peg.2528",
+"refseq":"CD2410",
 "sbo":"SBO:0000243"
 }
 },
@@ -36368,6 +36892,7 @@
 "name":"homoserine O-succinyltransferase (EC 2.3.1.46)",
 "annotation":{
 "patric":"272563.8.peg.1917",
+"refseq":"CD1826",
 "sbo":"SBO:0000243"
 }
 },
@@ -36376,6 +36901,7 @@
 "name":"Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)",
 "annotation":{
 "patric":"272563.8.peg.241",
+"refseq":"CD0223",
 "sbo":"SBO:0000243"
 }
 },
@@ -36384,6 +36910,7 @@
 "name":"Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)",
 "annotation":{
 "patric":"272563.8.peg.879",
+"refseq":"CD0841",
 "sbo":"SBO:0000243"
 }
 },
@@ -36392,6 +36919,7 @@
 "name":"Phosphoglycerate mutase (EC 5.4.2.1)",
 "annotation":{
 "patric":"272563.8.peg.1904",
+"refseq":"CD1814",
 "sbo":"SBO:0000243"
 }
 },
@@ -36400,6 +36928,7 @@
 "name":"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",
 "annotation":{
 "patric":"272563.8.peg.3322",
+"refseq":"CD3171",
 "sbo":"SBO:0000243"
 }
 },
@@ -36408,6 +36937,7 @@
 "name":"Pyrroline-5-carboxylate reductase (EC 1.5.1.2)",
 "annotation":{
 "patric":"272563.8.peg.1567",
+"refseq":"CD1495",
 "sbo":"SBO:0000243"
 }
 },
@@ -36416,6 +36946,7 @@
 "name":"Pyrroline-5-carboxylate reductase (EC 1.5.1.2)",
 "annotation":{
 "patric":"272563.8.peg.3434",
+"refseq":"CD3281",
 "sbo":"SBO:0000243"
 }
 },
@@ -36424,6 +36955,7 @@
 "name":"phosphoserine phosphatase (EC 3.1.3.3)",
 "annotation":{
 "patric":"272563.8.peg.330",
+"refseq":"CD0309",
 "sbo":"SBO:0000243"
 }
 },
@@ -36432,6 +36964,7 @@
 "name":"phosphoserine phosphatase (EC 3.1.3.3)",
 "annotation":{
 "patric":"272563.8.peg.1034",
+"refseq":"CD0983",
 "sbo":"SBO:0000243"
 }
 },
@@ -36440,6 +36973,7 @@
 "name":"Cytosine permease",
 "annotation":{
 "patric":"272563.8.peg.2865",
+"refseq":"CD2738",
 "sbo":"SBO:0000243"
 }
 },
@@ -36448,6 +36982,7 @@
 "name":"argininosuccinate synthase (EC 6.3.4.5)",
 "annotation":{
 "patric":"272563.8.peg.1873",
+"refseq":"CD1785",
 "sbo":"SBO:0000243"
 }
 },
@@ -36456,6 +36991,7 @@
 "name":"Tagatose 1,6-bisphosphate aldolase (EC 4.1.2.40)",
 "annotation":{
 "patric":"272563.8.peg.3613",
+"refseq":"CD3448",
 "sbo":"SBO:0000243"
 }
 },
@@ -36464,6 +37000,7 @@
 "name":"Tagatose 1,6-bisphosphate aldolase (EC 4.1.2.40)",
 "annotation":{
 "patric":"272563.8.peg.3218",
+"refseq":"CD3074",
 "sbo":"SBO:0000243"
 }
 },
@@ -36472,6 +37009,7 @@
 "name":"Glucosamine-6-phosphate deaminase (EC 3.5.99.6)",
 "annotation":{
 "patric":"272563.8.peg.1062",
+"refseq":"CD1011",
 "sbo":"SBO:0000243"
 }
 },
@@ -36480,6 +37018,7 @@
 "name":"ADP-ribose pyrophosphatase (EC 3.6.1.13)",
 "annotation":{
 "patric":"272563.8.peg.476",
+"refseq":"CD0452",
 "sbo":"SBO:0000243"
 }
 },
@@ -36488,6 +37027,7 @@
 "name":"ADP-ribose pyrophosphatase (EC 3.6.1.13)",
 "annotation":{
 "patric":"272563.8.peg.1852",
+"refseq":"CD1765",
 "sbo":"SBO:0000243"
 }
 },
@@ -36496,6 +37036,7 @@
 "name":"ADP-ribose pyrophosphatase (EC 3.6.1.13)",
 "annotation":{
 "patric":"272563.8.peg.1279",
+"refseq":"CD1220",
 "sbo":"SBO:0000243"
 }
 },
@@ -36504,6 +37045,7 @@
 "name":"Isocitrate dehydrogenase [NAD] (EC 1.1.1.41)",
 "annotation":{
 "patric":"272563.8.peg.872",
+"refseq":"CD0834",
 "sbo":"SBO:0000243"
 }
 },
@@ -36512,6 +37054,7 @@
 "name":"Predicted molybdate-responsive regulator YvgK in bacilli",
 "annotation":{
 "patric":"272563.8.peg.907",
+"refseq":"CD0868",
 "sbo":"SBO:0000243"
 }
 },
@@ -36520,6 +37063,7 @@
 "name":"Potassium-transporting ATPase B chain (EC 3.6.3.12) (TC 3.A.3.7.1)",
 "annotation":{
 "patric":"272563.8.peg.1668",
+"refseq":"CD1592",
 "sbo":"SBO:0000243"
 }
 },
@@ -36528,6 +37072,7 @@
 "name":"Potassium-transporting ATPase A chain (EC 3.6.3.12) (TC 3.A.3.7.1)",
 "annotation":{
 "patric":"272563.8.peg.1667",
+"refseq":"CD1591",
 "sbo":"SBO:0000243"
 }
 },
@@ -36536,6 +37081,7 @@
 "name":"Potassium-transporting ATPase C chain (EC 3.6.3.12) (TC 3.A.3.7.1)",
 "annotation":{
 "patric":"272563.8.peg.1669",
+"refseq":"CD1593",
 "sbo":"SBO:0000243"
 }
 },
@@ -36544,6 +37090,7 @@
 "name":"PTS system, mannose-specific IID component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.518",
+"refseq":"CD0494",
 "sbo":"SBO:0000243"
 }
 },
@@ -36552,6 +37099,7 @@
 "name":"PTS system, mannose-specific IID component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.1132",
+"refseq":"CD1078",
 "sbo":"SBO:0000243"
 }
 },
@@ -36560,6 +37108,7 @@
 "name":"PTS system, mannose-specific IID component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.309",
+"refseq":"CD0289",
 "sbo":"SBO:0000243"
 }
 },
@@ -36568,6 +37117,7 @@
 "name":"PTS system, mannose-specific IID component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3429",
+"refseq":"CD3276",
 "sbo":"SBO:0000243"
 }
 },
@@ -36576,6 +37126,7 @@
 "name":"PTS system, mannose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.308",
+"refseq":"CD0288",
 "sbo":"SBO:0000243"
 }
 },
@@ -36584,6 +37135,7 @@
 "name":"PTS system, mannose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3430",
+"refseq":"CD3277",
 "sbo":"SBO:0000243"
 }
 },
@@ -36592,6 +37144,7 @@
 "name":"PTS system, mannose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.517",
+"refseq":"CD0493",
 "sbo":"SBO:0000243"
 }
 },
@@ -36600,6 +37153,7 @@
 "name":"PTS system, mannose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.1131",
+"refseq":"CD1077",
 "sbo":"SBO:0000243"
 }
 },
@@ -36608,6 +37162,7 @@
 "name":"PTS system, mannose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.307",
+"refseq":"CD0287",
 "sbo":"SBO:0000243"
 }
 },
@@ -36616,6 +37171,7 @@
 "name":"PTS system, mannose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.516",
+"refseq":"CD0492",
 "sbo":"SBO:0000243"
 }
 },
@@ -36624,6 +37180,7 @@
 "name":"PTS system, mannose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3432",
+"refseq":"CD3279",
 "sbo":"SBO:0000243"
 }
 },
@@ -36632,6 +37189,7 @@
 "name":"PTS system, mannose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.1130",
+"refseq":"CD1076",
 "sbo":"SBO:0000243"
 }
 },
@@ -36640,6 +37198,7 @@
 "name":"PTS system, mannose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.305",
+"refseq":"CD0285",
 "sbo":"SBO:0000243"
 }
 },
@@ -36648,6 +37207,7 @@
 "name":"PTS system, mannose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3431",
+"refseq":"CD3278",
 "sbo":"SBO:0000243"
 }
 },
@@ -36656,6 +37216,7 @@
 "name":"PTS system, mannose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.304",
+"refseq":"CD0284",
 "sbo":"SBO:0000243"
 }
 },
@@ -36664,6 +37225,7 @@
 "name":"PTS system, mannose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.515",
+"refseq":"CD0491",
 "sbo":"SBO:0000243"
 }
 },
@@ -36672,6 +37234,7 @@
 "name":"PTS system, mannose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.1128",
+"refseq":"CD1074",
 "sbo":"SBO:0000243"
 }
 },
@@ -36680,6 +37243,7 @@
 "name":"2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)",
 "annotation":{
 "patric":"272563.8.peg.56",
+"refseq":"CD0047",
 "sbo":"SBO:0000243"
 }
 },
@@ -36688,6 +37252,7 @@
 "name":"ATP synthase beta chain (EC 3.6.3.14)",
 "annotation":{
 "patric":"272563.8.peg.3633",
+"refseq":"CD3468",
 "sbo":"SBO:0000243"
 }
 },
@@ -36696,6 +37261,7 @@
 "name":"ATP synthase epsilon chain (EC 3.6.3.14)",
 "annotation":{
 "patric":"272563.8.peg.3632",
+"refseq":"CD3467",
 "sbo":"SBO:0000243"
 }
 },
@@ -36704,6 +37270,7 @@
 "name":"ATP synthase delta chain (EC 3.6.3.14)",
 "annotation":{
 "patric":"272563.8.peg.3636",
+"refseq":"CD3471",
 "sbo":"SBO:0000243"
 }
 },
@@ -36712,6 +37279,7 @@
 "name":"ATP synthase alpha chain (EC 3.6.3.14)",
 "annotation":{
 "patric":"272563.8.peg.3635",
+"refseq":"CD3470",
 "sbo":"SBO:0000243"
 }
 },
@@ -36720,6 +37288,7 @@
 "name":"ATP synthase gamma chain (EC 3.6.3.14)",
 "annotation":{
 "patric":"272563.8.peg.3634",
+"refseq":"CD3469",
 "sbo":"SBO:0000243"
 }
 },
@@ -36728,6 +37297,7 @@
 "name":"ATP synthase protein I",
 "annotation":{
 "patric":"272563.8.peg.3640",
+"refseq":"CD3475",
 "sbo":"SBO:0000243"
 }
 },
@@ -36736,6 +37306,7 @@
 "name":"ATP synthase protein I",
 "annotation":{
 "patric":"272563.8.peg.3641",
+"refseq":"CD3476",
 "sbo":"SBO:0000243"
 }
 },
@@ -36744,6 +37315,7 @@
 "name":"Phosphoribosylamine--glycine ligase (EC 6.3.4.13)",
 "annotation":{
 "patric":"272563.8.peg.242",
+"refseq":"CD0224",
 "sbo":"SBO:0000243"
 }
 },
@@ -36752,6 +37324,7 @@
 "name":"Glutaminase (EC 3.5.1.2)",
 "annotation":{
 "patric":"272563.8.peg.585",
+"refseq":"CD0558",
 "sbo":"SBO:0000243"
 }
 },
@@ -36760,6 +37333,7 @@
 "name":"pyrimidine-nucleoside phosphorylase (EC 2.4.2.2)",
 "annotation":{
 "patric":"272563.8.peg.1284",
+"refseq":"CD1225",
 "sbo":"SBO:0000243"
 }
 },
@@ -36768,6 +37342,7 @@
 "name":"Sirohydrochlorin cobaltochelatase CbiK (EC 4.99.1.3)",
 "annotation":{
 "patric":"272563.8.peg.3585",
+"refseq":"CD3422",
 "sbo":"SBO:0000243"
 }
 },
@@ -36776,6 +37351,7 @@
 "name":"Putative N-acetylgalactosaminyl-diphosphoundecaprenol glucuronosyltransferase",
 "annotation":{
 "patric":"272563.8.peg.2899",
+"refseq":"CD2772",
 "sbo":"SBO:0000243"
 }
 },
@@ -36784,6 +37360,7 @@
 "name":"Putative N-acetylgalactosaminyl-diphosphoundecaprenol glucuronosyltransferase",
 "annotation":{
 "patric":"272563.8.peg.2901",
+"refseq":"CD2774",
 "sbo":"SBO:0000243"
 }
 },
@@ -36792,6 +37369,7 @@
 "name":"Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)",
 "annotation":{
 "patric":"272563.8.peg.1777",
+"refseq":"CD1699",
 "sbo":"SBO:0000243"
 }
 },
@@ -36800,6 +37378,7 @@
 "name":"Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)",
 "annotation":{
 "patric":"272563.8.peg.3138",
+"refseq":"CD2994",
 "sbo":"SBO:0000243"
 }
 },
@@ -36808,6 +37387,7 @@
 "name":"Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)",
 "annotation":{
 "patric":"272563.8.peg.3139",
+"refseq":"CD2995",
 "sbo":"SBO:0000243"
 }
 },
@@ -36816,6 +37396,7 @@
 "name":"Alanine racemase (EC 5.1.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3628",
+"refseq":"CD3463",
 "sbo":"SBO:0000243"
 }
 },
@@ -36824,6 +37405,7 @@
 "name":"aspartate racemase (EC 5.1.1.13)",
 "annotation":{
 "patric":"272563.8.peg.2133",
+"refseq":"CD2028",
 "sbo":"SBO:0000243"
 }
 },
@@ -36832,6 +37414,7 @@
 "name":"aspartate racemase (EC 5.1.1.13)",
 "annotation":{
 "patric":"272563.8.peg.2370",
+"refseq":"CD2254",
 "sbo":"SBO:0000243"
 }
 },
@@ -36840,6 +37423,7 @@
 "name":"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",
 "annotation":{
 "patric":"272563.8.peg.321",
+"refseq":"CD0300",
 "sbo":"SBO:0000243"
 }
 },
@@ -36848,6 +37432,7 @@
 "name":"Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)",
 "annotation":{
 "patric":"272563.8.peg.323",
+"refseq":"CD0302",
 "sbo":"SBO:0000243"
 }
 },
@@ -36856,6 +37441,7 @@
 "name":"Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)",
 "annotation":{
 "patric":"272563.8.peg.322",
+"refseq":"CD0301",
 "sbo":"SBO:0000243"
 }
 },
@@ -36864,6 +37450,7 @@
 "name":"glycerol kinase (EC 2.7.1.30)",
 "annotation":{
 "patric":"272563.8.peg.1453",
+"refseq":"CD1382",
 "sbo":"SBO:0000243"
 }
 },
@@ -36872,6 +37459,7 @@
 "name":"glycerol kinase (EC 2.7.1.30)",
 "annotation":{
 "patric":"272563.8.peg.778",
+"refseq":"CD0741",
 "sbo":"SBO:0000243"
 }
 },
@@ -36880,6 +37468,7 @@
 "name":"guanine deaminase (EC 3.5.4.3)",
 "annotation":{
 "patric":"272563.8.peg.3332",
+"refseq":"CD3181",
 "sbo":"SBO:0000243"
 }
 },
@@ -36888,6 +37477,7 @@
 "name":"guanine deaminase (EC 3.5.4.3)",
 "annotation":{
 "patric":"272563.8.peg.1740",
+"refseq":"CD1663",
 "sbo":"SBO:0000243"
 }
 },
@@ -36896,6 +37486,7 @@
 "name":"lactoylglutathione lyase (EC 4.4.1.5)",
 "annotation":{
 "patric":"272563.8.peg.1191",
+"refseq":"CD1134",
 "sbo":"SBO:0000243"
 }
 },
@@ -36904,6 +37495,7 @@
 "name":"Bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) (EC 3.6.1.17)",
 "annotation":{
 "patric":"272563.8.peg.2568",
+"refseq":"CD2447",
 "sbo":"SBO:0000243"
 }
 },
@@ -36912,6 +37504,7 @@
 "name":"NAD-dependent 4-hydroxybutyrate dehydrogenase (EC 1.1.1.61)",
 "annotation":{
 "patric":"272563.8.peg.2455",
+"refseq":"CD2338",
 "sbo":"SBO:0000243"
 }
 },
@@ -36920,6 +37513,7 @@
 "name":"Thiamin pyrophosphokinase (EC 2.7.6.2)",
 "annotation":{
 "patric":"272563.8.peg.2698",
+"refseq":"CD2574",
 "sbo":"SBO:0000243"
 }
 },
@@ -36928,6 +37522,7 @@
 "name":"N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)",
 "annotation":{
 "patric":"272563.8.peg.2356",
+"refseq":"CD2241",
 "sbo":"SBO:0000243"
 }
 },
@@ -36936,6 +37531,7 @@
 "name":"Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)",
 "annotation":{
 "patric":"272563.8.peg.3725",
+"refseq":"CD3555",
 "sbo":"SBO:0000243"
 }
 },
@@ -36944,6 +37540,7 @@
 "name":"Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD",
 "annotation":{
 "patric":"272563.8.peg.1231",
+"refseq":"CD1173",
 "sbo":"SBO:0000243"
 }
 },
@@ -36952,6 +37549,7 @@
 "name":"Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)",
 "annotation":{
 "patric":"272563.8.peg.3759",
+"refseq":"CD3588",
 "sbo":"SBO:0000243"
 }
 },
@@ -36960,6 +37558,7 @@
 "name":"Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)",
 "annotation":{
 "patric":"272563.8.peg.3761",
+"refseq":"CD3590",
 "sbo":"SBO:0000243"
 }
 },
@@ -36968,6 +37567,7 @@
 "name":"Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)",
 "annotation":{
 "patric":"272563.8.peg.3760",
+"refseq":"CD3589",
 "sbo":"SBO:0000243"
 }
 },
@@ -36976,6 +37576,7 @@
 "name":"Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)",
 "annotation":{
 "patric":"272563.8.peg.3762",
+"refseq":"CD3591",
 "sbo":"SBO:0000243"
 }
 },
@@ -36984,6 +37585,7 @@
 "name":"GTP pyrophosphokinase (EC 2.7.6.5)",
 "annotation":{
 "patric":"272563.8.peg.365",
+"refseq":"CD0345",
 "sbo":"SBO:0000243"
 }
 },
@@ -36992,6 +37594,7 @@
 "name":"Acetolactate synthase large subunit (EC 2.2.1.6)",
 "annotation":{
 "patric":"272563.8.peg.1641",
+"refseq":"CD1566",
 "sbo":"SBO:0000243"
 }
 },
@@ -37000,6 +37603,7 @@
 "name":"Threonine synthase (EC 4.2.3.1)",
 "annotation":{
 "patric":"272563.8.peg.2229",
+"refseq":"CD2118",
 "sbo":"SBO:0000243"
 }
 },
@@ -37008,6 +37612,7 @@
 "name":"Maltose-6'-phosphate glucosidase (EC 3.2.1.122)",
 "annotation":{
 "patric":"272563.8.peg.2631",
+"refseq":"CD2509",
 "sbo":"SBO:0000243"
 }
 },
@@ -37016,6 +37621,7 @@
 "name":"Maltose-6'-phosphate glucosidase (EC 3.2.1.122)",
 "annotation":{
 "patric":"272563.8.peg.903",
+"refseq":"CD0864",
 "sbo":"SBO:0000243"
 }
 },
@@ -37024,6 +37630,7 @@
 "name":"Maltose-6'-phosphate glucosidase (EC 3.2.1.122)",
 "annotation":{
 "patric":"272563.8.peg.3204",
+"refseq":"CD3060",
 "sbo":"SBO:0000243"
 }
 },
@@ -37032,6 +37639,7 @@
 "name":"Maltose-6'-phosphate glucosidase (EC 3.2.1.122)",
 "annotation":{
 "patric":"272563.8.peg.1405",
+"refseq":"CD1338",
 "sbo":"SBO:0000243"
 }
 },
@@ -37040,6 +37648,7 @@
 "name":"Deoxyribose-phosphate aldolase (EC 4.1.2.4)",
 "annotation":{
 "patric":"272563.8.peg.1574",
+"refseq":"CD1502",
 "sbo":"SBO:0000243"
 }
 },
@@ -37048,6 +37657,7 @@
 "name":"UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.1.1.158)",
 "annotation":{
 "patric":"272563.8.peg.3565",
+"refseq":"CD3402",
 "sbo":"SBO:0000243"
 }
 },
@@ -37056,6 +37666,7 @@
 "name":"Hypothetical radical SAM family enzyme in heat shock gene cluster, similarity with CPO of BS HemN-type",
 "annotation":{
 "patric":"272563.8.peg.2586",
+"refseq":"CD2464",
 "sbo":"SBO:0000243"
 }
 },
@@ -37064,6 +37675,7 @@
 "name":"Substrate-specific component TrpP of tryptophan ECF transporter",
 "annotation":{
 "patric":"272563.8.peg.2085",
+"refseq":"CD1988",
 "sbo":"SBO:0000243"
 }
 },
@@ -37072,6 +37684,7 @@
 "name":"Cobalamin synthase",
 "annotation":{
 "patric":"272563.8.peg.3600",
+"refseq":"CD3437",
 "sbo":"SBO:0000243"
 }
 },
@@ -37080,6 +37693,7 @@
 "name":"Sulfur carrier protein ThiS",
 "annotation":{
 "patric":"272563.8.peg.1781",
+"refseq":"CD1702A",
 "sbo":"SBO:0000243"
 }
 },
@@ -37088,6 +37702,7 @@
 "name":"Sulfur carrier protein ThiS",
 "annotation":{
 "patric":"272563.8.peg.1782",
+"refseq":"CD1703",
 "sbo":"SBO:0000243"
 }
 },
@@ -37096,6 +37711,7 @@
 "name":"Cysteine desulfurase (EC 2.8.1.7)",
 "annotation":{
 "patric":"272563.8.peg.3846",
+"refseq":"CD3670",
 "sbo":"SBO:0000243"
 }
 },
@@ -37104,6 +37720,7 @@
 "name":"Cysteine desulfurase (EC 2.8.1.7)",
 "annotation":{
 "patric":"272563.8.peg.1344",
+"refseq":"CD1279",
 "sbo":"SBO:0000243"
 }
 },
@@ -37112,6 +37729,7 @@
 "name":"Cysteine desulfurase (EC 2.8.1.7)",
 "annotation":{
 "patric":"272563.8.peg.3176",
+"refseq":"CD3032",
 "sbo":"SBO:0000243"
 }
 },
@@ -37120,6 +37738,7 @@
 "name":"Acetoin dehydrogenase E1 component alpha-subunit (EC 1.2.4.-)",
 "annotation":{
 "patric":"272563.8.peg.45",
+"refseq":"CD0036",
 "sbo":"SBO:0000243"
 }
 },
@@ -37128,6 +37747,7 @@
 "name":"Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC 1.8.1.4)",
 "annotation":{
 "patric":"272563.8.peg.48",
+"refseq":"CD0039",
 "sbo":"SBO:0000243"
 }
 },
@@ -37136,6 +37756,7 @@
 "name":"Acetoin dehydrogenase E1 component beta-subunit (EC 1.2.4.-)",
 "annotation":{
 "patric":"272563.8.peg.46",
+"refseq":"CD0037",
 "sbo":"SBO:0000243"
 }
 },
@@ -37144,6 +37765,7 @@
 "name":"Enolase (EC 4.2.1.11)",
 "annotation":{
 "patric":"272563.8.peg.3321",
+"refseq":"CD3170",
 "sbo":"SBO:0000243"
 }
 },
@@ -37152,6 +37774,7 @@
 "name":"dihydropyrimidinase (EC 3.5.2.2)",
 "annotation":{
 "patric":"272563.8.peg.3329",
+"refseq":"CD3178",
 "sbo":"SBO:0000243"
 }
 },
@@ -37160,6 +37783,7 @@
 "name":"dihydropyrimidinase (EC 3.5.2.2)",
 "annotation":{
 "patric":"272563.8.peg.2190",
+"refseq":"CD2083",
 "sbo":"SBO:0000243"
 }
 },
@@ -37168,6 +37792,7 @@
 "name":"Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)",
 "annotation":{
 "patric":"272563.8.peg.3682",
+"refseq":"CD3514",
 "sbo":"SBO:0000243"
 }
 },
@@ -37176,6 +37801,7 @@
 "name":"Ferredoxin--sulfite reductase (EC 1.8.7.1)",
 "annotation":{
 "patric":"272563.8.peg.2550",
+"refseq":"CD2431",
 "sbo":"SBO:0000243"
 }
 },
@@ -37184,6 +37810,7 @@
 "name":"Na+/H+ antiporter",
 "annotation":{
 "patric":"272563.8.peg.2793",
+"refseq":"CD2669a",
 "sbo":"SBO:0000243"
 }
 },
@@ -37192,6 +37819,7 @@
 "name":"Na+/H+ antiporter",
 "annotation":{
 "patric":"272563.8.peg.1732",
+"refseq":"CD1655",
 "sbo":"SBO:0000243"
 }
 },
@@ -37200,6 +37828,7 @@
 "name":"Na+/H+ antiporter NhaC",
 "annotation":{
 "patric":"272563.8.peg.473",
+"refseq":"CD0449",
 "sbo":"SBO:0000243"
 }
 },
@@ -37208,6 +37837,7 @@
 "name":"Na+/H+ antiporter NhaC",
 "annotation":{
 "patric":"272563.8.peg.2861",
+"refseq":"CD2734",
 "sbo":"SBO:0000243"
 }
 },
@@ -37216,6 +37846,7 @@
 "name":"proline racemase (EC 5.1.1.4)",
 "annotation":{
 "patric":"272563.8.peg.3390",
+"refseq":"CD3237",
 "sbo":"SBO:0000243"
 }
 },
@@ -37224,6 +37855,7 @@
 "name":"cytidine deaminase (EC 3.5.4.5)",
 "annotation":{
 "patric":"272563.8.peg.2558",
+"refseq":"CD2438",
 "sbo":"SBO:0000243"
 }
 },
@@ -37232,6 +37864,7 @@
 "name":"Magnesium and cobalt transport protein CorA",
 "annotation":{
 "patric":"272563.8.peg.1922",
+"refseq":"CD1831",
 "sbo":"SBO:0000243"
 }
 },
@@ -37248,6 +37881,7 @@
 "name":"Agmatinase (EC 3.5.3.11)",
 "annotation":{
 "patric":"272563.8.peg.930",
+"refseq":"CD0891",
 "sbo":"SBO:0000243"
 }
 },
@@ -37256,6 +37890,7 @@
 "name":"3-hydroxybutyrate dehydrogenase (EC 1.1.1.30)",
 "annotation":{
 "patric":"272563.8.peg.2803",
+"refseq":"CD2679",
 "sbo":"SBO:0000243"
 }
 },
@@ -37264,6 +37899,7 @@
 "name":"NADP-dependent malic enzyme (EC 1.1.1.40)",
 "annotation":{
 "patric":"272563.8.peg.1056",
+"refseq":"CD1005",
 "sbo":"SBO:0000243"
 }
 },
@@ -37272,6 +37908,7 @@
 "name":"Ethanolamine permease",
 "annotation":{
 "patric":"272563.8.peg.2020",
+"refseq":"CD1924",
 "sbo":"SBO:0000243"
 }
 },
@@ -37280,6 +37917,7 @@
 "name":"Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)",
 "annotation":{
 "patric":"272563.8.peg.1517",
+"refseq":"CD1445",
 "sbo":"SBO:0000243"
 }
 },
@@ -37288,6 +37926,7 @@
 "name":"Para-aminobenzoate synthase, aminase component (EC 2.6.1.85)",
 "annotation":{
 "patric":"272563.8.peg.1518",
+"refseq":"CD1446",
 "sbo":"SBO:0000243"
 }
 },
@@ -37296,6 +37935,7 @@
 "name":"Phosphoglycolate phosphatase (EC 3.1.3.18)",
 "annotation":{
 "patric":"272563.8.peg.3777",
+"refseq":"CD3605",
 "sbo":"SBO:0000243"
 }
 },
@@ -37304,6 +37944,7 @@
 "name":"phosphomannomutase (EC 5.4.2.8)",
 "annotation":{
 "patric":"272563.8.peg.1652",
+"refseq":"CD1577",
 "sbo":"SBO:0000243"
 }
 },
@@ -37312,6 +37953,7 @@
 "name":"phosphomannomutase (EC 5.4.2.8)",
 "annotation":{
 "patric":"272563.8.peg.2907",
+"refseq":"CD2780",
 "sbo":"SBO:0000243"
 }
 },
@@ -37320,6 +37962,7 @@
 "name":"3-dehydroquinate dehydratase I (EC 4.2.1.10)",
 "annotation":{
 "patric":"272563.8.peg.2333",
+"refseq":"CD2217",
 "sbo":"SBO:0000243"
 }
 },
@@ -37328,6 +37971,7 @@
 "name":"Selenide,water dikinase (EC 2.7.9.3)",
 "annotation":{
 "patric":"272563.8.peg.2617",
+"refseq":"CD2496",
 "sbo":"SBO:0000243"
 }
 },
@@ -37336,6 +37980,7 @@
 "name":"PTS system, glucose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2791",
+"refseq":"CD2667",
 "sbo":"SBO:0000243"
 }
 },
@@ -37344,6 +37989,7 @@
 "name":"PTS system, glucose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2790",
+"refseq":"CD2666",
 "sbo":"SBO:0000243"
 }
 },
@@ -37352,6 +37998,7 @@
 "name":"PTS system, glucose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3202",
+"refseq":"CD3058",
 "sbo":"SBO:0000243"
 }
 },
@@ -37360,6 +38007,7 @@
 "name":"PTS system, glucose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3247",
+"refseq":"CD3103",
 "sbo":"SBO:0000243"
 }
 },
@@ -37368,6 +38016,7 @@
 "name":"PTS system, glucose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3171",
+"refseq":"CD3027",
 "sbo":"SBO:0000243"
 }
 },
@@ -37376,6 +38025,7 @@
 "name":"PTS system, glucose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.2634",
+"refseq":"CD2512",
 "sbo":"SBO:0000243"
 }
 },
@@ -37384,6 +38034,7 @@
 "name":"CCA tRNA nucleotidyltransferase (EC 2.7.7.72)",
 "annotation":{
 "patric":"272563.8.peg.2588",
+"refseq":"CD2466",
 "sbo":"SBO:0000243"
 }
 },
@@ -37392,6 +38043,7 @@
 "name":"glutamate racemase (EC 5.1.1.3)",
 "annotation":{
 "patric":"272563.8.peg.3732",
+"refseq":"CD3562",
 "sbo":"SBO:0000243"
 }
 },
@@ -37400,6 +38052,7 @@
 "name":"D-alanine--poly(phosphoribitol) ligase subunit 1 (EC 6.1.1.13)",
 "annotation":{
 "patric":"272563.8.peg.2981",
+"refseq":"CD2853",
 "sbo":"SBO:0000243"
 }
 },
@@ -37408,6 +38061,7 @@
 "name":"D-alanyl transfer protein DltB",
 "annotation":{
 "patric":"272563.8.peg.2980",
+"refseq":"CD2852",
 "sbo":"SBO:0000243"
 }
 },
@@ -37416,6 +38070,7 @@
 "name":"Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)",
 "annotation":{
 "patric":"272563.8.peg.2452",
+"refseq":"CD2335",
 "sbo":"SBO:0000243"
 }
 },
@@ -37424,6 +38079,7 @@
 "name":"4-hydroxybutyrate:acetyl-CoA CoA transferase (EC 2.3.1.-)",
 "annotation":{
 "patric":"272563.8.peg.2456",
+"refseq":"CD2339",
 "sbo":"SBO:0000243"
 }
 },
@@ -37432,6 +38088,7 @@
 "name":"Sodium-dependent phosphate transporter",
 "annotation":{
 "patric":"272563.8.peg.3439",
+"refseq":"CD3286",
 "sbo":"SBO:0000243"
 }
 },
@@ -37440,6 +38097,7 @@
 "name":"Sodium-dependent phosphate transporter",
 "annotation":{
 "patric":"272563.8.peg.1810",
+"refseq":"CD1729",
 "sbo":"SBO:0000243"
 }
 },
@@ -37448,6 +38106,7 @@
 "name":"2,4-diaminopentanoate dehydrogenase (EC 1.4.1.12)",
 "annotation":{
 "patric":"272563.8.peg.466",
+"refseq":"CD0442",
 "sbo":"SBO:0000243"
 }
 },
@@ -37456,6 +38115,7 @@
 "name":"2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)",
 "annotation":{
 "patric":"272563.8.peg.1525",
+"refseq":"CD1453",
 "sbo":"SBO:0000243"
 }
 },
@@ -37464,6 +38124,7 @@
 "name":"2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)",
 "annotation":{
 "patric":"272563.8.peg.1923",
+"refseq":"CD1832",
 "sbo":"SBO:0000243"
 }
 },
@@ -37472,6 +38133,7 @@
 "name":"Transketolase, C-terminal section (EC 2.2.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2438",
+"refseq":"CD2321",
 "sbo":"SBO:0000243"
 }
 },
@@ -37480,6 +38142,7 @@
 "name":"Transketolase, C-terminal section (EC 2.2.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3624",
+"refseq":"CD3459",
 "sbo":"SBO:0000243"
 }
 },
@@ -37488,6 +38151,7 @@
 "name":"Transketolase, N-terminal section (EC 2.2.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2439",
+"refseq":"CD2322",
 "sbo":"SBO:0000243"
 }
 },
@@ -37496,6 +38160,7 @@
 "name":"Transketolase, N-terminal section (EC 2.2.1.1)",
 "annotation":{
 "patric":"272563.8.peg.3625",
+"refseq":"CD3460",
 "sbo":"SBO:0000243"
 }
 },
@@ -37504,6 +38169,7 @@
 "name":"5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)",
 "annotation":{
 "patric":"272563.8.peg.3768",
+"refseq":"CD3596",
 "sbo":"SBO:0000243"
 }
 },
@@ -37512,6 +38178,7 @@
 "name":"5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)",
 "annotation":{
 "patric":"272563.8.peg.1815",
+"refseq":"CD1732",
 "sbo":"SBO:0000243"
 }
 },
@@ -37520,6 +38187,7 @@
 "name":"Methionine synthase activation domain (EC 2.1.1.13)",
 "annotation":{
 "patric":"272563.8.peg.3769",
+"refseq":"CD3597",
 "sbo":"SBO:0000243"
 }
 },
@@ -37528,6 +38196,7 @@
 "name":"1-deoxy-D-xylulose 5-phosphate synthase (EC 2.2.1.7)",
 "annotation":{
 "patric":"272563.8.peg.1266",
+"refseq":"CD1207",
 "sbo":"SBO:0000243"
 }
 },
@@ -37536,6 +38205,7 @@
 "name":"D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)",
 "annotation":{
 "patric":"272563.8.peg.1046",
+"refseq":"CD0995",
 "sbo":"SBO:0000243"
 }
 },
@@ -37544,6 +38214,7 @@
 "name":"D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)",
 "annotation":{
 "patric":"272563.8.peg.3464",
+"refseq":"CD3310",
 "sbo":"SBO:0000243"
 }
 },
@@ -37552,6 +38223,7 @@
 "name":"xylan 1,4-beta-xylosidase (EC 3.2.1.37)",
 "annotation":{
 "patric":"272563.8.peg.42",
+"refseq":"CD0033",
 "sbo":"SBO:0000243"
 }
 },
@@ -37560,6 +38232,7 @@
 "name":"Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)",
 "annotation":{
 "patric":"272563.8.peg.1407",
+"refseq":"CD1340",
 "sbo":"SBO:0000243"
 }
 },
@@ -37568,6 +38241,7 @@
 "name":"Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)",
 "annotation":{
 "patric":"272563.8.peg.243",
+"refseq":"CD0225",
 "sbo":"SBO:0000243"
 }
 },
@@ -37576,6 +38250,7 @@
 "name":"PTS system, trehalose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3272",
+"refseq":"CD3127",
 "sbo":"SBO:0000243"
 }
 },
@@ -37584,6 +38259,7 @@
 "name":"Xanthine/uracil/thiamine/ascorbate permease family protein",
 "annotation":{
 "patric":"272563.8.peg.2829",
+"refseq":"CD2704",
 "sbo":"SBO:0000243"
 }
 },
@@ -37592,6 +38268,7 @@
 "name":"Xanthine/uracil/thiamine/ascorbate permease family protein",
 "annotation":{
 "patric":"272563.8.peg.2215",
+"refseq":"CD2107",
 "sbo":"SBO:0000243"
 }
 },
@@ -37600,6 +38277,7 @@
 "name":"2-dehydropantoate 2-reductase (EC 1.1.1.169)",
 "annotation":{
 "patric":"272563.8.peg.206",
+"refseq":"CD0188",
 "sbo":"SBO:0000243"
 }
 },
@@ -37608,6 +38286,7 @@
 "name":"phosphoglucosamine mutase (EC 5.4.2.10)",
 "annotation":{
 "patric":"272563.8.peg.135",
+"refseq":"CD0119",
 "sbo":"SBO:0000243"
 }
 },
@@ -37616,6 +38295,7 @@
 "name":"Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)",
 "annotation":{
 "patric":"272563.8.peg.3602",
+"refseq":"CD3439",
 "sbo":"SBO:0000243"
 }
 },
@@ -37624,6 +38304,7 @@
 "name":"Spermidine synthase (EC 2.5.1.16)",
 "annotation":{
 "patric":"272563.8.peg.929",
+"refseq":"CD0890",
 "sbo":"SBO:0000243"
 }
 },
@@ -37632,6 +38313,7 @@
 "name":"L-threonine 3-dehydrogenase (EC 1.1.1.103)",
 "annotation":{
 "patric":"272563.8.peg.1881",
+"refseq":"CD1792",
 "sbo":"SBO:0000243"
 }
 },
@@ -37640,6 +38322,7 @@
 "name":"Low-specificity L-threonine aldolase (EC 4.1.2.5)",
 "annotation":{
 "patric":"272563.8.peg.2716",
+"refseq":"CD2591",
 "sbo":"SBO:0000243"
 }
 },
@@ -37648,6 +38331,7 @@
 "name":"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4)",
 "annotation":{
 "patric":"272563.8.peg.3153",
+"refseq":"CD3009",
 "sbo":"SBO:0000243"
 }
 },
@@ -37656,6 +38340,7 @@
 "name":"Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)",
 "annotation":{
 "patric":"272563.8.peg.1626",
+"refseq":"CD1550",
 "sbo":"SBO:0000243"
 }
 },
@@ -37664,6 +38349,7 @@
 "name":"D-proline reductase, 26 kDa subunit (EC 1.21.4.1)",
 "annotation":{
 "patric":"272563.8.peg.3394",
+"refseq":"CD3241",
 "sbo":"SBO:0000243"
 }
 },
@@ -37672,6 +38358,7 @@
 "name":"D-proline reductase, 45 kDa subunit (EC 1.21.4.1)",
 "annotation":{
 "patric":"272563.8.peg.3392",
+"refseq":"CD3239",
 "sbo":"SBO:0000243"
 }
 },
@@ -37680,6 +38367,7 @@
 "name":"D-proline reductase, 45 kDa subunit (EC 1.21.4.1)",
 "annotation":{
 "patric":"272563.8.peg.3396",
+"refseq":"CD3244",
 "sbo":"SBO:0000243"
 }
 },
@@ -37688,6 +38376,7 @@
 "name":"D-proline reductase, 45 kDa subunit (EC 1.21.4.1)",
 "annotation":{
 "patric":"272563.8.peg.3393",
+"refseq":"CD3240",
 "sbo":"SBO:0000243"
 }
 },
@@ -37696,6 +38385,7 @@
 "name":"1,3-propanediol dehydrogenase (EC 1.1.1.202)",
 "annotation":{
 "patric":"272563.8.peg.294",
+"refseq":"CD0274",
 "sbo":"SBO:0000243"
 }
 },
@@ -37704,6 +38394,7 @@
 "name":"Substrate-specific component BioY of biotin ECF transporter",
 "annotation":{
 "patric":"272563.8.peg.3116",
+"refseq":"CD2971",
 "sbo":"SBO:0000243"
 }
 },
@@ -37712,6 +38403,7 @@
 "name":"Glutamate synthase [NADPH] large chain (EC 1.4.1.13)",
 "annotation":{
 "patric":"272563.8.peg.866",
+"refseq":"CD0828",
 "sbo":"SBO:0000243"
 }
 },
@@ -37720,6 +38412,7 @@
 "name":"UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9)",
 "annotation":{
 "patric":"272563.8.peg.2777",
+"refseq":"CD2653",
 "sbo":"SBO:0000243"
 }
 },
@@ -37728,6 +38421,7 @@
 "name":"Glycogen phosphorylase (EC 2.4.1.1)",
 "annotation":{
 "patric":"272563.8.peg.924",
+"refseq":"CD0885",
 "sbo":"SBO:0000243"
 }
 },
@@ -37736,6 +38430,7 @@
 "name":"adenosine deaminase (EC 3.5.4.4)",
 "annotation":{
 "patric":"272563.8.peg.1831",
+"refseq":"CD1747",
 "sbo":"SBO:0000243"
 }
 },
@@ -37744,6 +38439,7 @@
 "name":"Multimodular transpeptidase-transglycosylase (EC 2.4.1.129) (EC 3.4.-.-)",
 "annotation":{
 "patric":"272563.8.peg.818",
+"refseq":"CD0781",
 "sbo":"SBO:0000243"
 }
 },
@@ -37752,6 +38448,7 @@
 "name":"Undecaprenyl-diphosphatase (EC 3.6.1.27)",
 "annotation":{
 "patric":"272563.8.peg.1399",
+"refseq":"CD1332",
 "sbo":"SBO:0000243"
 }
 },
@@ -37760,6 +38457,7 @@
 "name":"Undecaprenyl-diphosphatase (EC 3.6.1.27)",
 "annotation":{
 "patric":"272563.8.peg.3130",
+"refseq":"CD2986",
 "sbo":"SBO:0000243"
 }
 },
@@ -37768,6 +38466,7 @@
 "name":"Uracil permease",
 "annotation":{
 "patric":"272563.8.peg.2719",
+"refseq":"CD2594",
 "sbo":"SBO:0000243"
 }
 },
@@ -37776,6 +38475,7 @@
 "name":"L-asparaginase (EC 3.5.1.1)",
 "annotation":{
 "patric":"272563.8.peg.2638",
+"refseq":"CD2516",
 "sbo":"SBO:0000243"
 }
 },
@@ -37784,6 +38484,7 @@
 "name":"NAD synthetase (EC 6.3.1.5)",
 "annotation":{
 "patric":"272563.8.peg.831",
+"refseq":"CD0794",
 "sbo":"SBO:0000243"
 }
 },
@@ -37792,6 +38493,7 @@
 "name":"Thioredoxin",
 "annotation":{
 "patric":"272563.8.peg.2470",
+"refseq":"CD2355",
 "sbo":"SBO:0000243"
 }
 },
@@ -37800,6 +38502,7 @@
 "name":"Thioredoxin",
 "annotation":{
 "patric":"272563.8.peg.1768",
+"refseq":"CD1690",
 "sbo":"SBO:0000243"
 }
 },
@@ -37808,6 +38511,7 @@
 "name":"Thioredoxin",
 "annotation":{
 "patric":"272563.8.peg.3177",
+"refseq":"CD3033",
 "sbo":"SBO:0000243"
 }
 },
@@ -37816,6 +38520,7 @@
 "name":"Lactose permease",
 "annotation":{
 "patric":"272563.8.peg.2316",
+"refseq":"CD2201",
 "sbo":"SBO:0000243"
 }
 },
@@ -37824,6 +38529,7 @@
 "name":"N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)",
 "annotation":{
 "patric":"272563.8.peg.2139",
+"refseq":"CD2034",
 "sbo":"SBO:0000243"
 }
 },
@@ -37832,6 +38538,7 @@
 "name":"Pantoate--beta-alanine ligase (EC 6.3.2.1)",
 "annotation":{
 "patric":"272563.8.peg.1586",
+"refseq":"CD1512",
 "sbo":"SBO:0000243"
 }
 },
@@ -37840,6 +38547,7 @@
 "name":"Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)",
 "annotation":{
 "patric":"272563.8.peg.1457",
+"refseq":"CD1386",
 "sbo":"SBO:0000243"
 }
 },
@@ -37848,6 +38556,7 @@
 "name":"Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)",
 "annotation":{
 "patric":"272563.8.peg.1458",
+"refseq":"CD1387",
 "sbo":"SBO:0000243"
 }
 },
@@ -37856,6 +38565,7 @@
 "name":"Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)",
 "annotation":{
 "patric":"272563.8.peg.2521",
+"refseq":"CD2403",
 "sbo":"SBO:0000243"
 }
 },
@@ -37864,6 +38574,7 @@
 "name":"S-adenosylmethionine decarboxylase proenzyme (EC 4.1.1.50), prokaryotic class 1B",
 "annotation":{
 "patric":"272563.8.peg.928",
+"refseq":"CD0889",
 "sbo":"SBO:0000243"
 }
 },
@@ -37872,6 +38583,7 @@
 "name":"Thymidylate kinase (EC 2.7.4.9)",
 "annotation":{
 "patric":"272563.8.peg.3718",
+"refseq":"CD3550",
 "sbo":"SBO:0000243"
 }
 },
@@ -37880,6 +38592,7 @@
 "name":"Ornithine carbamoyltransferase (EC 2.1.3.3)",
 "annotation":{
 "patric":"272563.8.peg.2135",
+"refseq":"CD2030",
 "sbo":"SBO:0000243"
 }
 },
@@ -37888,6 +38601,7 @@
 "name":"PTS system, cellobiose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3225",
+"refseq":"CD3081",
 "sbo":"SBO:0000243"
 }
 },
@@ -37896,6 +38610,7 @@
 "name":"PTS system, cellobiose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3012",
+"refseq":"CD2883",
 "sbo":"SBO:0000243"
 }
 },
@@ -37904,6 +38619,7 @@
 "name":"PTS system, cellobiose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.153",
+"refseq":"CD0137",
 "sbo":"SBO:0000243"
 }
 },
@@ -37912,6 +38628,7 @@
 "name":"PTS system, cellobiose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.901",
+"refseq":"CD0862",
 "sbo":"SBO:0000243"
 }
 },
@@ -37920,6 +38637,7 @@
 "name":"PTS system, cellobiose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3820",
+"refseq":"CD3645",
 "sbo":"SBO:0000243"
 }
 },
@@ -37928,6 +38646,7 @@
 "name":"PTS system, cellobiose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3192",
+"refseq":"CD3048",
 "sbo":"SBO:0000243"
 }
 },
@@ -37936,6 +38655,7 @@
 "name":"PTS system, cellobiose-specific IIC component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3825",
+"refseq":"CD3650",
 "sbo":"SBO:0000243"
 }
 },
@@ -37944,6 +38664,7 @@
 "name":"PTS system, cellobiose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3224",
+"refseq":"CD3080",
 "sbo":"SBO:0000243"
 }
 },
@@ -37952,6 +38673,7 @@
 "name":"PTS system, cellobiose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3009",
+"refseq":"CD2880",
 "sbo":"SBO:0000243"
 }
 },
@@ -37960,6 +38682,7 @@
 "name":"PTS system, cellobiose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.151",
+"refseq":"CD0135",
 "sbo":"SBO:0000243"
 }
 },
@@ -37968,6 +38691,7 @@
 "name":"PTS system, cellobiose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3822",
+"refseq":"CD3647",
 "sbo":"SBO:0000243"
 }
 },
@@ -37976,6 +38700,7 @@
 "name":"PTS system, cellobiose-specific IIA component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.902",
+"refseq":"CD0863",
 "sbo":"SBO:0000243"
 }
 },
@@ -37984,6 +38709,7 @@
 "name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3823",
+"refseq":"CD3648",
 "sbo":"SBO:0000243"
 }
 },
@@ -37992,6 +38718,7 @@
 "name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3226",
+"refseq":"CD3082",
 "sbo":"SBO:0000243"
 }
 },
@@ -38000,6 +38727,7 @@
 "name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.152",
+"refseq":"CD0136",
 "sbo":"SBO:0000243"
 }
 },
@@ -38008,6 +38736,7 @@
 "name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.3013",
+"refseq":"CD2884",
 "sbo":"SBO:0000243"
 }
 },
@@ -38016,6 +38745,7 @@
 "name":"PTS system, cellobiose-specific IIB component (EC 2.7.1.69)",
 "annotation":{
 "patric":"272563.8.peg.1679",
+"refseq":"CD1602",
 "sbo":"SBO:0000243"
 }
 },
@@ -38024,6 +38754,7 @@
 "name":"Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)",
 "annotation":{
 "patric":"272563.8.peg.795",
+"refseq":"CD0758",
 "sbo":"SBO:0000243"
 }
 },
@@ -38032,6 +38763,7 @@
 "name":"Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)",
 "annotation":{
 "patric":"272563.8.peg.3436",
+"refseq":"CD3283",
 "sbo":"SBO:0000243"
 }
 },
@@ -38040,6 +38772,7 @@
 "name":"Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)",
 "annotation":{
 "patric":"272563.8.peg.1176",
+"refseq":"CD1121",
 "sbo":"SBO:0000243"
 }
 },
@@ -38048,6 +38781,7 @@
 "name":"Thioredoxin reductase (EC 1.8.1.9)",
 "annotation":{
 "patric":"272563.8.peg.2227",
+"refseq":"CD2117",
 "sbo":"SBO:0000243"
 }
 },
@@ -38056,6 +38790,7 @@
 "name":"Thioredoxin reductase (EC 1.8.1.9)",
 "annotation":{
 "patric":"272563.8.peg.1769",
+"refseq":"CD1691",
 "sbo":"SBO:0000243"
 }
 },
@@ -38064,6 +38799,7 @@
 "name":"Thioredoxin reductase (EC 1.8.1.9)",
 "annotation":{
 "patric":"272563.8.peg.2471",
+"refseq":"CD2356",
 "sbo":"SBO:0000243"
 }
 },
