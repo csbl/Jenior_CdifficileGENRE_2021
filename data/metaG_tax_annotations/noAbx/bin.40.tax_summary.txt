@@ -1,0 +1,4 @@
+banl	Bifidobacterium_animalis_subsp._lactis_ATCC_27673	41
+bla	Bifidobacterium_animalis_subsp._lactis_AD011	28
+bde	Bifidobacterium_dentium	23
+bbc	Bifidobacterium_animalis_subsp._lactis_BLC1	17

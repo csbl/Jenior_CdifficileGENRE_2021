@@ -1,0 +1,4 @@
+bvu	Bacteroides_vulgatus	52
+tfo	Tannerella_forsythia	52
+bsa	Bacteroides_salanitronis	43
+bxy	Bacteroides_xylanisolvens	43

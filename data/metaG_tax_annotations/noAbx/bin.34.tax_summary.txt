@@ -1,0 +1,4 @@
+bprs	Butyrate-producing_bacterium_SS3/4	7
+ova	Oscillibacter_valericigenes	6
+btg	Bacillus_thuringiensis_Bt407	5
+bpb	Butyrivibrio_proteoclasticus	4

@@ -1,0 +1,4 @@
+ral	Ruminococcus_albus	17
+esu	Eubacterium_siraeum_70/3	13
+cth	Clostridium_thermocellum_ATCC_27405	13
+rch	Ruminococcus_champanellensis	13

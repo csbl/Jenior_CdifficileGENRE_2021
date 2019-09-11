@@ -1,0 +1,4 @@
+rch	Ruminococcus_champanellensis	22
+ral	Ruminococcus_albus	20
+esu	Eubacterium_siraeum_70/3	19
+rbr	Ruminococcus_bromii	18

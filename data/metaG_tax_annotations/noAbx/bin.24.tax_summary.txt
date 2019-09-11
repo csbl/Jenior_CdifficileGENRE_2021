@@ -1,0 +1,4 @@
+bvu	Bacteroides_vulgatus	134
+bsa	Bacteroides_salanitronis	132
+bth	Bacteroides_thetaiotaomicron	108
+bhl	Bacteroides_helcogenes	88

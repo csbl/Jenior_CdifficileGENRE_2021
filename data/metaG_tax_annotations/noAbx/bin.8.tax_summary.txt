@@ -1,0 +1,4 @@
+elm	Eubacterium_limosum	33
+fpr	Faecalibacterium_prausnitzii_L2-6	31
+rho	Roseburia_hominis	31
+csh	Clostridium_saccharolyticum_WM1	31

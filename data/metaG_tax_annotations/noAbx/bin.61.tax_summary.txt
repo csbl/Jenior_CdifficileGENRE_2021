@@ -1,0 +1,4 @@
+bsa	Bacteroides_salanitronis	85
+bvu	Bacteroides_vulgatus	74
+bhl	Bacteroides_helcogenes	64
+tfo	Tannerella_forsythia	46

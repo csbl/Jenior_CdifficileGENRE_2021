@@ -1,0 +1,4 @@
+rim	Roseburia_intestinalis_M50/1	28
+rix	Roseburia_intestinalis_XB6B4	25
+ere	Eubacterium_rectale_ATCC_33656	23
+bth	Bacteroides_thetaiotaomicron	18

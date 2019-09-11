@@ -1,0 +1,4 @@
+bth	Bacteroides_thetaiotaomicron	112
+bvu	Bacteroides_vulgatus	108
+bsa	Bacteroides_salanitronis	107
+bxy	Bacteroides_xylanisolvens	86

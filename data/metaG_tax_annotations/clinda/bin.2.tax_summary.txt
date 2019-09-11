@@ -1,0 +1,4 @@
+ecr	Escherichia_coli_O8_IAI1_(commensal)	35
+ecy	Escherichia_coli_O152:H28_SE11_(commensal)	33
+esl	Escherichia_coli_O104:H4_2011C-3493	32
+ekf	Escherichia_coli_KO11FL	30

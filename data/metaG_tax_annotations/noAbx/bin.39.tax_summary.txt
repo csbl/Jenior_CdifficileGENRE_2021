@@ -1,0 +1,4 @@
+bvu	Bacteroides_vulgatus	136
+bsa	Bacteroides_salanitronis	132
+bxy	Bacteroides_xylanisolvens	88
+bhl	Bacteroides_helcogenes	85

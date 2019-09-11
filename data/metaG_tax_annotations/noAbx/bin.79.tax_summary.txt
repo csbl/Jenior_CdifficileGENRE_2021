@@ -1,0 +1,4 @@
+ash	Alistipes_shahii	464
+bvu	Bacteroides_vulgatus	38
+bsa	Bacteroides_salanitronis	29
+bxy	Bacteroides_xylanisolvens	22

@@ -1,0 +1,4 @@
+rch	Ruminococcus_champanellensis	19
+tte	Thermoanaerobacter_tengcongensis	18
+eha	Ethanoligenens_harbinense	18
+bpb	Butyrivibrio_proteoclasticus	16

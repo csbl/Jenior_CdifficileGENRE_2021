@@ -1,0 +1,4 @@
+cdg	Clostridium_difficile_BI1	191
+cdc	Clostridium_difficile_CD196	100
+cdl	Clostridium_difficile_R20291	71
+sdt	Staphylococcus_pseudintermedius_ED99	1

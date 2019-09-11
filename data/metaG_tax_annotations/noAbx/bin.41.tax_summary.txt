@@ -1,0 +1,4 @@
+csh	Clostridium_saccharolyticum_WM1	11
+elm	Eubacterium_limosum	10
+cpy	Clostridium_phytofermentans	8
+fpa	Faecalibacterium_prausnitzii_SL3/3	7

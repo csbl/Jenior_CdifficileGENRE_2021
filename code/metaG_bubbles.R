@@ -15,87 +15,80 @@ no_abx <- c(2054,2311,233,1331,1647,2233,1255,2018,8815,256,1500,1846,2304,957,3
             585,1525,284,3175,727,1018,316,5214,490,959,761,1278,845,1101,826,1466,520,359,
             196,3115,9663,1658,2367,1209,1503,2193,1074,1650,1208,2923,261,206,3440,3583,2471,233)
 
-# Format data
+# Define taxon colors
+cef_colors <- c('red','blue','green','orange')
+strep_colors <- c('red','blue','green','orange')
+clinda_colors <- c('red','blue','green','orange')
+noabx_colors <- c('red','blue','green','orange')
+
+
+# Find min/max bin sizes
 max_genes <- max(c(cefoperazone, streptomycin, clindamycin, no_abx))
 min_genes <- min(c(cefoperazone, streptomycin, clindamycin, no_abx))
-cefoperazone <- c(sort(cefoperazone, decreasing=TRUE),max_genes)
-streptomycin <- c(sort(streptomycin, decreasing=TRUE),max_genes)
-clindamycin <- c(sort(clindamycin, decreasing=TRUE),max_genes)
-no_abx <- c(sort(no_abx, decreasing=TRUE),max_genes)
+
+# Format data
+cefoperazone <- sort(cefoperazone, decreasing=TRUE)
+streptomycin <- sort(streptomycin, decreasing=TRUE)
+clindamycin <- sort(clindamycin, decreasing=TRUE)
+no_abx <- sort(no_abx, decreasing=TRUE)
+
+
 
 # Function to process data and generate bubble plots
-bubble_plot <- function(sizes, spacing=1, scale_text=FALSE) {
+bubble_plot <- function(sizes, max_size, tax_colors=c('none')) {
   
-  data <- data.frame(bin=paste('MAG\n', 1:length(sizes)), genes=sizes)
+  if (tax_colors[1] == 'none') {tax_colors = viridis(n=length(sizes))}
+  tax_colors <- c(tax_colors, 'white')
+  circle_colors <- c(rep('black', length(sizes)), 'white')
+  sizes <- c(sizes, max_size)
   
+  data <- data.frame(bin=1:length(sizes), genes=sizes)
   packing <- circleProgressiveLayout(sizes, sizetype='area')
-  packing$radius <- spacing*packing$radius
+  packing$radius <- 0.9 * packing$radius
+  packing$tax_colors <- tax_colors
   data <- cbind(data, packing)
   data.gg <- circleLayoutVertices(packing, npoints=50)
   
-  if (scale_text == FALSE) {
-    txt_size=1
-  } else {txt_size=sizes}
+  if (length(sizes) > 14) {txt_size=sizes} else {txt_size=4}
+  if (length(txt_size) > 1) {
+    bubbles <- ggplot() +
+      geom_polygon(data=data.gg, aes(x, y, group=id, col=factor(id), fill=factor(id)), color='white') +
+      scale_color_manual(values=tax_colors) +
+      scale_fill_manual(values=tax_colors) +
+      geom_text(data=data, aes(x, y, size=txt_size, label=round(genes), fontface=2), color='white') +
+      theme_void() +
+      theme(legend.position='none') +
+      coord_equal()
+  } else {
+    bubbles <- ggplot() +
+      geom_polygon(data=data.gg, aes(x, y, group=id, col=factor(id), fill=factor(id)), color='white') +
+      scale_color_manual(values=tax_colors) +
+      scale_fill_manual(values=tax_colors) +
+      geom_text(data=data, aes(x, y, label=round(genes), fontface=2), color='white', size=txt_size) +
+      theme_void() +
+      theme(legend.position='none') +
+      coord_equal()
+  }
   
-  bubbles <- ggplot() + 
-    geom_polygon(data=data.gg, aes(x, y, group=id, fill=id), color='black', alpha=0.6) +
-    scale_fill_viridis() +
-    geom_text(data=data, aes(x, y, size=txt_size, label=bin), color='black') +
-    theme_void() +
-    theme(legend.position='none') +
-    coord_equal()
   
   return(bubbles)
 }
 
+
 # Create figure
-cef_panel <- bubble_plot(cefoperazone, spacing=0.95)
-strep_panel <- bubble_plot(streptomycin, spacing=0.95)
-clinda_panel <- bubble_plot(clindamycin, spacing=0.95)
-no_abx_panel <- bubble_plot(no_abx, scale_text=TRUE)
 
+pdf(file='~/Desktop/metaG_bubbles.pdf', width=9, height=9)
 
+cef_panel <- bubble_plot(cefoperazone, max_size=max_genes)
+strep_panel <- bubble_plot(streptomycin, max_size=max_genes)
+clinda_panel <- bubble_plot(clindamycin, max_size=max_genes)
+no_abx_panel <- bubble_plot(no_abx, max_size=max_genes)
 
-pdf(file='~/Desktop/metaG_bubbles.pdf', width=10, height=10)
-
-grid.arrange(no_abx_panel, cef_panel, 
-             strep_panel, clinda_panel, nrow = 2)
+grid.arrange(no_abx_panel, strep_panel, cef_panel, clinda_panel, 
+             layout_matrix = rbind(c(1,1,1,2), 
+                                   c(1,1,1,3), 
+                                   c(1,1,1,4)))
 
 dev.off()
-
-
-#============================================#
-
-# Grouped bubble testing
-
-library(ggraph)
-library(igraph)
-library(tidyverse)
-data(flare)
-
-# We need a data frame giving a hierarchical structure. Let's consider the flare dataset:
-edges=flare$edges
-
-# Usually we associate another dataset that give information about each node of the dataset:
-vertices=flare$vertices
-
-# Then we have to make a 'graph' object using the igraph library:
-mygraph <- graph_from_data_frame(edges, vertices=vertices)
-
-# Make the plot
-ggraph(mygraph, layout='circlepack') + 
-  geom_node_circle() +
-  theme_void()
-
-
-
-# Hide the first level (right)
-ggraph(mygraph, layout='circlepack', weight='size') + 
-  geom_node_circle(aes(fill=as.factor(depth), color=as.factor(depth) )) +
-  scale_fill_manual(values=c('0'='white', '1'=viridis(4)[1], '2'=viridis(4)[2], '3'=viridis(4)[3], '4'=viridis(4)[4])) +
-  scale_color_manual( values=c('0'='white', '1'='black', '2'='black', '3'='black', '4'='black') ) +
-  theme_void() + 
-  theme(legend.position='FALSE') 
-
 
 

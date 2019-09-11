@@ -1,0 +1,4 @@
+csh	Clostridium_saccharolyticum_WM1	49
+rob	Ruminococcus_obeum_A2-162	40
+rto	Ruminococcus_torques_L2-14	40
+eel	Eubacterium_eligens	40

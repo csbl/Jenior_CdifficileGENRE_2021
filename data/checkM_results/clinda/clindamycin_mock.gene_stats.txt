@@ -1,0 +1,52 @@
+
+Fasta:          bin.1.genes.nuc.120.annotated.fasta
+Genes:          1889
+Residues:       1767108
+Median:         804
+Q1:             486
+Q3:             1194
+IQR:            708
+Mean:           935.0
+Std:            685.91
+Shortest:       120
+Longest:        10359
+
+
+Fasta:          bin.2.genes.nuc.120.annotated.fasta
+Genes:          699
+Residues:       691575
+Median:         900
+Q1:             564
+Q3:             1248
+IQR:            684
+Mean:           989.0
+Std:            620.26
+Shortest:       123
+Longest:        4962
+
+
+Fasta:          bin.3.genes.nuc.120.annotated.fasta
+Genes:          1533
+Residues:       1431045
+Median:         810
+Q1:             495
+Q3:             1212
+IQR:            717
+Mean:           933.0
+Std:            634.36
+Shortest:       120
+Longest:        5088
+
+
+Fasta:          bin.4.genes.nuc.120.annotated.fasta
+Genes:          1917
+Residues:       1848867
+Median:         846
+Q1:             522
+Q3:             1275
+IQR:            753
+Mean:           964.0
+Std:            615.92
+Shortest:       120
+Longest:        4851
+

@@ -1,0 +1,4 @@
+pdi	Parabacteroides_distasonis	13
+pru	Prevotella_ruminicola	10
+bth	Bacteroides_thetaiotaomicron	8
+afd	Alistipes_finegoldii	8

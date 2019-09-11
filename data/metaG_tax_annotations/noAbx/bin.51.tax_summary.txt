@@ -1,0 +1,4 @@
+pdi	Parabacteroides_distasonis	43
+bsa	Bacteroides_salanitronis	40
+bth	Bacteroides_thetaiotaomicron	36
+bxy	Bacteroides_xylanisolvens	32

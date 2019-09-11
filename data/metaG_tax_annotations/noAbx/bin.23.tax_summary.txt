@@ -1,0 +1,4 @@
+ral	Ruminococcus_albus	8
+bpb	Butyrivibrio_proteoclasticus	7
+eel	Eubacterium_eligens	7
+rch	Ruminococcus_champanellensis	7

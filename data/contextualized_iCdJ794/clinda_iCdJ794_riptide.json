@@ -7796,7 +7796,7 @@
 "cpd00890_c":1.0
 },
 "lower_bound":27.591358743149268,
-"upper_bound":34.48919842892374,
+"upper_bound":34.48919842892321,
 "gene_reaction_rule":"",
 "annotation":{
 "sbo":"SBO:0000176",

@@ -1,0 +1,4 @@
+bsa	Bacteroides_salanitronis	98
+bvu	Bacteroides_vulgatus	86
+bhl	Bacteroides_helcogenes	59
+pru	Prevotella_ruminicola	56

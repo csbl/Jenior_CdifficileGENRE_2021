@@ -1,0 +1,4 @@
+rum	Ruminococcus_sp._SR1/5	15
+cct	Coprococcus_catus	13
+rob	Ruminococcus_obeum_A2-162	11
+csh	Clostridium_saccharolyticum_WM1	7

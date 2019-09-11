@@ -1,0 +1,4 @@
+pdi	Parabacteroides_distasonis	16
+tfo	Tannerella_forsythia	15
+bxy	Bacteroides_xylanisolvens	15
+bfr	Bacteroides_fragilis_YCH46	12

@@ -1,0 +1,4 @@
+ral	Ruminococcus_albus	18
+ccl	Clostridium_clariflavum_DSM_19732	17
+eha	Ethanoligenens_harbinense	15
+txy	Thermoanaerobacterium_xylanolyticum	14

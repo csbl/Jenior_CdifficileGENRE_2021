@@ -1,0 +1,4 @@
+ral	Ruminococcus_albus	23
+cpy	Clostridium_phytofermentans	22
+ctx	Clostridium_thermocellum_DSM_1313	18
+ccl	Clostridium_clariflavum_DSM_19732	16

@@ -1,0 +1,4 @@
+ecw	Escherichia_coli_O139:H28_E24377A_(ETEC)	81
+ecr	Escherichia_coli_O8_IAI1_(commensal)	68
+eko	Escherichia_coli_KO11FL	67
+eoj	Escherichia_coli_O26:H11_11368_(EHEC)	63

@@ -1,0 +1,4 @@
+bsa	Bacteroides_salanitronis	22
+bfr	Bacteroides_fragilis_YCH46	13
+bvu	Bacteroides_vulgatus	12
+tfo	Tannerella_forsythia	12

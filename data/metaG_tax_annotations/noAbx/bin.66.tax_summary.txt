@@ -1,0 +1,4 @@
+ova	Oscillibacter_valericigenes	17
+btg	Bacillus_thuringiensis_Bt407	15
+ral	Ruminococcus_albus	13
+era	Eubacterium_rectale_M104/1	9

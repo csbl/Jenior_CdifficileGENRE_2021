@@ -1,0 +1,4 @@
+rum	Ruminococcus_sp._SR1/5	4
+cpas	Clostridium_pasteurianum	3
+fpr	Faecalibacterium_prausnitzii_L2-6	3
+cbk	Clostridium_botulinum_B_Eklund_17B	3

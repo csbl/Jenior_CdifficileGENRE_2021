@@ -1,0 +1,4 @@
+bvu	Bacteroides_vulgatus	42
+bhl	Bacteroides_helcogenes	24
+bth	Bacteroides_thetaiotaomicron	22
+bxy	Bacteroides_xylanisolvens	22

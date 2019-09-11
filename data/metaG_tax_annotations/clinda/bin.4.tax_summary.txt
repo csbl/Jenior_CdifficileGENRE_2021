@@ -1,0 +1,4 @@
+eso	Escherichia_coli_O104:H4_2009EL-2071	80
+ecoa	Escherichia_coli_APEC_O78	74
+eko	Escherichia_coli_KO11FL	72
+ecy	Escherichia_coli_O152:H28_SE11_(commensal)	69

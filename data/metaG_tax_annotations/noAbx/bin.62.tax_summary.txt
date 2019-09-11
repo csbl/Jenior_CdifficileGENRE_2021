@@ -1,0 +1,4 @@
+osp	Odoribacter_splanchnicus	12
+bxy	Bacteroides_xylanisolvens	12
+bth	Bacteroides_thetaiotaomicron	11
+bhl	Bacteroides_helcogenes	11

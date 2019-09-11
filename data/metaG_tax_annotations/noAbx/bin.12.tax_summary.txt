@@ -1,0 +1,4 @@
+cle	Clostridium_lentocellum	6
+coo	Coprococcus_sp._ART55/1	6
+rch	Ruminococcus_champanellensis	4
+ral	Ruminococcus_albus	4

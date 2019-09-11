@@ -1,0 +1,4 @@
+rob	Ruminococcus_obeum_A2-162	106
+csh	Clostridium_saccharolyticum_WM1	102
+rho	Roseburia_hominis	101
+rix	Roseburia_intestinalis_XB6B4	82

@@ -1,0 +1,4 @@
+cso	Clostridium_cf._saccharolyticum_K10	188
+bprs	Butyrate-producing_bacterium_SS3/4	178
+bprm	Butyrate-producing_bacterium_SM4/1	53
+rho	Roseburia_hominis	41
