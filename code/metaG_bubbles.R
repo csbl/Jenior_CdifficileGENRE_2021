@@ -77,7 +77,7 @@ bubble_plot <- function(sizes, max_size, tax_colors=c('none')) {
 
 # Create figure
 
-pdf(file='~/Desktop/metaG_bubbles.pdf', width=9, height=9)
+png(filename='~/Desktop/metaG_bubbles.png', res=300, units='in', width=9, height=9)
 
 cef_panel <- bubble_plot(cefoperazone, max_size=max_genes)
 strep_panel <- bubble_plot(streptomycin, max_size=max_genes)
