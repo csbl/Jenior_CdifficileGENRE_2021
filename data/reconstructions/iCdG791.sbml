@@ -264,7 +264,7 @@
       <species id="M_cpd00448_c" name="D-Glyceraldehyde" compartment="cytosol" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O3"/>
       <species id="M_cpd00223_c" name="Glycerate" compartment="cytosol" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H5O4"/>
       <species id="M_cpd00169_c" name="3-Phosphoglycerate" compartment="cytosol" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C3H4O7P"/>
-      <species id="M_cpd00276_e" name="GLUM" compartment="extracellular" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H14NO5"/>
+      <species id="M_cpd00276_e" name="D-Glucosamine" compartment="extracellular" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C6H14NO5"/>
       <species id="M_cpd00288_c" name="D-Glucosamine phosphate" compartment="cytosol" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H13NO8P"/>
       <species id="M_cpd00760_c" name="2-Methylbutyryl-CoA" compartment="cytosol" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C26H40N7O17P3S"/>
       <species id="M_cpd11495_c" name="2-methylbutyryl-ACP" compartment="cytosol" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C16H29N2O8PRS"/>
