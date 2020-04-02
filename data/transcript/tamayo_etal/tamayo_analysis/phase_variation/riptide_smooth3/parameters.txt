@@ -1,0 +1,17 @@
+Fraction of optimum objective value: 0.8
+Percent of genes in mapping found in model: 94.85%
+Minimum flux to avoid pruning: 1e-06
+Differential weighting by GPR: No
+Exchanges weighted as adjacent transporters: No
+Set reaction bounds based on FVA results: Yes
+Defined cellular objective: Yes
+Conservative pruning based on GPR: No
+Pooled transcript based on GPR: No
+Exchange reactions switched open: No
+Run in silent mode: No
+
+Percent pruned reactions: 74.1%
+Percent pruned metabolites: 74.82%
+Percent change to objective value: 17.52%
+Correlation between activity and transcriptome: R=0.1487, p-value=0.0107
+RIPTiDe run time: 17 seconds
