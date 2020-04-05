@@ -1,4 +1,4 @@
-gene_name	cdR20291_gene	cd630_gene	cdR20291_homolog	cd630_homolog	iCdR759_included	iCdG707_included
+gene_name	cdR20291_gene	cd630_gene	cdR20291_homolog	cd630_homolog	iCdR700_included	iCdG706_included
 none	fig|645463.3.peg.56	none	1	0	0	0
 thymidylate synthase (EC 2.1.1.45)	fig|645463.3.peg.57	none	1	0	1	0
 dihydrofolate reductase (EC 1.5.1.3)	fig|645463.3.peg.58	none	1	0	1	0
@@ -231,18 +231,18 @@ none	fig|645463.3.peg.1528	fig|272563.8.peg.995	1	1	0	0
 none	fig|645463.3.peg.1527	fig|272563.8.peg.994	1	1	0	0
 none	fig|645463.3.peg.1524	fig|272563.8.peg.991	1	1	0	0
 none	fig|645463.3.peg.1523	fig|272563.8.peg.990	1	1	0	0
-LSU ribosomal protein L6p (L9e)	fig|645463.3.peg.96	fig|272563.8.peg.99	1	1	1	0
+none	fig|645463.3.peg.96	fig|272563.8.peg.99	1	1	0	0
 none	fig|645463.3.peg.1522	fig|272563.8.peg.989	1	1	0	0
-SSU ribosomal protein S8p (S15Ae)	fig|645463.3.peg.95	fig|272563.8.peg.98	1	1	1	0
-SSU ribosomal protein S14p (S29e)	fig|645463.3.peg.94	fig|272563.8.peg.97	1	1	1	0
-LSU ribosomal protein L5p (L11e)	fig|645463.3.peg.93	fig|272563.8.peg.96	1	1	1	0
+none	fig|645463.3.peg.95	fig|272563.8.peg.98	1	1	0	0
+none	fig|645463.3.peg.94	fig|272563.8.peg.97	1	1	0	0
+none	fig|645463.3.peg.93	fig|272563.8.peg.96	1	1	0	0
 none	fig|645463.3.peg.1505	fig|272563.8.peg.952	1	1	0	0
-LSU ribosomal protein L24p (L26e)	fig|645463.3.peg.92	fig|272563.8.peg.95	1	1	1	0
+none	fig|645463.3.peg.92	fig|272563.8.peg.95	1	1	0	0
 none	fig|645463.3.peg.1499	fig|272563.8.peg.947	1	1	0	0
 none	fig|645463.3.peg.895	fig|272563.8.peg.942	1	1	0	0
 none	fig|645463.3.peg.894	fig|272563.8.peg.941	1	1	0	0
 none	fig|645463.3.peg.893	fig|272563.8.peg.940	1	1	0	0
-LSU ribosomal protein L14p (L23e)	fig|645463.3.peg.91	fig|272563.8.peg.94	1	1	1	0
+none	fig|645463.3.peg.91	fig|272563.8.peg.94	1	1	0	0
 none	fig|645463.3.peg.892	fig|272563.8.peg.939	1	1	0	0
 none	fig|645463.3.peg.891	fig|272563.8.peg.938	1	1	0	0
 none	fig|645463.3.peg.890	fig|272563.8.peg.937	1	1	0	0
@@ -254,7 +254,7 @@ none	fig|645463.3.peg.884	fig|272563.8.peg.933	1	1	0	0
 none	fig|645463.3.peg.883	fig|272563.8.peg.932	1	1	0	0
 none	fig|645463.3.peg.882	fig|272563.8.peg.931	1	1	0	0
 Agmatinase (EC 3.5.3.11)	fig|645463.3.peg.881	fig|272563.8.peg.930	1	1	1	1
-SSU ribosomal protein S17p (S11e)	fig|645463.3.peg.90	fig|272563.8.peg.93	1	1	1	0
+none	fig|645463.3.peg.90	fig|272563.8.peg.93	1	1	0	0
 Spermidine synthase (EC 2.5.1.16)	fig|645463.3.peg.880	fig|272563.8.peg.929	1	1	1	1
 S-adenosylmethionine decarboxylase proenzyme (EC 4.1.1.50), prokaryotic class 1B	fig|645463.3.peg.879	fig|272563.8.peg.928	1	1	1	1
 Arginine decarboxylase (EC 4.1.1.19)	fig|645463.3.peg.878	fig|272563.8.peg.927	1	1	1	1
@@ -265,7 +265,7 @@ Glycogen synthase, ADP-glucose transglucosylase (EC 2.4.1.21)	fig|645463.3.peg.8
 Glycogen biosynthesis protein GlgD, glucose-1-phosphate adenylyltransferase family	fig|645463.3.peg.873	fig|272563.8.peg.922	1	1	1	1
 Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)	fig|645463.3.peg.872	fig|272563.8.peg.921	1	1	1	1
 none	fig|645463.3.peg.871	fig|272563.8.peg.920	1	1	0	0
-LSU ribosomal protein L29p (L35e)	fig|645463.3.peg.89	fig|272563.8.peg.92	1	1	1	0
+none	fig|645463.3.peg.89	fig|272563.8.peg.92	1	1	0	0
 none	fig|645463.3.peg.870	fig|272563.8.peg.919	1	1	0	0
 none	fig|645463.3.peg.868	fig|272563.8.peg.918	1	1	0	0
 none	fig|645463.3.peg.866	fig|272563.8.peg.916	1	1	0	0
@@ -276,7 +276,7 @@ none	fig|645463.3.peg.863	fig|272563.8.peg.913	1	1	0	0
 ABC transporter, substrate-binding protein	fig|645463.3.peg.862	fig|272563.8.peg.912	1	1	1	0
 Maltose O-acetyltransferase (EC 2.3.1.79)	fig|645463.3.peg.861	fig|272563.8.peg.911	1	1	1	1
 none	fig|645463.3.peg.860	fig|272563.8.peg.910	1	1	0	0
-LSU ribosomal protein L16p (L10e)	fig|645463.3.peg.88	fig|272563.8.peg.91	1	1	1	0
+none	fig|645463.3.peg.88	fig|272563.8.peg.91	1	1	0	0
 none	fig|645463.3.peg.859	fig|272563.8.peg.909	1	1	0	0
 none	fig|645463.3.peg.858	fig|272563.8.peg.908	1	1	0	0
 Predicted molybdate-responsive regulator YvgK in bacilli	fig|645463.3.peg.857	fig|272563.8.peg.907	1	1	1	0
@@ -287,7 +287,7 @@ Maltose-6'-phosphate glucosidase (EC 3.2.1.122)	fig|645463.3.peg.853	fig|272563.
 PTS system, cellobiose-specific IIA component (EC 2.7.1.69)	fig|645463.3.peg.852	fig|272563.8.peg.902	1	1	1	1
 PTS system, cellobiose-specific IIC component (EC 2.7.1.69)	fig|645463.3.peg.851	fig|272563.8.peg.901	1	1	1	1
 none	fig|645463.3.peg.850	fig|272563.8.peg.900	1	1	0	0
-SSU ribosomal protein S3p (S3e)	fig|645463.3.peg.87	fig|272563.8.peg.90	1	1	1	0
+none	fig|645463.3.peg.87	fig|272563.8.peg.90	1	1	0	0
 none	fig|645463.3.peg.1	fig|272563.8.peg.9	1	1	0	0
 none	fig|645463.3.peg.849	fig|272563.8.peg.899	1	1	0	0
 none	fig|645463.3.peg.848	fig|272563.8.peg.898	1	1	0	0
@@ -299,7 +299,7 @@ none	fig|645463.3.peg.843	fig|272563.8.peg.892	1	1	0	0
 none	fig|645463.3.peg.842	fig|272563.8.peg.891	1	1	0	0
 none	fig|645463.3.peg.841	fig|272563.8.peg.890	1	1	0	0
 none	fig|645463.3.peg.1975	fig|272563.8.peg.890	1	1	0	0
-LSU ribosomal protein L22p (L17e)	fig|645463.3.peg.86	fig|272563.8.peg.89	1	1	1	0
+none	fig|645463.3.peg.86	fig|272563.8.peg.89	1	1	0	0
 none	fig|645463.3.peg.840	fig|272563.8.peg.889	1	1	0	0
 none	fig|645463.3.peg.839	fig|272563.8.peg.888	1	1	0	0
 none	fig|645463.3.peg.838	fig|272563.8.peg.887	1	1	0	0
@@ -312,7 +312,7 @@ none	fig|645463.3.peg.832	fig|272563.8.peg.881	1	1	0	0
 none	fig|645463.3.peg.831	fig|272563.8.peg.880	1	1	0	0
 none	fig|645463.3.peg.3154	fig|272563.8.peg.880	1	1	0	0
 none	fig|645463.3.peg.3155	fig|272563.8.peg.880	1	1	0	0
-SSU ribosomal protein S19p (S15e)	fig|645463.3.peg.85	fig|272563.8.peg.88	1	1	1	0
+none	fig|645463.3.peg.85	fig|272563.8.peg.88	1	1	0	0
 Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)	fig|645463.3.peg.830	fig|272563.8.peg.879	1	1	1	1
 none	fig|645463.3.peg.829	fig|272563.8.peg.878	1	1	0	0
 none	fig|645463.3.peg.828	fig|272563.8.peg.877	1	1	0	0
@@ -323,7 +323,7 @@ none	fig|645463.3.peg.824	fig|272563.8.peg.873	1	1	0	0
 Isocitrate dehydrogenase [NAD] (EC 1.1.1.41)	fig|645463.3.peg.823	fig|272563.8.peg.872	1	1	1	1
 Aconitate hydratase (EC 4.2.1.3)	fig|645463.3.peg.822	fig|272563.8.peg.871	1	1	1	1
 none	fig|645463.3.peg.821	fig|272563.8.peg.870	1	1	0	0
-LSU ribosomal protein L2p (L8e)	fig|645463.3.peg.84	fig|272563.8.peg.87	1	1	1	0
+none	fig|645463.3.peg.84	fig|272563.8.peg.87	1	1	0	0
 none	fig|645463.3.peg.820	fig|272563.8.peg.869	1	1	0	0
 none	fig|645463.3.peg.819	fig|272563.8.peg.868	1	1	0	0
 none	fig|645463.3.peg.818	fig|272563.8.peg.867	1	1	0	0
@@ -335,7 +335,7 @@ none	fig|645463.3.peg.813	fig|272563.8.peg.862	1	1	0	0
 none	fig|645463.3.peg.1866	fig|272563.8.peg.862	1	1	0	0
 none	fig|645463.3.peg.812	fig|272563.8.peg.861	1	1	0	0
 none	fig|645463.3.peg.811	fig|272563.8.peg.860	1	1	0	0
-LSU ribosomal protein L23p (L23Ae)	fig|645463.3.peg.83	fig|272563.8.peg.86	1	1	1	0
+none	fig|645463.3.peg.83	fig|272563.8.peg.86	1	1	0	0
 none	fig|645463.3.peg.810	fig|272563.8.peg.859	1	1	0	0
 none	fig|645463.3.peg.809	fig|272563.8.peg.858	1	1	0	0
 none	fig|645463.3.peg.808	fig|272563.8.peg.857	1	1	0	0
@@ -347,7 +347,7 @@ none	fig|645463.3.peg.805	fig|272563.8.peg.853	1	1	0	0
 none	fig|645463.3.peg.804	fig|272563.8.peg.852	1	1	0	0
 none	fig|645463.3.peg.803	fig|272563.8.peg.851	1	1	0	0
 none	fig|645463.3.peg.802	fig|272563.8.peg.850	1	1	0	0
-LSU ribosomal protein L4p (L1e)	fig|645463.3.peg.82	fig|272563.8.peg.85	1	1	1	0
+none	fig|645463.3.peg.82	fig|272563.8.peg.85	1	1	0	0
 none	fig|645463.3.peg.801	fig|272563.8.peg.849	1	1	0	0
 none	fig|645463.3.peg.800	fig|272563.8.peg.848	1	1	0	0
 none	fig|645463.3.peg.799	fig|272563.8.peg.847	1	1	0	0
@@ -358,7 +358,7 @@ none	fig|645463.3.peg.795	fig|272563.8.peg.843	1	1	0	0
 none	fig|645463.3.peg.794	fig|272563.8.peg.842	1	1	0	0
 none	fig|645463.3.peg.793	fig|272563.8.peg.841	1	1	0	0
 none	fig|645463.3.peg.792	fig|272563.8.peg.840	1	1	0	0
-LSU ribosomal protein L3p (L3e)	fig|645463.3.peg.81	fig|272563.8.peg.84	1	1	1	0
+none	fig|645463.3.peg.81	fig|272563.8.peg.84	1	1	0	0
 none	fig|645463.3.peg.791	fig|272563.8.peg.839	1	1	0	0
 D-beta-hydroxybutyrate permease	fig|645463.3.peg.790	fig|272563.8.peg.838	1	1	1	1
 3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)	fig|645463.3.peg.789	fig|272563.8.peg.837	1	1	1	1
@@ -369,7 +369,7 @@ none	fig|645463.3.peg.785	fig|272563.8.peg.833	1	1	0	0
 none	fig|645463.3.peg.784	fig|272563.8.peg.832	1	1	0	0
 NAD synthetase (EC 6.3.1.5)	fig|645463.3.peg.783	fig|272563.8.peg.831	1	1	1	1
 none	fig|645463.3.peg.782	fig|272563.8.peg.830	1	1	0	0
-SSU ribosomal protein S10p (S20e)	fig|645463.3.peg.80	fig|272563.8.peg.83	1	1	1	0
+none	fig|645463.3.peg.80	fig|272563.8.peg.83	1	1	0	0
 none	fig|645463.3.peg.781	fig|272563.8.peg.829	1	1	0	0
 none	fig|645463.3.peg.780	fig|272563.8.peg.828	1	1	0	0
 none	fig|645463.3.peg.779	fig|272563.8.peg.827	1	1	0	0
@@ -403,7 +403,7 @@ none	fig|645463.3.peg.752	fig|272563.8.peg.803	1	1	0	0
 none	fig|645463.3.peg.751	fig|272563.8.peg.802	1	1	0	0
 PTS system, glucitol/sorbitol-specific IIC component (EC 2.7.1.69)	fig|645463.3.peg.750	fig|272563.8.peg.801	1	1	1	1
 none	fig|645463.3.peg.749	fig|272563.8.peg.800	1	1	0	0
-SSU ribosomal protein S7p (S5e)	fig|645463.3.peg.77	fig|272563.8.peg.80	1	1	1	0
+none	fig|645463.3.peg.77	fig|272563.8.peg.80	1	1	0	0
 none	fig|645463.3.peg.748	fig|272563.8.peg.799	1	1	0	0
 none	fig|645463.3.peg.747	fig|272563.8.peg.798	1	1	0	0
 none	fig|645463.3.peg.746	fig|272563.8.peg.797	1	1	0	0
@@ -414,7 +414,7 @@ none	fig|645463.3.peg.741	fig|272563.8.peg.793	1	1	0	0
 none	fig|645463.3.peg.740	fig|272563.8.peg.792	1	1	0	0
 none	fig|645463.3.peg.739	fig|272563.8.peg.791	1	1	0	0
 none	fig|645463.3.peg.738	fig|272563.8.peg.790	1	1	0	0
-SSU ribosomal protein S12p (S23e)	fig|645463.3.peg.76	fig|272563.8.peg.79	1	1	1	0
+none	fig|645463.3.peg.76	fig|272563.8.peg.79	1	1	0	0
 none	fig|645463.3.peg.737	fig|272563.8.peg.789	1	1	0	0
 none	fig|645463.3.peg.736	fig|272563.8.peg.788	1	1	0	0
 ABC transporter, substrate-binding protein	fig|645463.3.peg.735	fig|272563.8.peg.787	1	1	1	0
@@ -425,7 +425,7 @@ none	fig|645463.3.peg.731	fig|272563.8.peg.783	1	1	0	0
 none	fig|645463.3.peg.730	fig|272563.8.peg.782	1	1	0	0
 none	fig|645463.3.peg.729	fig|272563.8.peg.781	1	1	0	0
 none	fig|645463.3.peg.728	fig|272563.8.peg.780	1	1	0	0
-DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)	fig|645463.3.peg.75	fig|272563.8.peg.78	1	1	1	0
+none	fig|645463.3.peg.75	fig|272563.8.peg.78	1	1	0	0
 none	fig|645463.3.peg.727	fig|272563.8.peg.779	1	1	0	0
 glycerol kinase (EC 2.7.1.30)	fig|645463.3.peg.726	fig|272563.8.peg.778	1	1	1	1
 none	fig|645463.3.peg.725	fig|272563.8.peg.777	1	1	0	0
@@ -436,7 +436,7 @@ none	fig|645463.3.peg.720	fig|272563.8.peg.773	1	1	0	0
 none	fig|645463.3.peg.719	fig|272563.8.peg.772	1	1	0	0
 none	fig|645463.3.peg.718	fig|272563.8.peg.771	1	1	0	0
 Lipoate-protein ligase A	fig|645463.3.peg.717	fig|272563.8.peg.770	1	1	1	1
-DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)	fig|645463.3.peg.74	fig|272563.8.peg.77	1	1	1	0
+none	fig|645463.3.peg.74	fig|272563.8.peg.77	1	1	0	0
 none	fig|645463.3.peg.716	fig|272563.8.peg.769	1	1	0	0
 none	fig|645463.3.peg.715	fig|272563.8.peg.768	1	1	0	0
 none	fig|645463.3.peg.714	fig|272563.8.peg.767	1	1	0	0
@@ -469,7 +469,7 @@ none	fig|645463.3.peg.690	fig|272563.8.peg.743	1	1	0	0
 none	fig|645463.3.peg.689	fig|272563.8.peg.742	1	1	0	0
 none	fig|645463.3.peg.688	fig|272563.8.peg.741	1	1	0	0
 none	fig|645463.3.peg.687	fig|272563.8.peg.740	1	1	0	0
-LSU ribosomal protein L10p (P0)	fig|645463.3.peg.71	fig|272563.8.peg.74	1	1	1	0
+none	fig|645463.3.peg.71	fig|272563.8.peg.74	1	1	0	0
 none	fig|645463.3.peg.686	fig|272563.8.peg.739	1	1	0	0
 none	fig|645463.3.peg.685	fig|272563.8.peg.738	1	1	0	0
 none	fig|645463.3.peg.684	fig|272563.8.peg.737	1	1	0	0
@@ -480,7 +480,7 @@ none	fig|645463.3.peg.680	fig|272563.8.peg.733	1	1	0	0
 none	fig|645463.3.peg.679	fig|272563.8.peg.732	1	1	0	0
 none	fig|645463.3.peg.678	fig|272563.8.peg.731	1	1	0	0
 none	fig|645463.3.peg.677	fig|272563.8.peg.730	1	1	0	0
-LSU ribosomal protein L1p (L10Ae)	fig|645463.3.peg.70	fig|272563.8.peg.73	1	1	1	0
+none	fig|645463.3.peg.70	fig|272563.8.peg.73	1	1	0	0
 none	fig|645463.3.peg.676	fig|272563.8.peg.729	1	1	0	0
 none	fig|645463.3.peg.675	fig|272563.8.peg.728	1	1	0	0
 none	fig|645463.3.peg.674	fig|272563.8.peg.727	1	1	0	0
@@ -488,8 +488,8 @@ none	fig|645463.3.peg.673	fig|272563.8.peg.726	1	1	0	0
 2',3'-cyclic-nucleotide 2'-phosphodiesterase (EC 3.1.4.16)	fig|645463.3.peg.672	fig|272563.8.peg.725	1	1	1	1
 2',3'-cyclic-nucleotide 2'-phosphodiesterase (EC 3.1.4.16)	fig|645463.3.peg.671	fig|272563.8.peg.724	1	1	1	1
 none	fig|645463.3.peg.670	fig|272563.8.peg.723	1	1	0	0
-LSU ribosomal protein L20p	fig|645463.3.peg.669	fig|272563.8.peg.722	1	1	1	0
-LSU ribosomal protein L35p	fig|645463.3.peg.668	fig|272563.8.peg.721	1	1	1	0
+none	fig|645463.3.peg.669	fig|272563.8.peg.722	1	1	0	0
+none	fig|645463.3.peg.668	fig|272563.8.peg.721	1	1	0	0
 none	fig|645463.3.peg.667	fig|272563.8.peg.720	1	1	0	0
 none	fig|645463.3.peg.69	fig|272563.8.peg.72	1	1	0	0
 none	fig|645463.3.peg.666	fig|272563.8.peg.719	1	1	0	0
@@ -524,7 +524,7 @@ none	fig|645463.3.peg.635	fig|272563.8.peg.693	1	1	0	0
 none	fig|645463.3.peg.634	fig|272563.8.peg.692	1	1	0	0
 none	fig|645463.3.peg.633	fig|272563.8.peg.691	1	1	0	0
 none	fig|645463.3.peg.631	fig|272563.8.peg.690	1	1	0	0
-LSU ribosomal protein L33p	fig|645463.3.peg.66	fig|272563.8.peg.69	1	1	1	0
+none	fig|645463.3.peg.66	fig|272563.8.peg.69	1	1	0	0
 none	fig|645463.3.peg.630	fig|272563.8.peg.689	1	1	0	0
 none	fig|645463.3.peg.629	fig|272563.8.peg.688	1	1	0	0
 none	fig|645463.3.peg.628	fig|272563.8.peg.687	1	1	0	0
@@ -798,8 +798,8 @@ none	fig|645463.3.peg.3674	fig|272563.8.peg.394	1	1	0	0
 none	fig|645463.3.peg.3675	fig|272563.8.peg.393	1	1	0	0
 none	fig|645463.3.peg.31	fig|272563.8.peg.39	1	1	0	0
 none	fig|645463.3.peg.3684	fig|272563.8.peg.389	1	1	0	0
-LSU ribosomal protein L34p	fig|645463.3.peg.3754	fig|272563.8.peg.3858	1	1	1	0
-Ribonuclease P protein component (EC 3.1.26.5)	fig|645463.3.peg.3753	fig|272563.8.peg.3857	1	1	1	0
+none	fig|645463.3.peg.3754	fig|272563.8.peg.3858	1	1	0	0
+none	fig|645463.3.peg.3753	fig|272563.8.peg.3857	1	1	0	0
 none	fig|645463.3.peg.3752	fig|272563.8.peg.3856	1	1	0	0
 none	fig|645463.3.peg.3751	fig|272563.8.peg.3855	1	1	0	0
 none	fig|645463.3.peg.3750	fig|272563.8.peg.3854	1	1	0	0
@@ -817,13 +817,13 @@ none	fig|645463.3.peg.3739	fig|272563.8.peg.3842	1	1	0	0
 none	fig|645463.3.peg.3738	fig|272563.8.peg.3841	1	1	0	0
 none	fig|645463.3.peg.3737	fig|272563.8.peg.3840	1	1	0	0
 none	fig|645463.3.peg.2922	fig|272563.8.peg.384	1	1	0	0
-SSU ribosomal protein S6p	fig|645463.3.peg.3736	fig|272563.8.peg.3839	1	1	1	0
+none	fig|645463.3.peg.3736	fig|272563.8.peg.3839	1	1	0	0
 none	fig|645463.3.peg.3735	fig|272563.8.peg.3838	1	1	0	0
-SSU ribosomal protein S18p	fig|645463.3.peg.3734	fig|272563.8.peg.3837	1	1	1	0
+none	fig|645463.3.peg.3734	fig|272563.8.peg.3837	1	1	0	0
 none	fig|645463.3.peg.3733	fig|272563.8.peg.3836	1	1	0	0
 none	fig|645463.3.peg.3732	fig|272563.8.peg.3835	1	1	0	0
 none	fig|645463.3.peg.3731	fig|272563.8.peg.3834	1	1	0	0
-LSU ribosomal protein L9p	fig|645463.3.peg.3730	fig|272563.8.peg.3833	1	1	1	0
+none	fig|645463.3.peg.3730	fig|272563.8.peg.3833	1	1	0	0
 none	fig|645463.3.peg.3729	fig|272563.8.peg.3832	1	1	0	0
 none	fig|645463.3.peg.3728	fig|272563.8.peg.3831	1	1	0	0
 Adenylosuccinate synthetase (EC 6.3.4.4)	fig|645463.3.peg.3727	fig|272563.8.peg.3830	1	1	1	1
@@ -929,7 +929,7 @@ none	fig|645463.3.peg.3607	fig|272563.8.peg.3734	1	1	0	0
 none	fig|645463.3.peg.3606	fig|272563.8.peg.3733	1	1	0	0
 glutamate racemase (EC 5.1.1.3)	fig|645463.3.peg.3605	fig|272563.8.peg.3732	1	1	1	1
 none	fig|645463.3.peg.3604	fig|272563.8.peg.3731	1	1	0	0
-tRNA(Ile)-lysidine synthetase	fig|645463.3.peg.3603	fig|272563.8.peg.3730	1	1	1	0
+none	fig|645463.3.peg.3603	fig|272563.8.peg.3730	1	1	0	0
 none	fig|645463.3.peg.379	fig|272563.8.peg.373	1	1	0	0
 none	fig|645463.3.peg.3602	fig|272563.8.peg.3729	1	1	0	0
 Biotin operon repressor	fig|645463.3.peg.3601	fig|272563.8.peg.3728	1	1	1	1
@@ -1015,7 +1015,7 @@ Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)	fig|645463.3.peg.238	fig
 UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)	fig|645463.3.peg.3530	fig|272563.8.peg.3656	1	1	1	1
 none	fig|645463.3.peg.3529	fig|272563.8.peg.3655	1	1	0	0
 none	fig|645463.3.peg.3528	fig|272563.8.peg.3654	1	1	0	0
-LSU ribosomal protein L31p	fig|645463.3.peg.3527	fig|272563.8.peg.3653	1	1	1	0
+none	fig|645463.3.peg.3527	fig|272563.8.peg.3653	1	1	0	0
 none	fig|645463.3.peg.3526	fig|272563.8.peg.3652	1	1	0	0
 none	fig|645463.3.peg.3525	fig|272563.8.peg.3651	1	1	0	0
 none	fig|645463.3.peg.3524	fig|272563.8.peg.3650	1	1	0	0
@@ -1976,7 +1976,7 @@ none	fig|645463.3.peg.2611	fig|272563.8.peg.2689	1	1	0	0
 none	fig|645463.3.peg.2610	fig|272563.8.peg.2688	1	1	0	0
 none	fig|645463.3.peg.2609	fig|272563.8.peg.2687	1	1	0	0
 none	fig|645463.3.peg.2608	fig|272563.8.peg.2686	1	1	0	0
-LSU ribosomal protein L28p	fig|645463.3.peg.2607	fig|272563.8.peg.2685	1	1	1	0
+none	fig|645463.3.peg.2607	fig|272563.8.peg.2685	1	1	0	0
 none	fig|645463.3.peg.2606	fig|272563.8.peg.2684	1	1	0	0
 none	fig|645463.3.peg.2605	fig|272563.8.peg.2683	1	1	0	0
 none	fig|645463.3.peg.2604	fig|272563.8.peg.2682	1	1	0	0
@@ -2078,7 +2078,7 @@ none	fig|645463.3.peg.2527	fig|272563.8.peg.2598	1	1	0	0
 none	fig|645463.3.peg.2525	fig|272563.8.peg.2597	1	1	0	0
 none	fig|645463.3.peg.2526	fig|272563.8.peg.2597	1	1	0	0
 none	fig|645463.3.peg.2524	fig|272563.8.peg.2596	1	1	0	0
-SSU ribosomal protein S20p	fig|645463.3.peg.2523	fig|272563.8.peg.2595	1	1	1	0
+none	fig|645463.3.peg.2523	fig|272563.8.peg.2595	1	1	0	0
 none	fig|645463.3.peg.2522	fig|272563.8.peg.2594	1	1	0	0
 none	fig|645463.3.peg.2521	fig|272563.8.peg.2593	1	1	0	0
 none	fig|645463.3.peg.2520	fig|272563.8.peg.2592	1	1	0	0
@@ -2108,7 +2108,7 @@ none	fig|645463.3.peg.2498	fig|272563.8.peg.2570	1	1	0	0
 none	fig|645463.3.peg.254	fig|272563.8.peg.257	1	1	0	0
 none	fig|645463.3.peg.2497	fig|272563.8.peg.2569	1	1	0	0
 Bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) (EC 3.6.1.17)	fig|645463.3.peg.2496	fig|272563.8.peg.2568	1	1	1	1
-SSU ribosomal protein S21p	fig|645463.3.peg.2495	fig|272563.8.peg.2567	1	1	1	0
+none	fig|645463.3.peg.2495	fig|272563.8.peg.2567	1	1	0	0
 none	fig|645463.3.peg.2494	fig|272563.8.peg.2566	1	1	0	0
 none	fig|645463.3.peg.2493	fig|272563.8.peg.2565	1	1	0	0
 none	fig|645463.3.peg.2492	fig|272563.8.peg.2564	1	1	0	0
@@ -2440,7 +2440,7 @@ none	fig|645463.3.peg.2197	fig|272563.8.peg.2257	1	1	0	0
 none	fig|645463.3.peg.2196	fig|272563.8.peg.2256	1	1	0	0
 none	fig|645463.3.peg.2195	fig|272563.8.peg.2255	1	1	0	0
 none	fig|645463.3.peg.2194	fig|272563.8.peg.2254	1	1	0	0
-SSU ribosomal protein S2p (SAe)	fig|645463.3.peg.2193	fig|272563.8.peg.2253	1	1	1	0
+none	fig|645463.3.peg.2193	fig|272563.8.peg.2253	1	1	0	0
 none	fig|645463.3.peg.2192	fig|272563.8.peg.2252	1	1	0	0
 Uridylate kinase (EC 2.7.4.-)	fig|645463.3.peg.2191	fig|272563.8.peg.2251	1	1	1	0
 none	fig|645463.3.peg.2190	fig|272563.8.peg.2250	1	1	0	0
@@ -3153,7 +3153,7 @@ none	fig|645463.3.peg.1430	fig|272563.8.peg.1576	1	1	0	0
 none	fig|645463.3.peg.1429	fig|272563.8.peg.1575	1	1	0	0
 Deoxyribose-phosphate aldolase (EC 4.1.2.4)	fig|645463.3.peg.1428	fig|272563.8.peg.1574	1	1	1	1
 none	fig|645463.3.peg.1427	fig|272563.8.peg.1573	1	1	0	0
-RNA polymerase sigma factor RpoD	fig|645463.3.peg.1426	fig|272563.8.peg.1570	1	1	1	0
+none	fig|645463.3.peg.1426	fig|272563.8.peg.1570	1	1	0	0
 none	fig|645463.3.peg.154	fig|272563.8.peg.157	1	1	0	0
 none	fig|645463.3.peg.1425	fig|272563.8.peg.1569	1	1	0	0
 none	fig|645463.3.peg.1424	fig|272563.8.peg.1568	1	1	0	0
@@ -3204,7 +3204,7 @@ none	fig|645463.3.peg.1385	fig|272563.8.peg.1530	1	1	0	0
 PTS system, cellobiose-specific IIC component (EC 2.7.1.69)	fig|645463.3.peg.150	fig|272563.8.peg.153	1	1	1	1
 none	fig|645463.3.peg.1384	fig|272563.8.peg.1529	1	1	0	0
 none	fig|645463.3.peg.1383	fig|272563.8.peg.1528	1	1	0	0
-RNA polymerase sigma factor RpoD	fig|645463.3.peg.1382	fig|272563.8.peg.1527	1	1	1	0
+none	fig|645463.3.peg.1382	fig|272563.8.peg.1527	1	1	0	0
 none	fig|645463.3.peg.1381	fig|272563.8.peg.1526	1	1	0	0
 2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)	fig|645463.3.peg.1380	fig|272563.8.peg.1525	1	1	1	1
 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)	fig|645463.3.peg.1379	fig|272563.8.peg.1524	1	1	1	1
@@ -3366,7 +3366,7 @@ none	fig|645463.3.peg.1238	fig|272563.8.peg.1387	1	1	0	0
 none	fig|645463.3.peg.1237	fig|272563.8.peg.1386	1	1	0	0
 none	fig|645463.3.peg.1236	fig|272563.8.peg.1385	1	1	0	0
 none	fig|645463.3.peg.1235	fig|272563.8.peg.1384	1	1	0	0
-SSU ribosomal protein S15p (S13e)	fig|645463.3.peg.1234	fig|272563.8.peg.1383	1	1	1	0
+none	fig|645463.3.peg.1234	fig|272563.8.peg.1383	1	1	0	0
 Riboflavin kinase (EC 2.7.1.26)	fig|645463.3.peg.1233	fig|272563.8.peg.1382	1	1	1	1
 none	fig|645463.3.peg.1232	fig|272563.8.peg.1381	1	1	0	0
 none	fig|645463.3.peg.135	fig|272563.8.peg.138	1	1	0	0
@@ -3375,7 +3375,7 @@ none	fig|645463.3.peg.1230	fig|272563.8.peg.1377	1	1	0	0
 none	fig|645463.3.peg.1229	fig|272563.8.peg.1376	1	1	0	0
 none	fig|645463.3.peg.1228	fig|272563.8.peg.1375	1	1	0	0
 none	fig|645463.3.peg.1227	fig|272563.8.peg.1374	1	1	0	0
-Transcription termination protein NusA	fig|645463.3.peg.1226	fig|272563.8.peg.1373	1	1	1	0
+none	fig|645463.3.peg.1226	fig|272563.8.peg.1373	1	1	0	0
 none	fig|645463.3.peg.1225	fig|272563.8.peg.1372	1	1	0	0
 none	fig|645463.3.peg.1224	fig|272563.8.peg.1371	1	1	0	0
 N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	fig|645463.3.peg.1223	fig|272563.8.peg.1370	1	1	1	1
@@ -3433,18 +3433,18 @@ none	fig|645463.3.peg.1178	fig|272563.8.peg.1326	1	1	0	0
 none	fig|645463.3.peg.1177	fig|272563.8.peg.1325	1	1	0	0
 Na(+)-dependent branched-chain amino acid transporter	fig|645463.3.peg.1176	fig|272563.8.peg.1324	1	1	1	0
 none	fig|645463.3.peg.1175	fig|272563.8.peg.1323	1	1	0	0
-LSU ribosomal protein L19p	fig|645463.3.peg.1174	fig|272563.8.peg.1322	1	1	1	0
+none	fig|645463.3.peg.1174	fig|272563.8.peg.1322	1	1	0	0
 none	fig|645463.3.peg.1173	fig|272563.8.peg.1321	1	1	0	0
 none	fig|645463.3.peg.1172	fig|272563.8.peg.1320	1	1	0	0
 none	fig|645463.3.peg.129	fig|272563.8.peg.132	1	1	0	0
 none	fig|645463.3.peg.1171	fig|272563.8.peg.1319	1	1	0	0
-SSU ribosomal protein S16p	fig|645463.3.peg.1170	fig|272563.8.peg.1318	1	1	1	0
+none	fig|645463.3.peg.1170	fig|272563.8.peg.1318	1	1	0	0
 none	fig|645463.3.peg.1169	fig|272563.8.peg.1317	1	1	0	0
 none	fig|645463.3.peg.1168	fig|272563.8.peg.1316	1	1	0	0
 none	fig|645463.3.peg.1167	fig|272563.8.peg.1315	1	1	0	0
 none	fig|645463.3.peg.1166	fig|272563.8.peg.1314	1	1	0	0
 none	fig|645463.3.peg.1165	fig|272563.8.peg.1313	1	1	0	0
-Ribonuclease III (EC 3.1.26.3)	fig|645463.3.peg.1164	fig|272563.8.peg.1312	1	1	1	0
+none	fig|645463.3.peg.1164	fig|272563.8.peg.1312	1	1	0	0
 none	fig|645463.3.peg.1163	fig|272563.8.peg.1311	1	1	0	0
 none	fig|645463.3.peg.1162	fig|272563.8.peg.1310	1	1	0	0
 none	fig|645463.3.peg.128	fig|272563.8.peg.131	1	1	0	0
@@ -3530,7 +3530,7 @@ none	fig|645463.3.peg.1085	fig|272563.8.peg.1239	1	1	0	0
 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)	fig|645463.3.peg.1084	fig|272563.8.peg.1238	1	1	1	1
 none	fig|645463.3.peg.1083	fig|272563.8.peg.1237	1	1	0	0
 none	fig|645463.3.peg.1082	fig|272563.8.peg.1236	1	1	0	0
-LSU ribosomal protein L32p	fig|645463.3.peg.1081	fig|272563.8.peg.1235	1	1	1	0
+none	fig|645463.3.peg.1081	fig|272563.8.peg.1235	1	1	0	0
 none	fig|645463.3.peg.1080	fig|272563.8.peg.1234	1	1	0	0
 Acetate kinase (EC 2.7.2.1)	fig|645463.3.peg.1079	fig|272563.8.peg.1233	1	1	1	1
 none	fig|645463.3.peg.1078	fig|272563.8.peg.1232	1	1	0	0
@@ -3545,10 +3545,10 @@ none	fig|645463.3.peg.1071	fig|272563.8.peg.1225	1	1	0	0
 Homoserine dehydrogenase (EC 1.1.1.3)	fig|645463.3.peg.1070	fig|272563.8.peg.1224	1	1	1	1
 none	fig|645463.3.peg.1069	fig|272563.8.peg.1223	1	1	0	0
 none	fig|645463.3.peg.1068	fig|272563.8.peg.1222	1	1	0	0
-LSU ribosomal protein L27p	fig|645463.3.peg.1067	fig|272563.8.peg.1221	1	1	1	0
+none	fig|645463.3.peg.1067	fig|272563.8.peg.1221	1	1	0	0
 none	fig|645463.3.peg.1066	fig|272563.8.peg.1220	1	1	0	0
 Aspartate aminotransferase (EC 2.6.1.1)	fig|645463.3.peg.119	fig|272563.8.peg.122	1	1	1	1
-LSU ribosomal protein L21p	fig|645463.3.peg.1065	fig|272563.8.peg.1219	1	1	1	0
+none	fig|645463.3.peg.1065	fig|272563.8.peg.1219	1	1	0	0
 none	fig|645463.3.peg.1064	fig|272563.8.peg.1218	1	1	0	0
 none	fig|645463.3.peg.1063	fig|272563.8.peg.1217	1	1	0	0
 none	fig|645463.3.peg.1062	fig|272563.8.peg.1216	1	1	0	0
@@ -3570,7 +3570,7 @@ none	fig|645463.3.peg.1049	fig|272563.8.peg.1203	1	1	0	0
 none	fig|645463.3.peg.1048	fig|272563.8.peg.1202	1	1	0	0
 none	fig|645463.3.peg.1047	fig|272563.8.peg.1201	1	1	0	0
 none	fig|645463.3.peg.1046	fig|272563.8.peg.1200	1	1	0	0
-SSU ribosomal protein S9p (S16e)	fig|645463.3.peg.117	fig|272563.8.peg.120	1	1	1	0
+none	fig|645463.3.peg.117	fig|272563.8.peg.120	1	1	0	0
 none	fig|645463.3.peg.4	fig|272563.8.peg.12	1	1	0	0
 none	fig|645463.3.peg.1045	fig|272563.8.peg.1199	1	1	0	1
 none	fig|645463.3.peg.1044	fig|272563.8.peg.1198	1	1	0	0
@@ -3582,7 +3582,7 @@ none	fig|645463.3.peg.1039	fig|272563.8.peg.1193	1	1	0	0
 none	fig|645463.3.peg.1038	fig|272563.8.peg.1192	1	1	0	0
 lactoylglutathione lyase (EC 4.4.1.5)	fig|645463.3.peg.1037	fig|272563.8.peg.1191	1	1	1	1
 none	fig|645463.3.peg.1036	fig|272563.8.peg.1190	1	1	0	0
-LSU ribosomal protein L13p (L13Ae)	fig|645463.3.peg.116	fig|272563.8.peg.119	1	1	1	0
+none	fig|645463.3.peg.116	fig|272563.8.peg.119	1	1	0	0
 none	fig|645463.3.peg.1035	fig|272563.8.peg.1189	1	1	0	0
 none	fig|645463.3.peg.1034	fig|272563.8.peg.1188	1	1	0	0
 none	fig|645463.3.peg.1033	fig|272563.8.peg.1187	1	1	0	0
@@ -3615,7 +3615,7 @@ none	fig|645463.3.peg.1012	fig|272563.8.peg.1142	1	1	0	0
 none	fig|645463.3.peg.1011	fig|272563.8.peg.1141	1	1	0	0
 none	fig|645463.3.peg.1010	fig|272563.8.peg.1140	1	1	0	0
 none	fig|645463.3.peg.1976	fig|272563.8.peg.1140	1	1	0	0
-LSU ribosomal protein L17p	fig|645463.3.peg.111	fig|272563.8.peg.114	1	1	1	0
+none	fig|645463.3.peg.111	fig|272563.8.peg.114	1	1	0	0
 none	fig|645463.3.peg.1009	fig|272563.8.peg.1139	1	1	0	0
 none	fig|645463.3.peg.600	fig|272563.8.peg.1138	1	1	0	0
 none	fig|645463.3.peg.1008	fig|272563.8.peg.1138	1	1	0	0
@@ -3627,7 +3627,7 @@ none	fig|645463.3.peg.1003	fig|272563.8.peg.1133	1	1	0	0
 PTS system, mannose-specific IID component (EC 2.7.1.69)	fig|645463.3.peg.1002	fig|272563.8.peg.1132	1	1	1	1
 PTS system, mannose-specific IIC component (EC 2.7.1.69)	fig|645463.3.peg.1001	fig|272563.8.peg.1131	1	1	1	1
 PTS system, mannose-specific IIB component (EC 2.7.1.69)	fig|645463.3.peg.1000	fig|272563.8.peg.1130	1	1	1	1
-DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)	fig|645463.3.peg.110	fig|272563.8.peg.113	1	1	1	0
+none	fig|645463.3.peg.110	fig|272563.8.peg.113	1	1	0	0
 none	fig|645463.3.peg.999	fig|272563.8.peg.1129	1	1	0	0
 PTS system, mannose-specific IIA component (EC 2.7.1.69)	fig|645463.3.peg.998	fig|272563.8.peg.1128	1	1	1	1
 none	fig|645463.3.peg.997	fig|272563.8.peg.1127	1	1	0	0
@@ -3638,7 +3638,7 @@ none	fig|645463.3.peg.993	fig|272563.8.peg.1123	1	1	0	0
 none	fig|645463.3.peg.992	fig|272563.8.peg.1122	1	1	0	0
 none	fig|645463.3.peg.991	fig|272563.8.peg.1121	1	1	0	0
 none	fig|645463.3.peg.990	fig|272563.8.peg.1120	1	1	0	0
-SSU ribosomal protein S4p (S9e)	fig|645463.3.peg.109	fig|272563.8.peg.112	1	1	1	0
+none	fig|645463.3.peg.109	fig|272563.8.peg.112	1	1	0	0
 none	fig|645463.3.peg.989	fig|272563.8.peg.1119	1	1	0	0
 none	fig|645463.3.peg.988	fig|272563.8.peg.1118	1	1	0	0
 none	fig|645463.3.peg.987	fig|272563.8.peg.1117	1	1	0	0
@@ -3649,7 +3649,7 @@ none	fig|645463.3.peg.983	fig|272563.8.peg.1113	1	1	0	0
 none	fig|645463.3.peg.982	fig|272563.8.peg.1112	1	1	0	0
 Acetyl-CoA acetyltransferase (EC 2.3.1.9)	fig|645463.3.peg.981	fig|272563.8.peg.1111	1	1	1	1
 3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)	fig|645463.3.peg.980	fig|272563.8.peg.1110	1	1	1	1
-SSU ribosomal protein S11p (S14e)	fig|645463.3.peg.108	fig|272563.8.peg.111	1	1	1	0
+none	fig|645463.3.peg.108	fig|272563.8.peg.111	1	1	0	0
 3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)	fig|645463.3.peg.979	fig|272563.8.peg.1109	1	1	1	1
 none	fig|645463.3.peg.978	fig|272563.8.peg.1108	1	1	0	0
 none	fig|645463.3.peg.977	fig|272563.8.peg.1107	1	1	0	0
@@ -3660,7 +3660,7 @@ none	fig|645463.3.peg.973	fig|272563.8.peg.1103	1	1	0	0
 none	fig|645463.3.peg.972	fig|272563.8.peg.1102	1	1	0	0
 NAD kinase (EC 2.7.1.23)	fig|645463.3.peg.971	fig|272563.8.peg.1101	1	1	1	1
 none	fig|645463.3.peg.970	fig|272563.8.peg.1100	1	1	0	0
-SSU ribosomal protein S13p (S18e)	fig|645463.3.peg.107	fig|272563.8.peg.110	1	1	1	0
+none	fig|645463.3.peg.107	fig|272563.8.peg.110	1	1	0	0
 none	fig|645463.3.peg.3	fig|272563.8.peg.11	1	1	0	0
 N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	fig|645463.3.peg.969	fig|272563.8.peg.1099	1	1	1	1
 none	fig|645463.3.peg.968	fig|272563.8.peg.1098	1	1	0	0
@@ -3672,7 +3672,7 @@ none	fig|645463.3.peg.962	fig|272563.8.peg.1093	1	1	0	0
 none	fig|645463.3.peg.961	fig|272563.8.peg.1092	1	1	0	0
 none	fig|645463.3.peg.960	fig|272563.8.peg.1091	1	1	0	0
 none	fig|645463.3.peg.959	fig|272563.8.peg.1090	1	1	0	0
-LSU ribosomal protein L36p	fig|645463.3.peg.106	fig|272563.8.peg.109	1	1	1	0
+none	fig|645463.3.peg.106	fig|272563.8.peg.109	1	1	0	0
 none	fig|645463.3.peg.958	fig|272563.8.peg.1089	1	1	0	0
 N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	fig|645463.3.peg.957	fig|272563.8.peg.1088	1	1	1	1
 N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	fig|645463.3.peg.956	fig|272563.8.peg.1087	1	1	1	1
@@ -3737,21 +3737,21 @@ none	fig|645463.3.peg.899	fig|272563.8.peg.1035	1	1	0	0
 phosphoserine phosphatase (EC 3.1.3.3)	fig|645463.3.peg.898	fig|272563.8.peg.1034	1	1	1	1
 none	fig|645463.3.peg.897	fig|272563.8.peg.1033	1	1	0	0
 none	fig|645463.3.peg.896	fig|272563.8.peg.1032	1	1	0	0
-LSU ribosomal protein L15p (L27Ae)	fig|645463.3.peg.100	fig|272563.8.peg.103	1	1	1	0
+none	fig|645463.3.peg.100	fig|272563.8.peg.103	1	1	0	0
 none	fig|645463.3.peg.1560	fig|272563.8.peg.1022	1	1	0	0
-LSU ribosomal protein L30p (L7e)	fig|645463.3.peg.99	fig|272563.8.peg.102	1	1	1	0
+none	fig|645463.3.peg.99	fig|272563.8.peg.102	1	1	0	0
 none	fig|645463.3.peg.1556	fig|272563.8.peg.1019	1	1	0	0
 none	fig|645463.3.peg.1554	fig|272563.8.peg.1017	1	1	0	0
 none	fig|645463.3.peg.1550	fig|272563.8.peg.1013	1	1	0	0
 none	fig|645463.3.peg.1549	fig|272563.8.peg.1012	1	1	0	0
 none	fig|645463.3.peg.1548	fig|272563.8.peg.1011	1	1	0	0
 none	fig|645463.3.peg.1547	fig|272563.8.peg.1010	1	1	0	0
-SSU ribosomal protein S5p (S2e)	fig|645463.3.peg.98	fig|272563.8.peg.101	1	1	1	0
+none	fig|645463.3.peg.98	fig|272563.8.peg.101	1	1	0	0
 none	fig|645463.3.peg.1540	fig|272563.8.peg.1005	1	1	0	0
 none	fig|645463.3.peg.1539	fig|272563.8.peg.1004	1	1	0	0
 none	fig|645463.3.peg.1536	fig|272563.8.peg.1002	1	1	0	0
 none	fig|645463.3.peg.1534	fig|272563.8.peg.1000	1	1	0	0
-LSU ribosomal protein L18p (L5e)	fig|645463.3.peg.97	fig|272563.8.peg.100	1	1	1	0
+none	fig|645463.3.peg.97	fig|272563.8.peg.100	1	1	0	0
 none	fig|645463.3.peg.2	fig|272563.8.peg.10	1	1	0	0
 none	none	fig|272563.8.peg.1	0	1	0	0
 none	none	fig|272563.8.peg.2	0	1	0	0
