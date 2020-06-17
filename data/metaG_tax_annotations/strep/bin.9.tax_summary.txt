@@ -1,4 +1,0 @@
-bvu	Bacteroides_vulgatus	173
-bsa	Bacteroides_salanitronis	134
-bth	Bacteroides_thetaiotaomicron	110
-osp	Odoribacter_splanchnicus	90

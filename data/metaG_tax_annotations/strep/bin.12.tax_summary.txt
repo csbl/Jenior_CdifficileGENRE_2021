@@ -1,4 +1,0 @@
-lsl	Lactobacillus_salivarius_UCC118	170
-lsi	Lactobacillus_salivarius_CECT_5713	117
-ecas	Enterococcus_casseliflavus	21
-lde	Lactobacillus_delbrueckii_subsp._bulgaricus_ND02	16

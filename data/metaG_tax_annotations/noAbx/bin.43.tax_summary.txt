@@ -1,4 +1,0 @@
-erh	Erysipelothrix_rhusiopathiae_Fujisawa	47
-ers	Erysipelothrix_rhusiopathiae_SY1027	36
-rto	Ruminococcus_torques_L2-14	28
-cls	Clostridium_sp._SY8519	23

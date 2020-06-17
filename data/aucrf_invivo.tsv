@@ -1,0 +1,11 @@
+name	id	mda
+Adenosine_exchange	EX_cpd00182_e	38.32960
+D-Proline_exchange	EX_cpd00567_e	36.84639
+Proline_racemase	rxn00933_c	33.58539
+Guanosine_exchange	EX_cpd00311_e	33.12008
+Guanosine_transport	rxn05204_c	31.73497
+D-Proline_symporter	ENOG4108HXH_c	30.48872
+Adenosine_transport	rxn05318_c	28.65246
+Adenosine_ribosyltransferase	rxn01138_c	21.24743
+Deoxyuridine_ribosyltransferase	rxn01799_c	19.21896
+Deoxyuridine_exchange	EX_cpd00412_e	17.24569

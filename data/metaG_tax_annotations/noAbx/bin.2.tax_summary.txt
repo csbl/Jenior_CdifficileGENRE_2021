@@ -1,4 +1,0 @@
-cad	Clostridium_acidurici	6
-tmt	Thermoanaerobacter_mathranii	5
-tte	Thermoanaerobacter_tengcongensis	5
-cae	Clostridium_acetobutylicum_DSM_1731	5

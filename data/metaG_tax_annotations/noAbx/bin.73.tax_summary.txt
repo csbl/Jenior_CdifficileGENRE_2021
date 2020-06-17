@@ -1,4 +1,0 @@
-pru	Prevotella_ruminicola	14
-bvu	Bacteroides_vulgatus	11
-phe	Pedobacter_heparinus	10
-bsa	Bacteroides_salanitronis	10

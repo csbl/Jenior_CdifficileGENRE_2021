@@ -1,4 +1,0 @@
-fpr	Faecalibacterium_prausnitzii_L2-6	174
-fpa	Faecalibacterium_prausnitzii_SL3/3	173
-csh	Clostridium_saccharolyticum_WM1	173
-bprs	Butyrate-producing_bacterium_SS3/4	123

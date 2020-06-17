@@ -1,4 +1,0 @@
-lsl	Lactobacillus_salivarius_UCC118	141
-lsi	Lactobacillus_salivarius_CECT_5713	101
-lru	Lactobacillus_reuteri_SD2112	10
-lsa	Lactobacillus_sakei	9

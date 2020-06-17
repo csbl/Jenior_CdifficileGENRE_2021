@@ -1,4 +1,0 @@
-bsa	Bacteroides_salanitronis	64
-bvu	Bacteroides_vulgatus	54
-bhl	Bacteroides_helcogenes	54
-bth	Bacteroides_thetaiotaomicron	37

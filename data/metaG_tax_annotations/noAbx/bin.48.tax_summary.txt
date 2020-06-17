@@ -1,4 +1,0 @@
-cso	Clostridium_cf._saccharolyticum_K10	86
-bprs	Butyrate-producing_bacterium_SS3/4	69
-bprm	Butyrate-producing_bacterium_SM4/1	18
-rto	Ruminococcus_torques_L2-14	17

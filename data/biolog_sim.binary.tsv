@@ -1,148 +1,116 @@
-metabolite	iCdG700_sim	Cd630_biolog	iCdR700_sim	CdR20291_biolog
-cpd00383	0	1	0	1
-cpd00162	0	1	0	1
-cpd00438	0	1	0	1
-cpd00654	0	1	0	1
-cpd00277	0	1	0	1
-cpd03279	0	1	0	1
-cpd00412	0	1	0	1
-cpd00136	0	1	0	1
-cpd00339	0	1	0	1
-cpd00027	0	1	0	1
-cpd00208	0	1	0	1
-cpd03561	0	1	0	1
-cpd00029	0	1	0	1
-cpd00142	0	0	0	1
-cpd00182	0	1	0	1
-cpd00152	0	1	0	1
-cpd29695	0	1	0	1
-cpd29696	0	0	0	0
-cpd11586	0	0	0	1
-cpd29694	0	1	0	1
-cpd29697	0	0	0	1
-cpd29698	0	1	0	1
-cpd11582	0	1	0	1
-cpd03697	0	1	0	1
-cpd00085	0	1	0	1
-cpd00211	0	1	0	1
-cpd00098	0	1	0	1
-cpd00137	0	0	0	0
-cpd00424	0	1	0	1
-cpd00367	0	1	0	1
-cpd00307	0	1	0	1
-cpd00731	0	1	0	1
-cpd29694	0	1	0	1
-cpd29698	0	1	0	1
-cpd00117	0	1	0	1
-cpd00339	0	1	0	1
-cpd00320	0	1	0	1
-cpd00158	0	1	0	1
-cpd00082	0	1	0	1
-cpd00072	0	1	0	1
-cpd00108	0	1	0	0
-cpd00276	0	1	0	1
-cpd00089	0	1	0	1
-cpd00079	0	1	0	1
-cpd00186	0	1	0	1
-cpd00314	0	1	0	1
-cpd00138	0	1	0	1
-cpd05161	0	1	0	1
-cpd00637	0	1	0	1
-cpd00644	0	1	0	1
-cpd00105	0	1	0	1
-cpd00588	0	1	0	1
-cpd00161	0	1	0	1
-cpd00794	0	1	0	1
-cpd00154	0	1	0	1
-cpd00080	0	1	0	1
-cpd00504	0	1	0	1
-cpd00130	0	0	0	0
-cpd00393	0	1	0	1
-cpd00378	0	1	0	1
-cpd00047	0	1	0	1
-cpd00106	0	0	0	1
-cpd00281	0	1	0	1
-cpd03561	0	1	0	1
-cpd00042	0	1	0	1
-cpd11581	0	1	0	1
-cpd15603	0	0	0	1
-cpd29691	0	1	0	0
-cpd11592	0	1	0	1
-cpd15604	0	1	0	1
-cpd29693	0	1	0	1
-cpd11588	0	1	0	1
-cpd00100	0	0	0	1
-cpd00033	0	0	0	1
-cpd00155	0	1	0	1
-cpd00139	0	1	0	1
-cpd00207	0	1	0	1
-cpd00311	0	1	0	1
-cpd29317	0	1	0	1
-cpd00165	0	1	0	1
-cpd00226	0	1	0	1
-cpd00246	0	1	0	1
-cpd00035	0	1	0	1
-cpd00224	0	0	0	0
-cpd00051	0	1	0	1
-cpd00132	0	1	0	1
-cpd00041	0	1	0	1
-cpd00274	0	1	0	1
-cpd00395	0	1	0	1
-cpd00084	0	1	0	1
-cpd00751	0	1	0	0
-cpd00023	0	1	0	1
-cpd00053	0	1	0	0
-cpd00119	0	1	0	1
-cpd00227	0	1	0	1
-cpd00322	0	1	0	1
-cpd00159	0	1	0	1
-cpd00107	0	1	0	1
-cpd00039	0	1	0	1
-cpd00130	0	1	0	1
-cpd00060	0	1	0	1
-cpd00064	0	1	0	1
-cpd00066	0	1	0	1
-cpd00129	0	1	0	1
-cpd00054	0	1	0	1
-cpd00161	0	1	0	1
-cpd00065	0	1	0	1
-cpd00069	0	1	0	0
-cpd00156	0	1	0	1
-cpd00489	0	0	0	1
-cpd00121	0	1	0	1
-cpd00179	0	1	0	1
-cpd29700	0	1	0	1
-cpd27607	0	1	0	1
-cpd00122	0	1	0	1
-cpd00492	0	1	0	1
-cpd00477	0	1	0	1
-cpd00232	0	1	0	1
-cpd00075	0	0	0	0
-cpd00738	0	1	0	1
-cpd08928	0	1	0	1
-cpd00247	0	1	0	1
-cpd00443	0	1	0	1
-cpd00489	0	0	0	1
-cpd00009	0	1	0	1
-cpd00457	0	1	0	1
-cpd00141	0	1	0	1
-cpd00118	0	1	0	1
-cpd00215	0	1	0	1
-cpd00020	0	1	0	1
-cpd00220	0	1	0	1
-cpd01030	0	1	0	1
-cpd00036	0	1	0	0
-cpd00076	0	1	0	1
-cpd00210	0	1	0	1
-cpd03047	0	1	0	1
-cpd00305	0	1	0	1
-cpd00793	0	1	0	1
-cpd00184	0	1	0	1
-cpd00151	0	1	0	1
-cpd20885	0	1	0	1
-cpd00374	0	1	0	1
-cpd00092	0	1	0	1
-cpd00300	0	1	0	1
-cpd00249	0	1	0	1
-cpd00309	0	1	0	1
-cpd01217	0	1	0	1
+metabolite	name	group	iCdG693_sim	Cd630_biolog	iCdR700_sim	CdR20291_biolog
+cpd00009	Phosphate	Other	0	1	0	1
+cpd00023	L-Glutamic_acid	Amino_acid	0	1	0	1
+cpd00027	D-Glucose	Carbohydrate	1	1	1	1
+cpd00029	Acetic_acid	Carboxylic_acid	1	1	1	1
+cpd00033	Glycine	Amino_acid	1	0	1	1
+cpd00035	L-Alanine	Amino_acid	1	1	1	1
+cpd00036	Succinic_acid	Carboxylic_acid	1	1	1	1
+cpd00039	L-Lysine	Amino_acid	1	1	1	1
+cpd00041	L-Aspartic_acid	Carboxylic_acid	1	1	1	1
+cpd00047	Formic_acid	Carboxylic_acid	1	1	1	1
+cpd00051	L-Arginine	Amino_acid	0	1	1	1
+cpd00053	L-Glutamine	Amino_acid	0	1	0	0
+cpd00054	L-Serine	Amino_acid	1	1	1	1
+cpd00060	L-Methionine	Amino_acid	0	1	0	1
+cpd00064	L-Ornithine	Amino_acid	1	1	1	1
+cpd00065	L-Tryptophan	Amino_acid	0	1	0	1
+cpd00066	L-Phenylalanine	Amino_acid	1	1	1	1
+cpd00069	L-Tyrosine	Amino_acid	1	1	1	0
+cpd00072	D-Fructose-6-Phosphate	Carbohydrate	1	1	1	1
+cpd00076	Sucrose	Carbohydrate	1	1	1	1
+cpd00079	D-Glucose-6-Phosphate	Carbohydrate	1	1	1	1
+cpd00080	D,L-a-Glycerol_Phosphate	Carbohydrate	1	1	1	1
+cpd00082	D-Fructose	Carbohydrate	1	1	1	1
+cpd00084	L-Cysteine	Amino_acid	0	1	0	1
+cpd00089	D-Glucose-1-Phosphate	Carbohydrate	1	1	1	1
+cpd00092	Uracil	Nucleotide	1	1	1	1
+cpd00105	D-Ribose	Carbohydrate	1	1	1	1
+cpd00106	Fumaric_acid	Carboxylic_acid	1	0	1	1
+cpd00107	L-Leucine	Amino_acid	0	1	0	1
+cpd00108	D-Galactose	Carbohydrate	1	1	1	0
+cpd00117	D-Alanine	Amino_acid	1	1	1	1
+cpd00119	L-Histidine	Amino_acid	1	1	1	1
+cpd00122	N-Acetyl-D-Glucosamine	Carbohydrate	1	1	1	1
+cpd00129	L-Proline	Amino_acid	0	1	0	1
+cpd00132	L-Asparagine	Amino_acid	1	1	1	1
+cpd00136	4-Hydroxybenzoic_acid	Carboxylic_acid	1	1	1	1
+cpd00138	D-Mannose	Carbohydrate	1	1	1	1
+cpd00139	Glycolic_acid	Carboxylic_acid	1	1	1	1
+cpd00141	Propionic_acid	Carboxylic_acid	0	1	0	1
+cpd00142	Acetoacetic_acid	Carboxylic_acid	1	0	1	1
+cpd00154	D-Xylose	Carbohydrate	1	1	1	1
+cpd00156	L-Valine	Amino_acid	0	1	0	1
+cpd00158	D-Cellobiose	Carbohydrate	1	1	1	1
+cpd00159	L-Lactic_acid	Carboxylic_acid	1	1	1	1
+cpd00161	D-Threonine	Amino_acid	1	1	1	1
+cpd00161	L-Threonine	Amino_acid	1	1	1	1
+cpd00162	2-Aminoethanol	Alcohol	1	1	1	1
+cpd00165	Hydroxylamine	Other	0	1	0	1
+cpd00179	Maltose	Carbohydrate	1	1	1	1
+cpd00182	Adenosine	Nucleotide	1	1	1	1
+cpd00186	D-Glutamic_acid	Carbohydrate	0	1	0	1
+cpd00207	Guanine	Nucleotide	1	1	1	1
+cpd00208	D-Lactose	Carbohydrate	1	1	1	1
+cpd00210	Taurine	Amino_acid	0	1	0	1
+cpd00211	Butyric_acid	Carboxylic_acid	0	1	0	1
+cpd00220	Riboflavin	Vitamin	0	1	0	1
+cpd00226	Hypoxanthine	Nucleotide	1	1	1	1
+cpd00232	N-Acetyl-Neuraminic_acid	Carbohydrate	1	1	1	1
+cpd00246	Inosine	Nucleotide	1	1	1	1
+cpd00274	L-Citrulline	Amino_acid	0	1	1	1
+cpd00276	D-Glucosamine	Carbohydrate	1	1	1	1
+cpd00277	Deoxyguanosine	Nucleotide	1	1	1	1
+cpd00281	g-Amino_Butyric_acid	Carboxylic_acid	0	1	0	1
+cpd00305	Thiamine	Vitamin	0	1	0	1
+cpd00307	Cytosine	Nucleotide	1	1	1	1
+cpd00309	Xanthine	Nucleotide	1	1	1	1
+cpd00311	Guanosine	Nucleotide	1	1	1	1
+cpd00314	D-Mannitol	Carbohydrate	1	1	1	1
+cpd00320	D-Aspartic_acid	Carboxylic_acid	1	1	1	1
+cpd00322	L-Isoleucine	Amino_acid	0	1	0	1
+cpd00339	a-Amino-N-Valeric_acid	Carboxylic_acid	0	1	0	1
+cpd00339	Amino_Valeric_acid	Carboxylic_acid	0	1	0	1
+cpd00367	Cytidine	Nucleotide	1	1	1	1
+cpd00383	Shikimic_acid	Carboxylic_acid	1	1	1	1
+cpd00393	Folic_acid	Vitamin	0	1	0	1
+cpd00395	L-Cysteic_acid	Amino_acid	0	1	0	1
+cpd00412	Deoxyuridine	Nucleotide	1	1	1	1
+cpd00424	Cystathionine	Amino_acid	1	1	1	1
+cpd00438	Deoxyadenosine	Nucleotide	1	1	1	1
+cpd00443	p-Amino-Benzoic_acid	Carboxylic_acid	0	1	0	1
+cpd00489	m-Hydroxyphenyl_Acetic_acid	Carboxylic_acid	1	1	1	1
+cpd00489	p-Hydroxyphenyl_Acetic_acid	Carboxylic_acid	1	0	1	1
+cpd00492	N-Acetyl-D-Mannosamine	Carbohydrate	1	1	1	1
+cpd00504	D,L-Diamino-a,e-Pimelic_acid	Carboxylic_acid	1	1	1	1
+cpd00588	D-Sorbitol	Carbohydrate	1	1	1	1
+cpd00637	D-Methionine	Amino_acid	0	1	0	1
+cpd00644	D-Pantothenic_acid	Carboxylic_acid	0	1	0	1
+cpd00654	Deoxycytidine	Nucleotide	1	1	1	1
+cpd00731	D-Ala-D-Ala	Amino_acid	1	1	1	1
+cpd00751	L-Fucose	Carbohydrate	0	1	0	0
+cpd00794	D-Trehalose	Carbohydrate	1	1	1	1
+cpd01030	Salicin	Carbohydrate	1	1	1	1
+cpd03279	Deoxyinosine	Nucleotide	1	1	1	1
+cpd03561	g-Hydroxybutyric_acid	Carboxylic_acid	1	1	1	1
+cpd03561	Hydroxybutyric_acid	Carboxylic_acid	1	1	1	1
+cpd05161	D-Melezitose	Carbohydrate	1	1	1	1
+cpd11581	Gly-Asn	Amino_acid	1	1	1	1
+cpd11582	Ala-Thr	Amino_acid	1	1	1	1
+cpd11586	Ala-Glu	Amino_acid	1	0	1	1
+cpd11588	Gly-Pro	Amino_acid	1	1	1	1
+cpd11592	Gly-Glu	Amino_acid	0	1	1	1
+cpd15603	Gly-Cys	Amino_acid	0	0	0	1
+cpd15604	Gly-Leu	Amino_acid	0	1	1	1
+cpd27607	N-Acetyl-D-Galactosamine	Carbohydrate	1	1	1	1
+cpd29317	Hydroxy-L-Proline	Amino_acid	0	1	0	1
+cpd29691	Gly-Gln	Amino_acid	1	1	1	1
+cpd29693	Gly-Met	Amino_acid	1	1	1	1
+cpd29694	Ala-Gly	Amino_acid	1	1	1	1
+cpd29694	D-Ala-Gly	Amino_acid	1	1	1	1
+cpd29695	Ala-Asp	Amino_acid	1	1	1	1
+cpd29696	Ala-Gln	Amino_acid	1	0	1	0
+cpd29697	Ala-His	Amino_acid	1	1	1	1
+cpd29698	Ala-Leu	Amino_acid	1	1	1	1
+cpd29698	D-Ala-Leu	Amino_acid	1	1	1	1
+cpd29700	Met-Ala	Amino_acid	1	1	1	1

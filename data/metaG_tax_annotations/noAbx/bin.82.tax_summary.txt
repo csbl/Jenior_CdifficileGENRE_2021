@@ -1,4 +1,0 @@
-cpy	Clostridium_phytofermentans	20
-elm	Eubacterium_limosum	14
-ral	Ruminococcus_albus	14
-csh	Clostridium_saccharolyticum_WM1	14

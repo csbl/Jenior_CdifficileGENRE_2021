@@ -1,4 +1,0 @@
-bth	Bacteroides_thetaiotaomicron	433
-bsa	Bacteroides_salanitronis	62
-bvu	Bacteroides_vulgatus	49
-ash	Alistipes_shahii	35

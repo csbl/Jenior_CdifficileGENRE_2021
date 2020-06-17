@@ -1,4 +1,0 @@
-cso	Clostridium_cf._saccharolyticum_K10	70
-fpr	Faecalibacterium_prausnitzii_L2-6	54
-rho	Roseburia_hominis	38
-elm	Eubacterium_limosum	38

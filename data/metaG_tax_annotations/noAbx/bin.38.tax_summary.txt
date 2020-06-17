@@ -1,4 +1,0 @@
-acl	Acholeplasma_laidlawii	15
-ral	Ruminococcus_albus	14
-eel	Eubacterium_eligens	14
-saal	Candidatus_Saccharimonas_aalborgensis	14

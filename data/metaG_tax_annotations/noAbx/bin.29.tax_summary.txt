@@ -1,4 +1,0 @@
-rho	Roseburia_hominis	218
-rix	Roseburia_intestinalis_XB6B4	113
-rim	Roseburia_intestinalis_M50/1	113
-rto	Ruminococcus_torques_L2-14	111

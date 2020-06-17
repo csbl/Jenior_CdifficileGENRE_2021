@@ -1,4 +1,0 @@
-ccl	Clostridium_clariflavum_DSM_19732	7
-cle	Clostridium_lentocellum	6
-mas	Mahella_australiensis	5
-coo	Coprococcus_sp._ART55/1	5

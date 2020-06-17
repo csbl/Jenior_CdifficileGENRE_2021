@@ -1,4 +1,0 @@
-rim	Roseburia_intestinalis_M50/1	278
-rix	Roseburia_intestinalis_XB6B4	277
-ere	Eubacterium_rectale_ATCC_33656	96
-rob	Ruminococcus_obeum_A2-162	89

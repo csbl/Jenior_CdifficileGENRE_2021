@@ -1,4 +1,0 @@
-rob	Ruminococcus_obeum_A2-162	172
-csh	Clostridium_saccharolyticum_WM1	167
-rum	Ruminococcus_sp._SR1/5	157
-rho	Roseburia_hominis	139

@@ -1,4 +1,0 @@
-ova	Oscillibacter_valericigenes	134
-eha	Ethanoligenens_harbinense	126
-ral	Ruminococcus_albus	61
-rch	Ruminococcus_champanellensis	57

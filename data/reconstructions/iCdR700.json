@@ -10979,7 +10979,7 @@
 },
 {
 "id":"cpd00419_c",
-"name":"PM",
+"name":"Pyridoxamine",
 "compartment":"cytosol",
 "charge":1,
 "formula":"C8H13N2O2",
@@ -13806,7 +13806,7 @@
 },
 {
 "id":"cpd00232_e",
-"name":"Neu5Ac",
+"name":"N-Acetyl-Neuraminic acid",
 "compartment":"extracellular",
 "charge":0,
 "formula":"C11H18NO9",
@@ -15535,32 +15535,6 @@
 }
 },
 {
-"id":"cpd00791_c",
-"name":"ProtoporphyrinogenIX",
-"compartment":"cytosol",
-"charge":0,
-"formula":"C34H38N4O4",
-"annotation":{
-"bigg.metabolite":"pppg9",
-"kegg.compound":"C01079",
-"sbo":"SBO:0000247",
-"seed.compound":"cpd00791"
-}
-},
-{
-"id":"cpd01476_c",
-"name":"Protoporphyrin",
-"compartment":"cytosol",
-"charge":0,
-"formula":"C34H32N4O4",
-"annotation":{
-"bigg.metabolite":"ppp9",
-"kegg.compound":"C02191",
-"sbo":"SBO:0000247",
-"seed.compound":"cpd01476"
-}
-},
-{
 "id":"cpd00108_c",
 "name":"Galactose",
 "compartment":"cytosol",
@@ -16121,7 +16095,7 @@
 },
 {
 "id":"cpd11574_e",
-"name":"Molybdate_e",
+"name":"Molybdate",
 "compartment":"extracellular",
 "charge":0,
 "formula":"H2MoO4",
@@ -16146,7 +16120,7 @@
 },
 {
 "id":"cpd04097_e",
-"name":"Pb_e",
+"name":"Lead",
 "compartment":"extracellular",
 "charge":2,
 "formula":"Pb",
@@ -16171,7 +16145,7 @@
 },
 {
 "id":"cpd01012_e",
-"name":"Cd2+_e",
+"name":"Cadmium 2+",
 "compartment":"extracellular",
 "charge":2,
 "formula":"Cd",
@@ -16197,7 +16171,7 @@
 },
 {
 "id":"cpd00531_e",
-"name":"Hg2+_e",
+"name":"Mercury 2+",
 "compartment":"extracellular",
 "charge":2,
 "formula":"Hg",
@@ -16223,7 +16197,7 @@
 },
 {
 "id":"cpd00058_e",
-"name":"Cu2+_e",
+"name":"Copper 2+",
 "compartment":"extracellular",
 "charge":2,
 "formula":"Cu",
@@ -16816,7 +16790,7 @@
 "cpd00068_c":-1.0,
 "cpd00090_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.2633",
 "annotation":{
@@ -20160,23 +20134,6 @@
 }
 },
 {
-"id":"rxn00471_c",
-"name":"L-ornithine ammonia-lyase (cyclizing; L-proline-forming)",
-"metabolites":{
-"cpd00013_c":1.0,
-"cpd00064_c":-1.0,
-"cpd00129_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"645463.3.peg.500 or 645463.3.peg.260",
-"annotation":{
-"kegg.compound":"R00671",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00471"
-}
-},
-{
 "id":"rxn03848_c",
 "name":"Biuret amidohydrolase",
 "metabolites":{
@@ -21540,7 +21497,7 @@
 "cpd00076_e":-1.0,
 "cpd01693_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.2802 and 645463.3.peg.441 and 645463.3.peg.441",
 "annotation":{
@@ -22697,7 +22654,7 @@
 "cpd00102_c":1.0,
 "cpd00290_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.398",
 "annotation":{
@@ -23058,7 +23015,7 @@
 "cpd00201_c":1.0,
 "cpd00347_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -24051,7 +24008,7 @@
 "cpd00079_c":1.0,
 "cpd00523_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.3097",
 "annotation":{
@@ -24664,7 +24621,7 @@
 "cpd00448_c":1.0,
 "cpd00802_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.398",
 "annotation":{
@@ -24884,7 +24841,7 @@
 },
 {
 "id":"rxn05871_c",
-"name":"primary",
+"name":"Primary_alcohol:NAD+ oxidoreductase",
 "metabolites":{
 "cpd00003_c":-1.0,
 "cpd00004_c":1.0,
@@ -25053,7 +25010,7 @@
 },
 {
 "id":"rxn05527_c",
-"name":"TRANS-RXN-199.ce",
+"name":"Cytosine hydrogen symport",
 "metabolites":{
 "cpd00067_c":1.0,
 "cpd00067_e":-1.0,
@@ -27656,7 +27613,7 @@
 },
 {
 "id":"rxn05209_c",
-"name":"TRANS-RXNBWI-115525.ce.maizeexp.NA+",
+"name":"Sodium hydrogen symporter",
 "metabolites":{
 "cpd00067_c":-1.0,
 "cpd00067_e":1.0,
@@ -29485,7 +29442,7 @@
 "cpd00523_c":1.0,
 "cpd00794_e":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.2802 and 645463.3.peg.3143 and 645463.3.peg.3143",
 "annotation":{
@@ -29743,7 +29700,7 @@
 },
 {
 "id":"rxn05201_c",
-"name":"TRANS-RXNBWI-115572.ce.maizeexp.HYPOXANTHINE",
+"name":"Hypoxanthine hydrogen symport",
 "metabolites":{
 "cpd00067_c":1.0,
 "cpd00067_e":-1.0,
@@ -30186,7 +30143,7 @@
 "cpd00071_c":1.0,
 "cpd00161_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.2638",
 "annotation":{
@@ -32196,7 +32153,7 @@
 "cpd00071_c":1.0,
 "cpd00159_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.1428",
 "annotation":{
@@ -33162,7 +33119,7 @@
 "cpd00062_c":-1.0,
 "cpd02611_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -33542,7 +33499,7 @@
 },
 {
 "id":"EX_cpd00309_e",
-"name":"XAN exchange",
+"name":"Xanthine exchange",
 "metabolites":{
 "cpd00309_e":-1.0
 },
@@ -33780,7 +33737,7 @@
 },
 {
 "id":"EX_cpd00794_e",
-"name":"TRHL exchange",
+"name":"D-Trehalose exchange",
 "metabolites":{
 "cpd00794_e":-1.0
 },
@@ -33808,7 +33765,7 @@
 },
 {
 "id":"EX_cpd00226_e",
-"name":"HYXN exchange",
+"name":"Hypoxanthine exchange",
 "metabolites":{
 "cpd00226_e":-1.0
 },
@@ -33878,7 +33835,7 @@
 },
 {
 "id":"EX_cpd00158_e",
-"name":"CELB exchange",
+"name":"Cellobiose exchange",
 "metabolites":{
 "cpd00158_e":-1.0
 },
@@ -34120,7 +34077,7 @@
 },
 {
 "id":"EX_cpd00644_e",
-"name":"PAN exchange",
+"name":"Pantothenate exchange",
 "metabolites":{
 "cpd00644_e":-1.0
 },
@@ -34214,7 +34171,7 @@
 "cpd00106_c":-1.0,
 "cpd00130_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.918 and 645463.3.peg.919",
 "annotation":{
@@ -34244,30 +34201,6 @@
 "bigg.metabolite":"ASPO5",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn08168"
-}
-},
-{
-"id":"rxn30075_c",
-"name":"Glutamate dehydrogenase (NAD)",
-"metabolites":{
-"cpd00001_c":-1.0,
-"cpd00003_c":-1.0,
-"cpd00004_c":1.0,
-"cpd00013_c":1.0,
-"cpd00023_c":-1.0,
-"cpd00024_c":1.0,
-"cpd00067_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"645463.3.peg.194",
-"annotation":{
-"bigg.metabolite":[
-"GLUDx",
-"GLUDxi"
-],
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn30075"
 }
 },
 {
@@ -35325,7 +35258,7 @@
 "cpd00489_c":-1.0,
 "cpd01042_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.167 and 645463.3.peg.168",
 "annotation":{
@@ -36106,51 +36039,6 @@
 }
 },
 {
-"id":"dna_rxn",
-"name":"DNA replication",
-"metabolites":{
-"cpd00001_c":-1.0,
-"cpd00002_c":-4.0,
-"cpd00008_c":4.0,
-"cpd00009_c":4.0,
-"cpd00012_c":1.0,
-"cpd00115_c":-1.0,
-"cpd00241_c":-0.5,
-"cpd00356_c":-0.5,
-"cpd00357_c":-1.0,
-"cpd17042_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000629",
-"seed.reaction":"dna"
-}
-},
-{
-"id":"rna_rxn",
-"name":"RNA transcription",
-"metabolites":{
-"cpd00001_c":-1.0,
-"cpd00002_c":-2.0,
-"cpd00008_c":2.0,
-"cpd00009_c":2.0,
-"cpd00012_c":1.0,
-"cpd00038_c":-0.5,
-"cpd00052_c":-0.5,
-"cpd00062_c":-0.5,
-"cpd17043_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000629",
-"seed.reaction":"rna"
-}
-},
-{
 "id":"peptidoglycan_rxn",
 "name":"Peptidoglycan synthesis",
 "metabolites":{
@@ -36552,7 +36440,7 @@
 },
 {
 "id":"EX_cpd00443_e",
-"name":"Nicotinamide exchange",
+"name":"4-Aminobenzoate exchange",
 "metabolites":{
 "cpd00443_e":-1.0
 },
@@ -37474,7 +37362,7 @@
 "cpd00070_c":-7.0,
 "cpd15237_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -39938,24 +39826,6 @@
 }
 },
 {
-"id":"rxn02304_c",
-"name":"protoporphyrinogen-IX:oxygen oxidoreductase",
-"metabolites":{
-"cpd00001_c":6.0,
-"cpd00007_c":-3.0,
-"cpd00791_c":-2.0,
-"cpd01476_c":2.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"",
-"annotation":{
-"kegg.compound":"R03222",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn02304"
-}
-},
-{
 "id":"rxn00504_c",
 "name":"(S)-1-pyrroline-5-carboxylate:NADP+ oxidoreductase",
 "metabolites":{
@@ -40029,7 +39899,7 @@
 "cpd00201_c":-1.0,
 "cpd00345_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -40047,7 +39917,7 @@
 "cpd00492_e":-1.0,
 "cpd02612_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(645463.3.peg.3057 or 645463.3.peg.3108 or 645463.3.peg.3027 or 645463.3.peg.2563) and 645463.3.peg.2714",
 "annotation":{
@@ -40108,27 +39978,8 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"645463.3.peg.3507 and 645463.3.peg.3506 and 645463.3.peg.3510 and 645463.3.peg.3509 and 645463.3.peg.3508 and (645463.3.peg.3514 or 645463.3.peg.3515)",
 "annotation":{
-"sbo":"SBO:0000185",
+"sbo":"SBO:0000176",
 "seed.reaction":"rxn12212"
-}
-},
-{
-"id":"rxn09180_c",
-"name":"protoporphyrinogen oxidase (anaerobic)",
-"metabolites":{
-"cpd00036_c":3.0,
-"cpd00067_p":-6.0,
-"cpd00106_c":-3.0,
-"cpd00791_c":-1.0,
-"cpd01476_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"",
-"annotation":{
-"bigg.metabolite":"PPPGO3",
-"sbo":"SBO:0000185",
-"seed.reaction":"rxn09180"
 }
 },
 {
@@ -40146,7 +39997,7 @@
 "gene_reaction_rule":"645463.3.peg.3507 and 645463.3.peg.3506 and 645463.3.peg.3510 and 645463.3.peg.3509 and 645463.3.peg.3508 and (645463.3.peg.3514 or 645463.3.peg.3515)",
 "annotation":{
 "bigg.metabolite":"ATPS4r",
-"sbo":"SBO:0000185",
+"sbo":"SBO:0000176",
 "seed.reaction":"rxn10042"
 }
 },
@@ -40852,7 +40703,7 @@
 },
 {
 "id":"rxn09687_c",
-"name":"TRANS-RXN-108E.cp",
+"name":"Deoxyinosine symporter",
 "metabolites":{
 "cpd00067_c":1.0,
 "cpd00067_e":-1.0,
@@ -40939,7 +40790,7 @@
 },
 {
 "id":"rxn05204_c",
-"name":"TRANS-RXNBWI-115572.ce.maizeexp.GUANOSINE_GUANOSINE",
+"name":"Guanosine hydrogen symport",
 "metabolites":{
 "cpd00067_c":1.0,
 "cpd00067_e":-1.0,
@@ -41073,7 +40924,7 @@
 },
 {
 "id":"rxn05318_c",
-"name":"TRANS-RXN-203.ce",
+"name":"Adenosine hydrogen symport",
 "metabolites":{
 "cpd00067_c":1.0,
 "cpd00067_e":-1.0,
@@ -42020,6 +41871,135 @@
 "kegg.reaction":"R00182",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00131"
+}
+},
+{
+"id":"EX_cpd11574_e",
+"name":"Molybdate exchange",
+"metabolites":{
+"cpd11574_e":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"EX_cpd04097_e",
+"name":"Lead exchange",
+"metabolites":{
+"cpd04097_e":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"EX_cpd01012_e",
+"name":"Cadmium exchange",
+"metabolites":{
+"cpd01012_e":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"EX_cpd00531_e",
+"name":"Mercury exchange",
+"metabolites":{
+"cpd00531_e":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"EX_cpd00058_e",
+"name":"Copper exchange",
+"metabolites":{
+"cpd00058_e":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"rxn30075_c",
+"name":"Glutamate dehydrogenase (NAD)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00013_c":1.0,
+"cpd00023_c":-1.0,
+"cpd00024_c":1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"645463.3.peg.194",
+"annotation":{
+"bigg.reaction":"GLUDx",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn30075"
+}
+},
+{
+"id":"rna_rxn",
+"name":"RNA transcription",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.389,
+"cpd00008_c":2.0,
+"cpd00009_c":2.0,
+"cpd00012_c":1.0,
+"cpd00038_c":-0.141,
+"cpd00052_c":-0.237,
+"cpd00062_c":-0.5,
+"cpd17043_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000629"
+}
+},
+{
+"id":"dna_rxn",
+"name":"DNA replication",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-2.0,
+"cpd00008_c":2.0,
+"cpd00009_c":2.0,
+"cpd00012_c":1.0,
+"cpd00115_c":-0.5,
+"cpd00241_c":-0.308,
+"cpd00356_c":-0.176,
+"cpd00357_c":-0.454,
+"cpd17042_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000629"
 }
 }
 ],

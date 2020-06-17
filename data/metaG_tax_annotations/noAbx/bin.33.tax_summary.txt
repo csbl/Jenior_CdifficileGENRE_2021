@@ -1,4 +1,0 @@
-ccl	Clostridium_clariflavum_DSM_19732	29
-ral	Ruminococcus_albus	21
-rbr	Ruminococcus_bromii	18
-cpy	Clostridium_phytofermentans	18

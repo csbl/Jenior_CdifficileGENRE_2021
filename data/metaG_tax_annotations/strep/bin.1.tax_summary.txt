@@ -1,4 +1,0 @@
-bvu	Bacteroides_vulgatus	20
-bsa	Bacteroides_salanitronis	15
-ppn	Paludibacter_propionicigenes	11
-bth	Bacteroides_thetaiotaomicron	11

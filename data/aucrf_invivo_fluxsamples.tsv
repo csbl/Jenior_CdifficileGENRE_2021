@@ -1,0 +1,11 @@
+id	mda	name
+EX_cpd00412_e	37.33	Deoxyuridine_exchange
+rxn01799_c	29.35	Deoxyuridine_phosphorylase
+rxn01334_c	28.79	Sedoheptulose-lyase
+EX_cpd00013_e	28.54	Ammonia_exchange
+rxn01333_c	28.41	Transaldolase
+rxn00747_c	28.28	Triosephosphate_isomerase
+rxn09685_c	26.35	Deoxyuridine_symport
+rxn01345_c	24.14	Sedoheptulose-bisphosphatase
+rxn00784_c	23.27	Deoxyribose-phosphate_aldolase
+rxn01986_c	22.15	Phosphopentomutase_(deoxyribose)

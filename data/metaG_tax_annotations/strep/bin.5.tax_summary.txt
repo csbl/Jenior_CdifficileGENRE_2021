@@ -1,4 +1,0 @@
-pdi	Parabacteroides_distasonis	13
-bvu	Bacteroides_vulgatus	12
-bth	Bacteroides_thetaiotaomicron	12
-afd	Alistipes_finegoldii	11

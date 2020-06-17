@@ -1,4 +1,0 @@
-rho	Roseburia_hominis	222
-cpy	Clostridium_phytofermentans	128
-rix	Roseburia_intestinalis_XB6B4	121
-rim	Roseburia_intestinalis_M50/1	120

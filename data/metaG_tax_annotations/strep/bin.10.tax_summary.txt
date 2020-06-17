@@ -1,4 +1,0 @@
-bvu	Bacteroides_vulgatus	26
-tfo	Tannerella_forsythia	18
-bsa	Bacteroides_salanitronis	17
-bth	Bacteroides_thetaiotaomicron	14

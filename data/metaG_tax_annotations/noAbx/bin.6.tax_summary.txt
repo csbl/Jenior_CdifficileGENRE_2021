@@ -1,4 +1,0 @@
-cpy	Clostridium_phytofermentans	17
-rbr	Ruminococcus_bromii	16
-ccl	Clostridium_clariflavum_DSM_19732	14
-coo	Coprococcus_sp._ART55/1	13

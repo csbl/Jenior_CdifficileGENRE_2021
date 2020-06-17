@@ -1,4 +1,0 @@
-ppm	Paenibacillus_polymyxa_SC2	11
-btg	Bacillus_thuringiensis_Bt407	10
-fpr	Faecalibacterium_prausnitzii_L2-6	6
-cct	Coprococcus_catus	5

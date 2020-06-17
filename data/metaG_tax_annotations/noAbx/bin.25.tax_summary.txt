@@ -1,4 +1,0 @@
-awo	Acetobacterium_woodii	6
-ova	Oscillibacter_valericigenes	6
-cce	Clostridium_cellulolyticum	6
-elm	Eubacterium_limosum	5

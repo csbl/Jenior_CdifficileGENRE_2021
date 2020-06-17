@@ -1,4 +1,0 @@
-cdg	Clostridium_difficile_BI1	175
-cdc	Clostridium_difficile_CD196	99
-cdl	Clostridium_difficile_R20291	70
-cpy	Clostridium_phytofermentans	1

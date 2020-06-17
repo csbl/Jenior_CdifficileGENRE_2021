@@ -1,4 +1,0 @@
-esu	Eubacterium_siraeum_70/3	384
-ral	Ruminococcus_albus	144
-rch	Ruminococcus_champanellensis	91
-cpy	Clostridium_phytofermentans	42

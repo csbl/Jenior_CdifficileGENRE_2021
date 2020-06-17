@@ -1,4 +1,0 @@
-apv	Atopobium_parvulum	192
-cgo	Coriobacterium_glomerans	114
-aeq	Adlercreutzia_equolifaciens	67
-ele	Eggerthella_lenta	42

@@ -1,4 +1,0 @@
-ccl	Clostridium_clariflavum_DSM_19732	24
-bde	Bifidobacterium_dentium	18
-cpy	Clostridium_phytofermentans	17
-ral	Ruminococcus_albus	17

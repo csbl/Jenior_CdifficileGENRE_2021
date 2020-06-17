@@ -1,4 +1,0 @@
-ctx	Clostridium_thermocellum_DSM_1313	7
-csc	Caldicellulosiruptor_saccharolyticus	7
-tte	Thermoanaerobacter_tengcongensis	6
-clb	Clostridium_sp._BNL1100	6

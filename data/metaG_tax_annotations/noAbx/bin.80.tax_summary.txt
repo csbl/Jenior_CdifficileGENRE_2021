@@ -1,4 +1,0 @@
-ral	Ruminococcus_albus	23
-cpy	Clostridium_phytofermentans	23
-tte	Thermoanaerobacter_tengcongensis	17
-ccl	Clostridium_clariflavum_DSM_19732	16

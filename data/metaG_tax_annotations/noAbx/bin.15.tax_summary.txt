@@ -1,4 +1,0 @@
-rch	Ruminococcus_champanellensis	104
-ova	Oscillibacter_valericigenes	83
-ral	Ruminococcus_albus	83
-rbr	Ruminococcus_bromii	47

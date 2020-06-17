@@ -1,4 +1,0 @@
-bsa	Bacteroides_salanitronis	32
-bvu	Bacteroides_vulgatus	30
-bfs	Bacteroides_fragilis_NCTC9343	24
-bxy	Bacteroides_xylanisolvens	24

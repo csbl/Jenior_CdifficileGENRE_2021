@@ -1,4 +1,0 @@
-rob	Ruminococcus_obeum_A2-162	39
-cct	Coprococcus_catus	28
-csh	Clostridium_saccharolyticum_WM1	21
-rto	Ruminococcus_torques_L2-14	19

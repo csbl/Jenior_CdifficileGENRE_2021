@@ -1,4 +1,0 @@
-ccl	Clostridium_clariflavum_DSM_19732	20
-mas	Mahella_australiensis	20
-rch	Ruminococcus_champanellensis	12
-cpy	Clostridium_phytofermentans	12
