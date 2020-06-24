@@ -159,7 +159,7 @@ metabolome <- subset(metabolome, type == 'conventional')
 metabolome$type <- NULL
 rm(metadata)
 
-select_and_plot <- function(metabolite_name, best_ylim=0, correction=FALSE, title=NA) {
+select_and_plot <- function(metabolite_name, best_ylim=0, correction=FALSE, title=NA, panel=FALSE) {
     metabolite <- metabolome[, c(1,2,which(colnames(metabolome) %in% c(metabolite_name)))]
     metabolite <- subset(metabolite, abx %in% c('cefoperazone','clindamycin'))
     colnames(metabolite) <- c('abx','infection','intensity')
@@ -197,6 +197,8 @@ select_and_plot <- function(metabolite_name, best_ylim=0, correction=FALSE, titl
     if (b_pval <= 0.05) {
         segments(x0=2.5, y0=best_ylim*0.96, x1=3, y1=best_ylim*0.96, lwd=1.7)
         text(x=2.75, y=best_ylim, '*', font=2, cex=1.5)}
+    if (panel != FALSE) {mtext(text=panel, side=2, font=2, cex=1.1, padj=-8, adj=4)}
+    
 }
 
 #---------------------------------------------------------------------#
@@ -271,5 +273,12 @@ select_and_plot('N-acetylglucosamine/N-acetylgalactosamine', 0.3, correction=TRU
 select_and_plot('3-phenylpropionate_(hydrocinnamate)', 0.6, correction=TRUE, title='3-Phenylpropionate')
 select_and_plot('methionine', title='Methionine')
 select_and_plot('glutamate', title='Glutamate')
+dev.off()
+
+png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_S4.png', 
+    units='in', width=5, height=3, res=300)
+layout(matrix(c(1,2), nrow=1, ncol=2, byrow=TRUE))
+select_and_plot('tyrosine', title='Tyrosine', panel='A')
+select_and_plot('p-cresol_sulfate', title='p-Cresol', panel='B')
 dev.off()
 
