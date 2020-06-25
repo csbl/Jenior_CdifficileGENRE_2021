@@ -14785,7 +14785,7 @@
 "bigg.metabolite":"cystrna",
 "kegg.compound":"C03125",
 "sbo":"SBO:0000247",
-"seed.compound":"cpd12255c"
+"seed.compound":"cpd12255"
 }
 },
 {
@@ -35487,7 +35487,7 @@
 "gene_reaction_rule":"645463.3.peg.393 and 645463.3.peg.392",
 "annotation":{
 "kegg.genes":"K20025",
-"kegg.reaction":"K20025",
+"kegg.reaction":"R11076",
 "sbo":"SBO:0000176"
 }
 },
@@ -40358,7 +40358,10 @@
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.metabolite":"GALabc",
-"bigg.reaction":"",
+"bigg.reaction":[
+"GALabc",
+"GALabcpp"
+],
 "sbo":"SBO:0000185",
 "seed.reaction":"rxn05162"
 }
@@ -42000,6 +42003,31 @@
 "gene_reaction_rule":"",
 "annotation":{
 "sbo":"SBO:0000629"
+}
+},
+{
+"id":"rxn00806_c",
+"name":"L-Leucine:2-oxoglutarate aminotransferase",
+"metabolites":{
+"cpd00023_c":1.0,
+"cpd00024_c":-1.0,
+"cpd00107_c":-1.0,
+"cpd00200_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"645463.3.peg.2255 or 645463.3.peg.2553",
+"annotation":{
+"bigg.reaction":[
+"BAT1_1",
+"BAT2_3",
+"LEUTA",
+"LEUTAi",
+"LEUTAm"
+],
+"kegg.reaction":"R01090",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00806"
 }
 }
 ],

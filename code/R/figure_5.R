@@ -197,7 +197,7 @@ select_and_plot <- function(metabolite_name, best_ylim=0, correction=FALSE, titl
     if (b_pval <= 0.05) {
         segments(x0=2.5, y0=best_ylim*0.96, x1=3, y1=best_ylim*0.96, lwd=1.7)
         text(x=2.75, y=best_ylim, '*', font=2, cex=1.5)}
-    if (panel != FALSE) {mtext(text=panel, side=2, font=2, cex=1.1, padj=-8, adj=4)}
+    if (panel != FALSE) {mtext(text=panel, side=2, font=2, cex=1.1, padj=-9, adj=3)}
     
 }
 
@@ -278,7 +278,7 @@ dev.off()
 png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_S4.png', 
     units='in', width=5, height=3, res=300)
 layout(matrix(c(1,2), nrow=1, ncol=2, byrow=TRUE))
-select_and_plot('tyrosine', title='Tyrosine', panel='A')
+select_and_plot('5-aminovalerate', 5, title='5-Aminovalerate', panel='A')
 select_and_plot('p-cresol_sulfate', title='p-Cresol', panel='B')
 dev.off()
 

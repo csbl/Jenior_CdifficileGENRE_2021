@@ -15940,7 +15940,8 @@
 "charge":0,
 "formula":"C5H10N2O3",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11585"
 }
 },
 {
@@ -15950,7 +15951,8 @@
 "charge":0,
 "formula":"C5H10N2O3",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11585"
 }
 },
 {
@@ -15960,7 +15962,8 @@
 "charge":0,
 "formula":"C7H13N3O4",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11580"
 }
 },
 {
@@ -15970,7 +15973,8 @@
 "charge":0,
 "formula":"C7H13N3O4",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11580"
 }
 },
 {
@@ -15980,7 +15984,8 @@
 "charge":0,
 "formula":"C8H15N3O4",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11587"
 }
 },
 {
@@ -15990,7 +15995,8 @@
 "charge":0,
 "formula":"C8H15N3O4",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11587"
 }
 },
 {
@@ -16000,7 +16006,8 @@
 "charge":-1,
 "formula":"C6H9N2O5",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11589"
 }
 },
 {
@@ -16010,7 +16017,8 @@
 "charge":-1,
 "formula":"C6H9N2O5",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11589"
 }
 },
 {
@@ -16020,7 +16028,8 @@
 "charge":0,
 "formula":"C9H14N4O3",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11584"
 }
 },
 {
@@ -16030,7 +16039,8 @@
 "charge":0,
 "formula":"C9H14N4O3",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11584"
 }
 },
 {
@@ -16040,7 +16050,8 @@
 "charge":0,
 "formula":"C5H10N2O3S",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd01017"
 }
 },
 {
@@ -16050,7 +16061,8 @@
 "charge":0,
 "formula":"C5H10N2O3S",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd01017"
 }
 },
 {
@@ -16060,7 +16072,8 @@
 "charge":0,
 "formula":"C7H14N2O3S",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11591"
 }
 },
 {
@@ -16070,7 +16083,8 @@
 "charge":0,
 "formula":"C7H14N2O3S",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11591"
 }
 },
 {
@@ -16080,7 +16094,8 @@
 "charge":0,
 "formula":"C9H18N2O3",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11583"
 }
 },
 {
@@ -16090,7 +16105,8 @@
 "charge":0,
 "formula":"C9H18N2O3",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11583"
 }
 },
 {
@@ -16100,7 +16116,8 @@
 "charge":-1,
 "formula":"C7H11N2O5",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11593"
 }
 },
 {
@@ -16110,7 +16127,8 @@
 "charge":-1,
 "formula":"C7H11N2O5",
 "annotation":{
-"sbo":"SBO:0000247"
+"sbo":"SBO:0000247",
+"seed.compound":"cpd11593"
 }
 },
 {
@@ -35362,7 +35380,7 @@
 "gene_reaction_rule":"272563.8.peg.418 and 272563.8.peg.417",
 "annotation":{
 "kegg.genes":"K20025",
-"kegg.reaction":"K20025",
+"kegg.reaction":"R11076",
 "sbo":"SBO:0000176"
 }
 },
@@ -40077,7 +40095,7 @@
 "gene_reaction_rule":"(272563.8.peg.896 or 272563.8.peg.2794 or 272563.8.peg.895) and 272563.8.peg.2798 and (272563.8.peg.894 or 272563.8.peg.2795) and (272563.8.peg.893 or 272563.8.peg.2796)",
 "annotation":{
 "bigg.reaction":"ALAALAabcpp",
-"sbo":"SBO:0000627",
+"sbo":"SBO:0000185",
 "seed.reaction":"rxn18658"
 }
 },
@@ -40203,7 +40221,10 @@
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
-"bigg.reaction":"",
+"bigg.reaction":[
+"GALabc",
+"GALabcpp"
+],
 "sbo":"SBO:0000185",
 "seed.reaction":""
 }
@@ -41888,6 +41909,31 @@
 "bigg.metabolite":"Cut1",
 "sbo":"SBO:0000185",
 "seed.reaction":"rxn05528"
+}
+},
+{
+"id":"rxn00806_c",
+"name":"L-Leucine:2-oxoglutarate aminotransferase",
+"metabolites":{
+"cpd00023_c":1.0,
+"cpd00024_c":-1.0,
+"cpd00107_c":-1.0,
+"cpd00200_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"645463.3.peg.2255 or 645463.3.peg.2553",
+"annotation":{
+"bigg.reaction":[
+"BAT1_1",
+"BAT2_3",
+"LEUTA",
+"LEUTAi",
+"LEUTAm"
+],
+"kegg.reaction":"R01090",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00806"
 }
 }
 ],
@@ -49098,6 +49144,20 @@
 "patric":"fig|272563.8.peg.2223",
 "refseq":"NC_009089.1",
 "refseq.locustag":"WP_011861457.1",
+"sbo":"SBO:0000243"
+}
+},
+{
+"id":"645463.3.peg.2553",
+"name":"",
+"annotation":{
+"sbo":"SBO:0000243"
+}
+},
+{
+"id":"645463.3.peg.2255",
+"name":"",
+"annotation":{
 "sbo":"SBO:0000243"
 }
 }
