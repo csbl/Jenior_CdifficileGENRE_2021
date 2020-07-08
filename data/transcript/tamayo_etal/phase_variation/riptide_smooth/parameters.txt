@@ -10,8 +10,8 @@ Pooled transcript based on GPR: No
 Exchange reactions switched open: No
 Run in silent mode: No
 
-Percent pruned reactions: 75.25%
-Percent pruned metabolites: 74.46%
+Percent pruned reactions: 75.19%
+Percent pruned metabolites: 74.34%
 Percent change to objective value: 17.39%
-Correlation between activity and transcriptome: R=0.0788, p-value=0.1571
-RIPTiDe run time: 27 seconds
+Correlation between activity and transcriptome: R=0.0655, p-value=0.2392
+RIPTiDe run time: 21 seconds

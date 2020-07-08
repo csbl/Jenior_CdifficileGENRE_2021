@@ -56,25 +56,22 @@ aspartate_pval <- round(wilcox.test(rough_aspartate, smooth_aspartate, exact=FAL
 methylbutyrate_pval <- round(wilcox.test(rough_methylbutyrate, smooth_methylbutyrate, exact=FALSE)$p.value, 3)
 
 # Generate figures
-library(vioplot)
-library(plotrix)
-smooth_col <- 'skyblue1'
-rough_col <- 'orangered1'
+smooth_col <- 'chocolate2'
+rough_col <- 'cyan3'
 
+library(plotrix)
 png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_4A.png', 
-   units='in', width=2, height=4.5, res=300)
-par(mar=c(2,3,0.5,0.5), xpd=FALSE, las=1, mgp=c(2,0.7,0), lwd=1.7)
-vioplot(smooth_biomass, rough_biomass, col=c(smooth_col,rough_col),
-        ylim=c(70,120), ylab='Sampled Biomass Flux', yaxt='n', lwd=1.7, drawRect=FALSE)
-axis(side=2, at=seq(70,120,10), labels=c('0','80','90','100','110','120'), cex.axis=0.9)
-axis.break(2, 75, style='slash')
-mtext(c('Smooth','Rough'), side=1, at=c(1,2), padj=0.75)
-segments(x0=1, x1=2, y0=105)
-text(x=1.5, y=107, labels='n.s.', cex=1.2)
+    units='in', width=2, height=4, res=300)
+par(mar=c(2,3,1.5,0.5), xpd=FALSE, las=1, mgp=c(2,0.8,0), lwd=1.7)
+barplot(c(15.7, 16.0 ), col=c(smooth_col,rough_col), ylim=c(0,20), ylab='Optimal Doubling Time (min)', 
+        lwd=1.7, main='iCdR700', yaxt='n')
+axis(side=2, at=seq(0,20,10), labels=c(0,30,40), cex.axis=0.9, lwd=1.7)
+box()
+axis.break(2, 4, style='slash')
+mtext(c('Smooth','Rough'), side=1, cex=1.2, padj=1, adj=c(-0.1,1))
 dev.off()
 
-#-----------------------------------------------------------------------------------------------------------------------#
-
+library(vioplot)
 flux_plot <- function(smooth, rough, cpd_name, pval) {
   #plot_title <- paste0(cpd_name, '\nExchange')
   par(mar=c(2,3,1.5,0.5), xpd=FALSE, las=1, mgp=c(1.8,0.7,0), lwd=1.7)
