@@ -61,14 +61,16 @@ rough_col <- 'cyan3'
 
 library(plotrix)
 png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_4A.png', 
-    units='in', width=2, height=4, res=300)
-par(mar=c(2,3,1.5,0.5), xpd=FALSE, las=1, mgp=c(2,0.8,0), lwd=1.7)
-barplot(c(15.7, 16.0 ), col=c(smooth_col,rough_col), ylim=c(0,20), ylab='Optimal Doubling Time (min)', 
-        lwd=1.7, main='iCdR700', yaxt='n')
+    units='in', width=1.5, height=4, res=300)
+par(mar=c(4,3,1.5,0.5), xpd=FALSE, las=1, mgp=c(2,0.8,0), lwd=1.7)
+barplot(c(15.7, 16.0), col=c(smooth_col,rough_col), 
+        ylim=c(0,20), ylab='Optimal Doubling Time (min)', lwd=1.7, main='iCdR700', yaxt='n')
 axis(side=2, at=seq(0,20,10), labels=c(0,30,40), cex.axis=0.9, lwd=1.7)
 box()
 axis.break(2, 4, style='slash')
-mtext(c('Smooth','Rough'), side=1, cex=1.2, padj=1, adj=c(-0.1,1))
+par(xpd=TRUE)
+text(x=c(0.035,0.095), y=-2.5, labels=c('Smooth','Rough'), srt=55, cex=1.1)
+par(xpd=FALSE)
 dev.off()
 
 library(vioplot)
