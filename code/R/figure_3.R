@@ -1,166 +1,128 @@
 
 # Read in data
-growth <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/biolog_sim.values.tsv', sep='\t', header=TRUE)
-growth$name <- gsub('_',' ',growth$name)
+rough_fluxes <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/transcript/tamayo_etal/phase_variation/riptide_rough/flux_samples.tsv', sep='\t', header=TRUE)
+smooth_fluxes <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/transcript/tamayo_etal/phase_variation/riptide_smooth/flux_samples.tsv', sep='\t', header=TRUE)
 
-cd630 <- growth[,c(1:5)]
-cdR20291 <- growth[,c(1:3,6:7)]
-rm(growth)
+# Get reactions of interest
+min_range <- c()
+# input
+smooth_glucose <- as.vector(smooth_fluxes[,'EX_cpd00027_e'])
+min_range <- c(min_range, length(smooth_glucose))
+smooth_glytyr <- as.vector(smooth_fluxes[,'EX_cpd15606_e'])
+min_range <- c(min_range, length(smooth_glytyr))
+rough_glytyr <- as.vector(rough_fluxes[,'EX_cpd15606_e'])
+min_range <- c(min_range, length(rough_glytyr))
+# output
+rough_hydroxymandelate <- as.vector(rough_fluxes[,'EX_cpd03170_e'])
+min_range <- c(min_range, length(rough_hydroxymandelate))
+rough_ammonia <- as.vector(rough_fluxes[,'EX_cpd00013_e'])
+min_range <- c(min_range, length(rough_ammonia))
+smooth_aspartate <- as.vector(smooth_fluxes[,'EX_cpd00320_e'])
+min_range <- c(min_range, length(smooth_aspartate))
+rough_aspartate <- as.vector(rough_fluxes[,'EX_cpd00320_e'])
+min_range <- c(min_range, length(rough_aspartate))
+smooth_methylbutyrate <- as.vector(smooth_fluxes[,'EX_cpd19585_e'])
+min_range <- c(min_range, length(smooth_methylbutyrate))
+rough_methylbutyrate <- as.vector(rough_fluxes[,'EX_cpd19585_e'])
+min_range <- c(min_range, length(rough_methylbutyrate))
+# biomass
+rough_biomass <- unique(as.vector(rough_fluxes[,'biomass']))
+min_range <- c(min_range, length(rough_biomass))
+smooth_biomass <- unique(as.vector(smooth_fluxes[,'biomass']))
+min_range <- c(min_range, length(smooth_biomass))
+rm(rough_fluxes, smooth_fluxes)
 
-colnames(cd630) <- c('modelseed','name','type','fba','biolog')
-cd630$diff <- abs(cd630$fba - cd630$biolog)
-cd630_carb <- subset(cd630, type == 'Carbohydrate')
-cd630_carb <- cd630_carb[order(cd630_carb$fba),]
-cd630_carb$type <- rep('a_Carbohydrate', nrow(cd630_carb))
-cd630_nuc <- subset(cd630, type == 'Nucleotide')
-cd630_nuc <- cd630_nuc[order(cd630_nuc$fba),]
-cd630_nuc$type <- rep('b_Nucleotide', nrow(cd630_nuc))
-cd630_aa <- subset(cd630, type == 'Amino_acid')
-cd630_aa <- cd630_aa[order(cd630_aa$fba),]
-cd630_aa$type <- rep('c_Amino_acid', nrow(cd630_aa))
-cd630_carboxy <- subset(cd630, type == 'Carboxylic_acid')
-cd630_carboxy <- cd630_carboxy[order(cd630_carboxy$fba),]
-cd630_carboxy$type <- rep('d_Carboxylic_acid', nrow(cd630_carboxy))
-cd630_other <- subset(cd630, !type %in% c('Carbohydrate','Amino_acid','Nucleotide','Carboxylic_acid'))
-cd630_other <- cd630_other[order(cd630_other$fba),]
-cd630_other$type <- rep('e_Other', nrow(cd630_other))
-#cd630 <- as.data.frame(rbind(cd630_other,cd630_carboxy,cd630_nuc,cd630_aa,cd630_carb))
-cd630 <- as.data.frame(rbind(cd630_carb,cd630_aa,cd630_nuc,cd630_carboxy,cd630_other))
-cd630$type <- as.factor(cd630$type)
+# Subsample data
+min_range <- min(min_range)
+sample_size <- round(min_range * 0.8)
+sub_sample <- sample(1:min_range, sample_size, replace=FALSE)
+smooth_glucose <- smooth_glucose[sub_sample]
+smooth_glytyr <- smooth_glytyr[sub_sample]
+rough_glytyr <- rough_glytyr[sub_sample]
+rough_hydroxymandelate <- rough_hydroxymandelate[sub_sample]
+rough_ammonia <- rough_ammonia[sub_sample]
+smooth_aspartate <- smooth_aspartate[sub_sample]
+rough_aspartate <- rough_aspartate[sub_sample]
+smooth_methylbutyrate <- smooth_methylbutyrate[sub_sample]
+rough_methylbutyrate <- rough_methylbutyrate[sub_sample]
+rough_biomass <- rough_biomass[sub_sample]
+smooth_biomass <- smooth_biomass[sub_sample]
+rm(sub_sample, sample_size, min_range)
 
-colnames(cdR20291) <- c('modelseed','name','type','fba','biolog')
-cdR20291$diff <- abs(cdR20291$fba - cdR20291$biolog)
-cdR20291_carb <- subset(cdR20291, type == 'Carbohydrate')
-cdR20291_carb <- cdR20291_carb[order(cdR20291_carb$fba),]
-cdR20291_carb$type <- rep('a_Carbohydrate', nrow(cdR20291_carb))
-cdR20291_nuc <- subset(cdR20291, type == 'Nucleotide')
-cdR20291_nuc <- cdR20291_nuc[order(cdR20291_nuc$fba),]
-cdR20291_nuc$type <- rep('b_Nucleotide', nrow(cdR20291_nuc))
-cdR20291_aa <- subset(cdR20291, type == 'Amino_acid')
-cdR20291_aa <- cdR20291_aa[order(cdR20291_aa$fba),]
-cdR20291_aa$type <- rep('c_Amino_acid', nrow(cdR20291_aa))
-cdR20291_carboxy <- subset(cdR20291, type == 'Carboxylic_acid')
-cdR20291_carboxy <- cdR20291_carboxy[order(cdR20291_carboxy$fba),]
-cdR20291_carboxy$type <- rep('d_Carboxylic_acid', nrow(cdR20291_carboxy))
-cdR20291_other <- subset(cdR20291, !type %in% c('Carbohydrate','Amino_acid','Nucleotide','Carboxylic_acid'))
-cdR20291_other <- cdR20291_other[order(cdR20291_other$fba),]
-cdR20291_other$type <- rep('e_Other', nrow(cdR20291_other))
-cdR20291 <- as.data.frame(rbind(cdR20291_carb,cdR20291_aa,cdR20291_nuc,cdR20291_carboxy,cdR20291_other))
-cdR20291$type <- as.factor(cdR20291$type)
+# Test differences in predicted flux distributions
+biomass_pval <- round(wilcox.test(rough_biomass, smooth_biomass, exact=FALSE)$p.value, 3)
+glytyr_pval <- round(wilcox.test(rough_glytyr, smooth_glytyr, exact=FALSE)$p.value, 3)
+aspartate_pval <- round(wilcox.test(rough_aspartate, smooth_aspartate, exact=FALSE)$p.value, 3)
+methylbutyrate_pval <- round(wilcox.test(rough_methylbutyrate, smooth_methylbutyrate, exact=FALSE)$p.value, 3)
 
-# Normalize data
-cd630$fba_norm <- cd630$fba / min(cd630$biolog)
-cd630$biolog_norm <- cd630$biolog / min(cd630$fba)
-cd630$fba <- cd630$fba_norm
-cd630$fba_norm <- NULL
-cd630$biolog <- cd630$biolog
-cd630$biolog_norm <- NULL
-cdR20291$fba_norm <- cdR20291$fba / min(cdR20291$biolog)
-cdR20291$biolog_norm <- cdR20291$biolog / min(cdR20291$fba)
-cdR20291$fba <- cdR20291$fba_norm
-cdR20291$fba_norm <- NULL
-cdR20291$biolog <- cdR20291$biolog
-cdR20291$biolog_norm <- NULL
+# Generate figures
+smooth_col <- 'chocolate2'
+rough_col <- 'cyan3'
 
-# Calculate correlations
-# Overall
-cor.test(x=cd630$fba, y=cd630$biolog, method='spearman', exact=FALSE) # R = 0.4298618, p-value = 2.247e-06 ***
-cor.test(x=cdR20291$fba, y=cdR20291$biolog, method='spearman', exact=FALSE) # R = 0.2875524, p-value = 0.001833 **
-# Metabolite classes
-cor.test(x=cdR20291_aa$fba, y=cdR20291_aa$biolog, method='spearman', exact=FALSE) # R = -0.2554949, p-value = 0.08658
-cor.test(x=cdR20291_carb$fba, y=cdR20291_carb$biolog, method='spearman', exact=FALSE) # R = 0.5462015, p-value = 0.003893 **
-cor.test(x=cdR20291_carboxy$fba, y=cdR20291_carboxy$biolog, method='spearman', exact=FALSE) # R = -0.1729933, p-value = 0.4299
-cor.test(x=cdR20291_nuc$fba, y=cdR20291_nuc$biolog, method='spearman', exact=FALSE) # R = 0.2538656, p-value = 0.3811
-cor.test(x=cdR20291_other$fba, y=cdR20291_other$biolog, method='spearman', exact=FALSE) # R = 0.3927922, p-value = 0.4411
-cor.test(x=cdR20291_aa$fba, y=cdR20291_aa$biolog, method='spearman', exact=FALSE) # R = -0.2554949, p-value = 0.08658
-cor.test(x=cdR20291_carb$fba, y=cdR20291_carb$biolog, method='spearman', exact=FALSE) # R = 0.5462015, p-value = 0.003893 **
-cor.test(x=cdR20291_carboxy$fba, y=cdR20291_carboxy$biolog, method='spearman', exact=FALSE) # R = -0.1729933, p-value = 0.4299
-cor.test(x=cdR20291_nuc$fba, y=cdR20291_nuc$biolog, method='spearman', exact=FALSE) # R = 0.2538656, p-value = 0.3811
-cor.test(x=cdR20291_other$fba, y=cdR20291_other$biolog, method='spearman', exact=FALSE) # R = 0.3927922, p-value = 0.4411
-
-# Generate figure
-library(viridis)
-pall <- viridis(5)
-
-png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_3B.png', 
-    units='in', width=4, height=4, res=300)
-par(mar=c(3,4,0.5,0.5), las=1, mgp=c(1.9,0.75,0), lwd=1.5)
-plot(x=cd630$fba, y=cd630$biolog, cex=0, xlab='Simulated Growth Enhancement Ratio', ylab='Experimental Growth Enhancement Ratio', 
-     xlim=c(0.9,4.9), ylim=c(0.8,2.5), xaxt='n', yaxt='n')
-axis(1, at=seq(1,5,1), label=c('1.0','2.0','3.0','4.0','5.0'), cex.axis=0.85)
-axis(2, at=c(1,1.5,2,2.5), label=c('1.0','1.5','2.0','2.5'), cex.axis=0.85)
-points(x=cd630_carb$fba, y=cd630_carb$biolog, pch=21, cex=1.5, bg=pall[1])
-points(x=cd630_aa$fba, y=cd630_aa$biolog, pch=21, cex=1.5, bg=pall[2])
-points(x=cd630_carboxy$fba, y=cd630_carboxy$biolog, pch=21, cex=1.5, bg=pall[3])
-points(x=cd630_nuc$fba, y=cd630_nuc$biolog, pch=21, cex=1.5, bg=pall[4])
-points(x=cd630_other$fba, y=cd630_other$biolog, pch=21, cex=1.5, bg=pall[5])
-legend('topleft', legend=c('Carbohydrates','Amino acids','Carboxylic acids','Nucleotides','Other'), pch=21,
-       pt.bg=pall, pt.cex=1.5, cex=0.9)
-legend('topright', legend='iCdG698', cex=1.2, pt.cex=0, bty='n', text.font=2)
-text(x=4.4, y=0.9, labels='R = 0.423')
-text(x=3.15, y=0.78, labels='p', font=3)
-text(x=4.1, y=0.8, labels='-value < 0.001***')
-abline(lm(cd630_carb$biolog ~ cd630_carb$fba), lwd=2)
-box(lwd=2)
+library(plotrix)
+png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_3A.png', 
+    units='in', width=1.5, height=4, res=300)
+par(mar=c(4,3,1.5,0.5), xpd=FALSE, las=1, mgp=c(2,0.8,0), lwd=1.7)
+barplot(c(15.7, 16.0), col=c(smooth_col,rough_col), 
+        ylim=c(0,20), ylab='Optimal Doubling Time (min)', lwd=1.7, main='iCdR700', yaxt='n')
+axis(side=2, at=seq(0,20,10), labels=c(0,30,40), cex.axis=0.9, lwd=1.7)
+box()
+axis.break(2, 4, style='slash')
+par(xpd=TRUE)
+text(x=c(0.035,0.095), y=-2.5, labels=c('Smooth','Rough'), srt=55, cex=1.1)
+par(xpd=FALSE)
 dev.off()
+
+library(vioplot)
+flux_plot <- function(smooth, rough, cpd_name, pval) {
+  #plot_title <- paste0(cpd_name, '\nExchange')
+  par(mar=c(2,3,1.5,0.5), xpd=FALSE, las=1, mgp=c(1.8,0.7,0), lwd=1.7)
+  vioplot(smooth, rough, col=c(smooth_col,rough_col), main=cpd_name, cex.main=1,
+          ylim=c(-1100,1100), ylab='Sampled Flux', yaxt='n', lwd=1.7, drawRect=FALSE)
+  abline(h=0, lty=5, col='gray70')
+  vioplot(smooth, rough, col=c(smooth_col,rough_col), add=TRUE,
+          ylim=c(-1100,1100), ylab='Sampled Flux', yaxt='n', lwd=1.7, drawRect=FALSE)
+  axis(side=2, at=seq(-1000,1000,500), cex.axis=0.7)
+  text(x=1.5, y=1100, labels='Net Production', cex=0.9)
+  text(x=1.5, y=-1100, labels='Net Consumption', cex=0.9)
+  mtext(c('Smooth','Rough'), side=1, padj=0.5, adj=c(0.1,0.9))
+  if (max(rough) > 800) {
+    sigy_1 <- -500
+    sigy_2 <- -430
+  } else { 
+    sigy_1 <- 800
+    sigy_2 <- 870
+  }
+  if (max(smooth) > 800) {
+    sigy_1 <- -500
+    sigy_2 <- -430
+  } else { 
+    sigy_1 <- 800
+    sigy_2 <- 870
+  }
+  if (length(smooth) != 1) {
+    if (length(rough) != 1) {
+      if (pval <= 0.001) {
+        segments(x0=1, x1=2, y0=sigy_1)
+        text(x=1.5, y=sigy_2, labels='***', cex=1.5, font=2)
+      }
+    }
+  }
+  if (length(smooth) == 1) {text(x=1, y=100, labels='inactive', cex=0.9)}
+  if (length(rough) == 1) {text(x=2, y=100, labels='inactive', cex=0.9)}
+}
+
 
 png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_3C.png', 
-    units='in', width=4, height=4, res=300)
-par(mar=c(3,4,0.5,0.5), las=1, mgp=c(1.9,0.75,0), lwd=1.5)
-plot(x=cdR20291$fba, y=cdR20291$biolog, cex=0, xlab='Simulated Growth Enhancement Ratio', ylab='Experimental Growth Enhancement Ratio', 
-     xlim=c(0.9,5), ylim=c(0.8,2.5), xaxt='n', yaxt='n')
-axis(1, at=seq(1,5,1), label=c('1.0','2.0','3.0','4.0','5.0'), cex.axis=0.85)
-axis(2, at=c(1,1.5,2,2.5), label=c('1.0','1.5','2.0','2.5'), cex.axis=0.85)
-points(x=cdR20291_carb$fba, y=cdR20291_carb$biolog, pch=21, cex=1.5, bg=pall[1])
-points(x=cdR20291_aa$fba, y=cdR20291_aa$biolog, pch=21, cex=1.5, bg=pall[2])
-points(x=cdR20291_carboxy$fba, y=cdR20291_carboxy$biolog, pch=21, cex=1.5, bg=pall[3])
-points(x=cdR20291_nuc$fba, y=cdR20291_nuc$biolog, pch=21, cex=1.5, bg=pall[4])
-points(x=cdR20291_other$fba, y=cdR20291_other$biolog, pch=21, cex=1.5, bg=pall[5])
-legend('topleft', legend=c('Carbohydrates','Amino acids','Carboxylic acids','Nucleotides','Other'), pch=21,
-       pt.bg=pall, pt.cex=1.5, cex=0.9)
-legend('topright', legend='iCdR700', cex=1.2, pt.cex=0, bty='n', text.font=2)
-text(x=4.4, y=0.9, labels='R = 0.287')
-text(x=3.15, y=0.78, labels='p', font=3)
-text(x=4.1, y=0.8, labels='-value = 0.002**')
-abline(lm(cdR20291_carb$biolog ~ cdR20291_carb$fba), lwd=2)
-box(lwd=2)
+    units='in', width=4, height=6, res=300)
+layout(matrix(c(1,2,
+                3,4), nrow=2, ncol=2, byrow=TRUE))
+
+flux_plot(smooth_glucose, 0, 'D-Glucose', 1)
+flux_plot(smooth_glytyr, rough_glytyr, 'Gly-Tyr', glytyr_pval)
+flux_plot(0, rough_hydroxymandelate, '4-Hydroxymandelate', 1)
+flux_plot(0, rough_ammonia, 'Ammonia', 1)
+
 dev.off()
 
-#-------------------------------------------------------------------------------------------------------------------#
-
-binary <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/biolog_sim.binary.tsv', sep='\t', header=TRUE)
-binary$name <- gsub('_',' ',binary$name)
-binary_630 <- binary[,c(1:5)]
-colnames(binary_630) <- c('metabolite','name','group','fba','biolog')
-binary_R20291 <- binary[,c(1:3,6,7)]
-colnames(binary_R20291) <- c('metabolite','name','group','fba','biolog')
-rm(binary)
-
-true_pos_630 <- subset(binary_630, fba == 1)
-true_pos_630 <- subset(true_pos_630, biolog == 1)
-true_neg_630 <- subset(binary_630, fba == 0)
-true_neg_630 <- subset(true_neg_630, biolog == 0)
-false_pos_630 <- subset(binary_630, fba == 1)
-false_pos_630 <- subset(false_pos_630, biolog == 0)
-false_neg_630 <- subset(binary_630, fba == 0)
-false_neg_630 <- subset(false_neg_630, biolog == 1)
-true_pos_630_vals <- c(nrow(true_pos_630), (nrow(true_pos_630)/(nrow(true_pos_630)+nrow(false_pos_630)))*100.0)
-false_pos_630_vals <- c(nrow(false_pos_630), (nrow(false_pos_630)/(nrow(true_pos_630)+nrow(false_pos_630)))*100.0)
-true_neg_630_vals <- c(nrow(true_neg_630), (nrow(true_neg_630)/(nrow(true_neg_630)+nrow(false_neg_630)))*100.0)
-false_neg_630_vals <- c(nrow(false_neg_630), (nrow(false_neg_630)/(nrow(true_pos_630)+nrow(false_neg_630)))*100.0)
-accuracy_630 <- ((nrow(true_pos_630)+nrow(true_neg_630))/nrow(binary_630))*100.0
-
-true_pos_R20291 <- subset(binary_R20291, fba == 1)
-true_pos_R20291 <- subset(true_pos_R20291, biolog == 1)
-true_neg_R20291 <- subset(binary_R20291, fba == 0)
-true_neg_R20291 <- subset(true_neg_R20291, biolog == 0)
-false_pos_R20291 <- subset(binary_R20291, fba == 1)
-false_pos_R20291 <- subset(false_pos_R20291, biolog == 0)
-false_neg_R20291 <- subset(binary_R20291, fba == 0)
-false_neg_R20291 <- subset(false_neg_R20291, biolog == 1)
-true_pos_R20291_vals <- c(nrow(true_pos_R20291), (nrow(true_pos_R20291)/(nrow(true_pos_R20291)+nrow(false_pos_R20291)))*100.0)
-false_pos_R20291_vals <- c(nrow(false_pos_R20291), (nrow(false_pos_R20291)/(nrow(true_pos_R20291)+nrow(false_pos_R20291)))*100.0)
-true_neg_R20291_vals <- c(nrow(true_neg_R20291), (nrow(true_neg_R20291)/(nrow(true_neg_R20291)+nrow(false_neg_R20291)))*100.0)
-false_neg_R20291_vals <- c(nrow(false_neg_R20291), (nrow(false_neg_R20291)/(nrow(true_pos_R20291)+nrow(false_neg_R20291)))*100.0)
-accuracy_R20291 <- ((nrow(true_pos_R20291)+nrow(true_neg_R20291))/nrow(binary_R20291))*100.0
 
