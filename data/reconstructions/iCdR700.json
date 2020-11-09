@@ -39693,7 +39693,7 @@
 "cpd00320_c":1.0,
 "cpd00320_e":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
@@ -40706,7 +40706,7 @@
 },
 {
 "id":"rxn09687_c",
-"name":"Deoxyinosine symporter",
+"name":"Deoxyinosine transport in via proton symport",
 "metabolites":{
 "cpd00067_c":1.0,
 "cpd00067_e":-1.0,
@@ -40748,7 +40748,7 @@
 },
 {
 "id":"rxn05316_c",
-"name":"TRANS-RXNBWI-115572.ce.maizeexp.INOSINE_INOSINE",
+"name":"Inosine transport in via proton symport",
 "metabolites":{
 "cpd00067_c":1.0,
 "cpd00067_e":-1.0,
