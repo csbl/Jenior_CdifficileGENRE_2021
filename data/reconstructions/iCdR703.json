@@ -41998,24 +41998,6 @@
 }
 },
 {
-"id":"R00258_c",
-"name":"Alanine transaminase",
-"metabolites":{
-"cpd00001_c":-1.0,
-"cpd00013_c":1.0,
-"cpd00020_c":1.0,
-"cpd00035_c":-1.0,
-"cpd00067_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"645463.3.peg.2419",
-"annotation":{
-"kegg.reaction":"R00258",
-"sbo":"SBO:0000629"
-}
-},
-{
 "id":"rxn00173_c",
 "name":"Phosphate acetyltransferase",
 "metabolites":{
@@ -42090,10 +42072,29 @@
 }
 },
 {
+"id":"R00258_c",
+"name":"Alanine transaminase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00013_c":1.0,
+"cpd00020_c":1.0,
+"cpd00035_c":-1.0,
+"cpd00067_c":2.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"645463.3.peg.2419",
+"annotation":{
+"kegg.reaction":"R00258",
+"sbo":"SBO:0000629"
+}
+},
+{
 "id":"rxn10133_c",
 "name":"Phenylpropanoate hydrogen symport",
 "metabolites":{
-"cpd00067_c":1.0,
+"cpd00067_c":-1.0,
+"cpd00067_e":1.0,
 "cpd03343_c":-1.0,
 "cpd03343_e":1.0
 },

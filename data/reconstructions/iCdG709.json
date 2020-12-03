@@ -28973,7 +28973,7 @@
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"",
+"gene_reaction_rule":"272563.8.peg.466",
 "annotation":{
 "kegg.compound":"R02618",
 "sbo":"SBO:0000176",
@@ -32280,7 +32280,7 @@
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"272563.120.peg.553",
+"gene_reaction_rule":"272563.8.peg.570 or 272563.120.peg.553",
 "annotation":{
 "kegg.compound":"R08583",
 "sbo":"SBO:0000176",
@@ -35068,7 +35068,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"272563.120.peg.166 and 272563.120.peg.167 and 272563.120.peg.168",
+"gene_reaction_rule":"(272563.8.peg.170 and 272563.8.peg.171) or (272563.120.peg.166 and 272563.120.peg.167 and 272563.120.peg.168)",
 "annotation":{
 "kegg.compound":"R07312",
 "sbo":"SBO:0000176",
@@ -41811,24 +41811,6 @@
 }
 },
 {
-"id":"R00258_c",
-"name":"Alanine transaminase",
-"metabolites":{
-"cpd00001_c":-1.0,
-"cpd00013_c":1.0,
-"cpd00020_c":1.0,
-"cpd00035_c":-1.0,
-"cpd00067_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"272563.120.peg.2623",
-"annotation":{
-"kegg.reaction":"R00258",
-"sbo":"SBO:0000629"
-}
-},
-{
 "id":"rxn00173_c",
 "name":"Phosphate acetyltransferase",
 "metabolites":{
@@ -41903,10 +41885,97 @@
 }
 },
 {
+"id":"rxn00493_c",
+"name":"L-Phenylalanine:2-oxoglutarate aminotransferase",
+"metabolites":{
+"cpd00023_c":1.0,
+"cpd00024_c":-1.0,
+"cpd00066_c":-1.0,
+"cpd00143_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"272563.8.peg.2315 or 272563.8.peg.2624",
+"annotation":{
+"bigg.metabolite":[
+"PHETA1",
+"ARO9_1"
+],
+"kegg.compound":"R00694",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00493"
+}
+},
+{
+"id":"rxn01270_c",
+"name":"L-arogenate:2-oxoglutarate aminotransferase",
+"metabolites":{
+"cpd00032_c":-1.0,
+"cpd00041_c":1.0,
+"cpd00219_c":1.0,
+"cpd00616_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"272563.8.peg.2315 or 272563.8.peg.2624",
+"annotation":{
+"kegg.compound":"R01731",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn01270"
+}
+},
+{
+"id":"rxn00527_c",
+"name":"L-tyrosine:2-oxoglutarate aminotransferase",
+"metabolites":{
+"cpd00023_c":1.0,
+"cpd00024_c":-1.0,
+"cpd00069_c":-1.0,
+"cpd00868_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"272563.8.peg.2315 or 272563.8.peg.2624",
+"annotation":{
+"bigg.metabolite":[
+"AAT2_2",
+"ARO9_2",
+"AAT1_2",
+"TYRTAp",
+"TYRTAm",
+"TYRTAi",
+"TYRTA",
+"ARO8"
+],
+"kegg.compound":"R00734",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00527"
+}
+},
+{
+"id":"R00258_c",
+"name":"Alanine transaminase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00013_c":1.0,
+"cpd00020_c":1.0,
+"cpd00035_c":-1.0,
+"cpd00067_c":2.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"272563.120.peg.2623",
+"annotation":{
+"kegg.reaction":"R00258",
+"sbo":"SBO:0000629"
+}
+},
+{
 "id":"rxn10133_c",
 "name":"Phenylpropanoate hydrogen symport",
 "metabolites":{
-"cpd00067_c":1.0,
+"cpd00067_c":-1.0,
+"cpd00067_e":1.0,
 "cpd03343_c":-1.0,
 "cpd03343_e":1.0
 },
