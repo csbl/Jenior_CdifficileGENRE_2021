@@ -96,7 +96,6 @@ strep_doubling <- strep_doubling - 35
 
 #-------------------------------------#
 
-
 # Flux sampling files
 clinda_samples <- '~/Desktop/repos/Jenior_Cdifficile_2019/data/contextualized_iCdG698/riptide_high_spore/flux_samples.tsv'
 strep_samples <- '~/Desktop/repos/Jenior_Cdifficile_2019/data/contextualized_iCdG698/riptide_low_spore/flux_samples.tsv'
@@ -202,7 +201,7 @@ select_and_plot <- function(metabolite_name, best_ylim=0, correction=FALSE, titl
             xlab="", ylab="", outcex=0, whisklty=1, medlwd=2, yaxt='n', add=TRUE) 
     boxplot(b_630, at=3, xlim=c(0.6,3.4), ylim=c(0,best_ylim), col='blue4', 
             xlab="", ylab="", outcex=0, whisklty=1, medlwd=2, yaxt='n', add=TRUE) 
-    mtext(c('High\nSpores','Low\nSpores'), side=1, at=c(1.25,2.75), padj=1.3, cex=0.65)
+    mtext(c('High\nSpores','Low\nSpores'), side=1, at=c(1.25,2.75), padj=1.3, cex=0.55)
     mtext(c('CDI:','-','+','-','+'), side=1, at=c(0.5,1,1.5,2.5,3), padj=0.3, cex=c(0.5,0.8,0.8,0.8,0.8))
 
     a_pval <- round(wilcox.test(a_mock, a_630, exact=FALSE)$p.value,3)
@@ -212,17 +211,17 @@ select_and_plot <- function(metabolite_name, best_ylim=0, correction=FALSE, titl
     if (across == TRUE) {fctr <- 0.7} else {fctr <- 0.96}
     if (a_pval <= 0.05) {
         segments(x0=1, y0=best_ylim*fctr, x1=1.5, y1=best_ylim*fctr, lwd=1.5)
-        text(x=1.25, y=best_ylim*(fctr+0.04), '*', font=2, cex=1.2)}
+        text(x=1.25, y=best_ylim*(fctr+0.04), '*', font=2, cex=1)}
     if (b_pval <= 0.05) {
         segments(x0=2.5, y0=best_ylim*fctr, x1=3, y1=best_ylim*fctr, lwd=1.5)
-        text(x=2.75, y=best_ylim*(fctr+0.04), '*', font=2, cex=1.2)}
+        text(x=2.75, y=best_ylim*(fctr+0.04), '*', font=2, cex=1)}
     if (across == TRUE) {
         if (ab_pval <= 0.05) {
             segments(x0=1, y0=best_ylim*0.96, x1=2.5, y1=best_ylim*0.96, lwd=1.5)
-            text(x=1.75, y=best_ylim, '*', font=2, cex=1.2)}
+            text(x=1.75, y=best_ylim, '*', font=2, cex=1)}
         if (ba_pval <= 0.05) {
             segments(x0=1.5, y0=best_ylim*0.86, x1=3, y1=best_ylim*0.86, lwd=1.5)
-            text(x=2.25, y=best_ylim*0.9, '*', font=2, cex=1.2)}
+            text(x=2.25, y=best_ylim*0.9, '*', font=2, cex=1)}
     }
 }
 
@@ -269,28 +268,29 @@ box(lwd=2.5)
 dev.off()
 
 # Flux samples from AUCRF features
-library(plotrix)
 png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_4C.png', 
     units='in', width=2.5, height=4, res=300)
 par(mar=c(2.5, 0.5, 0.5, 0.5), mgp=c(1.4, 0.5, 0), xpd=FALSE, lwd=1.7, xaxt='n')
-dotchart(rf_rxns$mda, color='darkorchid4', xlab='Mean Decrease Accuracy (%)', xlim=c(15,30),  
+dotchart(rf_rxns$mda, color='darkorchid4', xlab='Mean Decrease Accuracy (%)', xlim=c(15,40),  
          pch=16, lwd=1.7, xaxs='i', pt.cex=1.5, cex=0.9)
 par(xaxt='s')
-axis(1, at=seq(15,30,5), labels=c(0,seq(20,30,5)), cex.axis=0.7) 
+axis(1, at=seq(15,40,5), labels=c(0,seq(20,40,5)), cex.axis=0.7) 
 axis.break(1, 17, style='slash')
-text(x=15, y=seq(1.3,10.3,1), labels=rf_rxns$name, cex=0.79, pos=4)
+text(x=15, y=seq(1.3,10.3,1), labels=rf_rxns$name, cex=0.75, pos=4)
 dev.off()
 
 # Main body
-png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_4EF.png', 
+png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_4EFGH.png', 
     units='in', width=3.5, height=3.5, res=300)
-layout(matrix(c(1,2), nrow=1, ncol=2, byrow=TRUE))
+layout(matrix(c(1,2,
+                3,4), nrow=2, ncol=2, byrow=TRUE))
 select_and_plot('2,3-dihydroxyisovalerate', title='Isovalerate', across=TRUE, best_ylim=2.25)
+select_and_plot('3-hydroxyisobutyrate', title='Isobutyrate', across=TRUE, best_ylim=2)
 select_and_plot('N-acetylneuraminate', title='N-Acetylneuraminate', across=TRUE)
+select_and_plot('N-acetylglucosamine/N-acetylgalactosamine', title='N-Acetylglucosamine', across=TRUE, best_ylim=0.25)
 dev.off()
 
-
-select_and_plot('imidazole_propionate', across=TRUE, best_ylim=1.5)
+select_and_plot('adenosine', across=TRUE)
 
 
 # Supplement
@@ -337,8 +337,10 @@ par(xpd=FALSE)
 dev.off()
 
 
-png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_S4C.png', 
-    units='in', width=3, height=3, res=300)
+png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_S4CD.png', 
+    units='in', width=3.5, height=2.5, res=300)
+layout(matrix(c(1,2), nrow=1, ncol=2, byrow=TRUE))
 select_and_plot('glucose', title='D-Glucose', best_ylim=6, across=TRUE)
+select_and_plot('adenosine', title='Adenosine', best_ylim=1.5, across=TRUE)
 dev.off()
 
