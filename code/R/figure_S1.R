@@ -1,96 +1,119 @@
-
 # Read in data
-genres <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/old_cdifficile_genres/genre_comparisons.tsv', sep='\t', header=TRUE, row.names=1)
+growth <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/biolog_sim.values.tsv', sep='\t', header=TRUE)
+growth$name <- gsub('_',' ',growth$name)
+#binary <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/biolog_sim.binary.tsv', sep='\t', header=TRUE)
+#binary$name <- gsub('_',' ',binary$name)
 
-# Format quality metrics
-genres$annotation_genes <- NULL
-genres$annotation_reactions <- NULL
-genres$annotation_metabolites <- NULL
-genres$yesGPR <- round(100.0 - genres$noGPR,1)
-genres$consistency <- round(100.0 - genres$stoichiometric_inconsistency,1)
+# Separate strains
+cd630 <- growth[,c(1:5)]
+cdR20291 <- growth[,c(1:3,6:7)]
+rm(growth)
 
-# Subset data
-growth_genres <- genres[order(-genres$growth),]
-growth_names <- rownames(growth_genres)
-growth_genres <- growth_genres$growth
-genres <- genres[,c('memote_score','yesGPR','consistency')]
-old_genres <- subset(genres, rownames(genres) %in% c("iMLTC806cdf","icdf834","iHD992","iCN900"))
-agora_genres <- subset(genres, rownames(genres) %in% c("agora_NAP07","agora_NAP08","agora_CD196","agora_R20291"))
-new_genres <- subset(genres, rownames(genres) %in% c('iCdG698','iCdR700'))
-rm(genres)
+# Restructure
+# 630
+colnames(cd630) <- c('modelseed','name','type','fba','biolog')
+cd630$diff <- abs(cd630$fba - cd630$biolog)
+cd630_carb <- subset(cd630, type == 'Carbohydrate')
+cd630_carb <- cd630_carb[order(cd630_carb$fba),]
+cd630_carb$type <- rep('a_Carbohydrate', nrow(cd630_carb))
+cd630_nuc <- subset(cd630, type == 'Nucleotide')
+cd630_nuc <- cd630_nuc[order(cd630_nuc$fba),]
+cd630_nuc$type <- rep('b_Nucleotide', nrow(cd630_nuc))
+cd630_aa <- subset(cd630, type == 'Amino_acid')
+cd630_aa <- cd630_aa[order(cd630_aa$fba),]
+cd630_aa$type <- rep('c_Amino_acid', nrow(cd630_aa))
+cd630_carboxy <- subset(cd630, type == 'Carboxylic_acid')
+cd630_carboxy <- cd630_carboxy[order(cd630_carboxy$fba),]
+cd630_carboxy$type <- rep('d_Carboxylic_acid', nrow(cd630_carboxy))
+cd630_other <- subset(cd630, !type %in% c('Carbohydrate','Amino_acid','Nucleotide','Carboxylic_acid'))
+cd630_other <- cd630_other[order(cd630_other$fba),]
+cd630_other$type <- rep('e_Other', nrow(cd630_other))
+#cd630 <- as.data.frame(rbind(cd630_other,cd630_carboxy,cd630_nuc,cd630_aa,cd630_carb))
+cd630 <- as.data.frame(rbind(cd630_carb,cd630_aa,cd630_nuc,cd630_carboxy,cd630_other))
+cd630$type <- as.factor(cd630$type)
+# R20291
+colnames(cdR20291) <- c('modelseed','name','type','fba','biolog')
+cdR20291$diff <- abs(cdR20291$fba - cdR20291$biolog)
+cdR20291_carb <- subset(cdR20291, type == 'Carbohydrate')
+cdR20291_carb <- cdR20291_carb[order(cdR20291_carb$fba),]
+cdR20291_carb$type <- rep('a_Carbohydrate', nrow(cdR20291_carb))
+cdR20291_nuc <- subset(cdR20291, type == 'Nucleotide')
+cdR20291_nuc <- cdR20291_nuc[order(cdR20291_nuc$fba),]
+cdR20291_nuc$type <- rep('b_Nucleotide', nrow(cdR20291_nuc))
+cdR20291_aa <- subset(cdR20291, type == 'Amino_acid')
+cdR20291_aa <- cdR20291_aa[order(cdR20291_aa$fba),]
+cdR20291_aa$type <- rep('c_Amino_acid', nrow(cdR20291_aa))
+cdR20291_carboxy <- subset(cdR20291, type == 'Carboxylic_acid')
+cdR20291_carboxy <- cdR20291_carboxy[order(cdR20291_carboxy$fba),]
+cdR20291_carboxy$type <- rep('d_Carboxylic_acid', nrow(cdR20291_carboxy))
+cdR20291_other <- subset(cdR20291, !type %in% c('Carbohydrate','Amino_acid','Nucleotide','Carboxylic_acid'))
+cdR20291_other <- cdR20291_other[order(cdR20291_other$fba),]
+cdR20291_other$type <- rep('e_Other', nrow(cdR20291_other))
+cdR20291 <- as.data.frame(rbind(cdR20291_carb,cdR20291_aa,cdR20291_nuc,cdR20291_carboxy,cdR20291_other))
+cdR20291$type <- as.factor(cdR20291$type)
 
-#--------------------------------------------------------------------------#
+# Within-group correlations
+# 630
+cor.test(x=cd630_carb$fba, y=cd630_carb$biolog, method='spearman', exact=FALSE) # R = 0.503, p-value = 0.008 **
+cor.test(x=cd630_nuc$fba, y=cd630_nuc$biolog, method='spearman', exact=FALSE) # R = -0.116, p-value = 0.692
+cor.test(x=cd630_aa$fba, y=cd630_aa$biolog, method='spearman', exact=FALSE) # R = 0.11, p-value = 0.469
+cor.test(x=cd630_carboxy$fba, y=cd630_carboxy$biolog, method='spearman', exact=FALSE) # R = -0.094, p-value = 0.669
+cor.test(x=cd630_other$fba, y=cd630_other$biolog, method='spearman', exact=FALSE) # R = 0.655, p-value = 0.158
+# R20291
+cor.test(x=cdR20291_carb$fba, y=cdR20291_carb$biolog, method='spearman', exact=FALSE) # R = 0.535, p-value = 0.005 **
+cor.test(x=cdR20291_nuc$fba, y=cdR20291_nuc$biolog, method='spearman', exact=FALSE) # R = 0.254, p-value = 0.381
+cor.test(x=cdR20291_aa$fba, y=cdR20291_aa$biolog, method='spearman', exact=FALSE) # R = -0.254, p-value = 0.087
+cor.test(x=cdR20291_carboxy$fba, y=cdR20291_carboxy$biolog, method='spearman', exact=FALSE) # R = -0.166, p-value = 0.449
+cor.test(x=cdR20291_other$fba, y=cdR20291_other$biolog, method='spearman', exact=FALSE) # R = 0.393, p-value = 0.441
+
+# Get x-maxes
+cd630_xlim <- ceiling(max(c(cd630$fba, cd630$biolog)))
+cdR20291_xlim <- ceiling(max(c(cdR20291$fba, cdR20291$biolog)))
 
 # Generate figure
-library(wesanderson)
-y_pos <- c(4.5,3.5,2.5,1.5)
+png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_S1.png', units='in', width=14, height=15, res=300)
+layout(matrix(c(1,2), nrow=1, ncol=2, byrow=TRUE))
 
-col_palette <- wes_palette("Chevalier1")
-png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_S1A.png', width=3, height=4, units='in', res=300)
-par(mar=c(2.5,3.5,1.3,0.5), las=1, mgp=c(1.5,0.5,0), xpd=FALSE, lwd=1.7)
-barplot(as.matrix(old_genres), xlab='Percentage (%)', beside=TRUE, horiz=TRUE, xlim=c(0,120), 
-        xaxt='n', yaxt='n', col=col_palette, cex.lab=1.2, ylim=c(1.4,15.2), lwd=1.7, cex.lab=0.9)
-axis(side=1, at=seq(0,100,20), lwd=1.7, cex.axis=0.7)
-abline(h=c(5.8,10.8), col='gray40', lty=5)
-text(x=60, y=c(15.35,10.35,5.35), cex=0.7, font=2,
-     labels=c('Stoichiometric Matrix Consistency','Metabolic Reactions With GPRs','Cumulative MEMOTE Score'))
-text(x=rev(old_genres$consistency)+10, y=y_pos+10, labels=rev(paste0(as.character(old_genres$consistency),'%')), cex=0.6) # stoichiometry
-text(x=rev(old_genres$yesGPR)+10, y=y_pos+5, labels=rev(paste0(as.character(old_genres$yesGPR),'%')), cex=0.6) # gpr
-text(x=rev(old_genres$memote_score)+10, y=y_pos, labels=rev(paste0(as.character(old_genres$memote_score),'%')), cex=0.6) # MEMOTE score
-box()
+par(mar=c(3,4,2,0.5), las=1, mgp=c(2,0.75,0), lwd=2)
+dotchart(cd630$fba, labels=cd630$name, groups=cd630$type, gcolor='white', cex=0.8, cex.lab=1.2, cex.axis=1.1,
+         xlab='Growth Enhancement Ratio', xlim=c(0.9,cd630_xlim), pch=21, pt.cex=1.5, bg='blue3', main='iCdG698')
+abline(v=1)
+points(x=cd630_carb$biolog, y=c((124-nrow(cd630_carb)):123), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cd630_nuc$biolog, y=c((96-nrow(cd630_nuc)):95), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cd630_aa$biolog, y=c((80-nrow(cd630_aa)):79), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cd630_carboxy$biolog, y=c((32-nrow(cd630_carboxy)):31), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cd630_other$biolog, y=c((7-nrow(cd630_other)):6), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+legend('bottomright', legend=c('Predicted','Measured'), pch=21,
+       pt.bg=c('blue3','white'), col=c('black','chocolate2'),
+       pt.cex=2, pt.lwd=c(2,2.5), lwd=0, cex=1.5)
 par(xpd=TRUE)
-for (x in c(0,5,10)) {text(x=2, y=y_pos+x, labels=c('iCN900','iHD992','icdf834','iMLTC806cdf'), cex=0.7, pos=2)}
-text(x=60, y=16.3, labels='Previous Curated GENREs', font=2, cex=0.9)
+text(x=-2.7, y=110.5, 'Carbohydrates', cex=1.5, srt=90)
+text(x=-2.7, y=88.5, 'Nucleotides', cex=1.5, srt=90)
+text(x=-2.7, y=56.5, 'Amino acids', cex=1.5, srt=90)
+text(x=-2.7, y=20, 'Carboxylic acids', cex=1.5, srt=90)
+text(x=-2.7, y=3.5, 'Other', cex=1.5, srt=90)
+text(x=-2.7, y=126, 'A', cex=2, font=2)
 par(xpd=FALSE)
-dev.off()
 
-col_palette <- wes_palette('GrandBudapest1')
-png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_S1B.png', width=3, height=4, units='in', res=300)
-par(mar=c(2.5,3.5,1.3,0.5), las=1, mgp=c(1.5,0.5,0), xpd=FALSE, lwd=1.7)
-barplot(as.matrix(agora_genres), xlab='Percentage (%)', beside=TRUE, horiz=TRUE, xlim=c(0,120),
-        xaxt='n', yaxt='n', col=col_palette, cex.lab=1.2, ylim=c(1.4,15.2), lwd=1.7, cex.lab=0.9)
-axis(side=1, at=seq(0,100,20), lwd=1.7, cex.axis=0.7)
-abline(h=c(5.8,10.8), col='gray40', lty=5)
-text(x=60, y=c(15.35,10.35,5.35), cex=0.7, font=2,
-     labels=c('Stoichiometric Matrix Consistency','Metabolic Reactions With GPRs','Cumulative MEMOTE Score'))
-text(x=rev(agora_genres$consistency)+10, y=y_pos+10, labels=rev(paste0(as.character(agora_genres$consistency),'%')), cex=0.6) # stoichiometry
-text(x=rev(agora_genres$yesGPR)+10, y=y_pos+5, labels=rev(paste0(as.character(agora_genres$yesGPR),'%')), cex=0.6) # gpr
-text(x=rev(agora_genres$memote_score)+10, y=y_pos, labels=rev(paste0(as.character(agora_genres$memote_score),'%')), cex=0.6) # MEMOTE score
-box()
+dotchart(cdR20291$fba, labels=cdR20291$name, groups=cdR20291$type, gcolor='white', cex=0.8, cex.lab=1.2, cex.axis=1.1,
+         xlab='Growth Enhancement Ratio', xlim=c(0.9,cdR20291_xlim), pch=21, pt.cex=1.5, bg='blue3', main='iCdR700')
+abline(v=1)
+points(x=cdR20291_carb$biolog, y=c((124-nrow(cdR20291_carb)):123), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cdR20291_nuc$biolog, y=c((96-nrow(cdR20291_nuc)):95), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cdR20291_aa$biolog, y=c((80-nrow(cdR20291_aa)):79), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cdR20291_carboxy$biolog, y=c((32-nrow(cdR20291_carboxy)):31), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+points(x=cdR20291_other$biolog, y=c((7-nrow(cdR20291_other)):6), pch=1, lwd=2.5, col='chocolate2', cex=1.5)
+legend('bottomright', legend=c('Predicted','Measured'), pch=21,
+       pt.bg=c('blue3','white'), col=c('black','chocolate2'),
+       pt.cex=2, pt.lwd=c(2,2.5), lwd=0, cex=1.5)
 par(xpd=TRUE)
-for (x in c(0,5,10)) {text(x=2, y=y_pos+x, labels=c('str. R20291','str. CD196','str. NAP08','str. NAP07'), cex=0.7, pos=2)}
-text(x=60, y=16.3, labels='AGORA GENREs', font=2, cex=0.9)
+text(x=-2.7, y=110.5, 'Carbohydrates', cex=1.5, srt=90)
+text(x=-2.7, y=88.5, 'Nucleotides', cex=1.5, srt=90)
+text(x=-2.7, y=56.5, 'Amino acids', cex=1.5, srt=90)
+text(x=-2.7, y=20, 'Carboxylic acids', cex=1.5, srt=90)
+text(x=-2.7, y=3.5, 'Other', cex=1.5, srt=90)
+text(x=-2.7, y=126, 'B', cex=2, font=2)
 par(xpd=FALSE)
-dev.off()
 
-col_palette <- c('chartreuse3','blue3')
-png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_S1C.png', width=3, height=3, units='in', res=300)
-par(mar=c(2.5,3.3,1.,0.5), las=1, mgp=c(1.5,0.5,0), xpd=FALSE, lwd=1.7)
-barplot(as.matrix(new_genres), xlab='Percentage (%)', beside=TRUE, horiz=TRUE, xlim=c(0,120),
-        xaxt='n', yaxt='n', col=col_palette, cex.lab=1.2, ylim=c(0.8,9.4), lwd=1.7, cex.lab=0.9)
-axis(side=1, at=seq(0,100,20), lwd=1.7, cex.axis=0.7)
-abline(h=c(6.6,3.6), col='gray40', lty=5)
-text(x=60, y=c(9.3,6.3,3.3), cex=0.7, font=2,
-     labels=c('Stoichiometric Matrix Consistency','Metabolic Reactions With GPRs','Cumulative MEMOTE Score'))
-text(x=rev(new_genres$consistency)+10, y=c(7.5,8.5), labels=rev(paste0(as.character(new_genres$consistency),'%')), cex=0.6) # stoichiometry
-text(x=rev(new_genres$yesGPR)+10, y=c(4.5,5.5), labels=rev(paste0(as.character(new_genres$yesGPR),'%')), cex=0.6) # gpr
-text(x=rev(new_genres$memote_score)+10, y=c(1.5,2.5), labels=rev(paste0(as.character(new_genres$memote_score),'%')), cex=0.6) # MEMOTE score
-box()
-par(xpd=TRUE)
-text(x=-2, y=c(1.5,2.5,4.5,5.5,7.5,8.5), labels=c('iCdR700','iCdG698'), cex=0.7, pos=2)
-text(x=60, y=10.2, labels='New GENREs', font=2, cex=0.9)
-par(xpd=FALSE)
-dev.off()
-
-col_palette <- c('gray40','gray40','red','gray40','gray40','gray40','red','gray40','gray40','gray40','gray40')
-png(filename='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_S1D.png', width=3, height=3, units='in', res=300)
-par(mar=c(4,4,0.5,0.5), las=1, mgp=c(2.5,0.75,0), lwd=1.7, xpd=FALSE)
-barplot(growth_genres, ylab='Doubling Time (min)', ylim=c(0,675), col=rev(col_palette))
-text(x=seq(0.7,13.7,1.2), y=growth_genres+60, labels=growth_genres, srt=90, cex=0.6)
-box()
-par(xpd=TRUE)
-text(x=seq(1.4,13.4,1.2), y=-30, srt=55, cex=0.7, pos=2,
-     labels=c("iCN900","PATRIC draft","AGORA NAP08","AGORA NAP07","iCdG698","icdf834","AGORA R20291","AGORA CD196","iCdR700","iMLTC806cdf","iHD992"))
-par(xpd=FALSE)
 dev.off()
 

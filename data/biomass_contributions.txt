@@ -1,0 +1,46 @@
+
+str. R20291 - iCdR703
+
+Smooth
+Consumes: D-Glutamate: 8.993
+Produces: N-Acetyl-D-glucosamine: 12.475
+  		  Isovalerate: 17.322
+  		  Acetate: 39.073
+
+Rough
+Consumes: L-Alanine: 12.253
+          L-Leucine: 62.045
+  		  D-Proline: 38.094
+  		  Inosine: 32.994
+  		  D-Glutamate: 20.603
+Produces: D-Glucosamine: 48.945
+
+#-----------------------------------------------------#
+
+str. 630 - iCdG709
+
+Low Spore
+
+
+{'consumes': {'H2O': 5.505,
+  'Ornithine': 2.015,
+  'H+': 4.541,
+  'N-Acetyl-Neuraminic acid': 4.967,
+  'D-Proline': 4.74,
+  'L-Serine': 5.253,
+  'Cytidine': 8.63},
+ 'produces': {'5-Aminopentanoate': 4.683}}
+
+
+
+
+High Spore
+
+
+{'consumes': {'H2O': 4.62,
+  'Ornithine': 2.468,
+  'H+': 4.827,
+  'D-Proline': 3.976,
+  'L-Serine': 4.289},
+ 'produces': {'Isovalerate': 2.57, '5-Aminopentanoate': 3.936}}
+

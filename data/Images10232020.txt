@@ -1,0 +1,31 @@
+10/24/20
+48 hour pics
+Image 1 (smooth, single colony on BHIS, Ph20/40, objective 4x)  = smooth.bhis.48.tif
+Image 2 (smooth, single colony on BHIS with mm ruler, Ph 20/40, objective 4x)  = smooth.bhis.48.mm.tif
+Image 3 (smooth, mutiple colonies 10^-4 dilution on BHIS, Ph 20/40, objective 2x) = smooth.bhis.48.m4.tif
+
+Image 4 (smooth, single colony on CDMM+glucose, PH 20/40, objective 4x )= smooth.gluc.48.tif
+Image 5 (smooth, single colony on CDMM+glucose with mm ruler, PH 20/40, objective 4x) = smooth.gluc.48.mm.tif
+Image 6 (smooth, mutiple colonies 10^-4 dilution on CDMM+glucose, PH 20/40, objective 2x) = smooth.gluc.48.m4.tiff
+
+Image 7 (smooth, single colony on CDMM-glucose, PH 20/40, objective 4x )= smooth.nogluc.48.tif
+Image 8 (smooth, single colony on CDMM-glucose with mm ruler, PH 20/40, objective 4x) = smooth.nogluc.48.mm.tif
+Image 9 (smooth, mutiple colonies 10^-4 dilution on CDMM-glucose, PH 20/40, objective 2x) = smooth.nogluc.48.m4.tiff
+
+Image 10 (rough, single colony on BHIS, Ph20/40, objective 4x)  = rough.bhis.48.tif
+Image 11 (rough, single colony on BHIS with mm ruler, Ph 20/40, objective 4x)  = rough.bhis.48.mm.tif
+Image 12 (rough, mutiple colonies 10^-4 dilution on BHIS, Ph 20/40, objective 2x) = rough.bhis.48.m4.tif
+
+Image 13 (rough, single colony on CDMM+glucose, PH 20/40, objective 4x )= rough.gluc.48.tif
+Image 14 (rough, single colony on CDMM+glucose with mm ruler, PH 20/40, objective 4x) = rough.gluc.48.mm.tif
+Image 15 (rough, single colony on CDMM+glucose with mm ruler, PH 20/40, objective 2x) = rough.gluc.44.mm.x2.tif
+Image 16 (rough, mutiple colonies 10^-4 dilution on CDMM+glucose, PH 20/40, objective 2x) = rough.gluc.48.m4.tiff (note looks like a bloob)
+
+Image 17 (rough, single colony on CDMM-glucose, PH 20/40, objective 4x )= rough.nogluc.48.tif
+Image 18 (rough, single colony on CDMM-glucose with mm ruler, PH 20/40, objective 4x) = rough.nogluc.48.mm.tif
+Image 19(rough, mutiple colonies 10^-4 dilution on CDMM-glucose, PH 20/40, objective 2x) = rough.nogluc.48.m4.tiff
+
+
+lighting, 4x ~ 80 , 2x ~75 
+
+
