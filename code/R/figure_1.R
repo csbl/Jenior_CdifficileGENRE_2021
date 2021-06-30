@@ -84,44 +84,49 @@ cor.test(x=cdR20291_other$fba, y=cdR20291_other$biolog, method='spearman', exact
 library(viridis)
 pall <- viridis(5)
 
-pdf(file='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/figure_1.pdf', width=8, height=4)
+pdf(file='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_1.pdf', width=7, height=3.5)
 layout(matrix(c(1,2), nrow=1, ncol=2, byrow=TRUE))
 
-par(mar=c(3,3,0.5,0.5), las=1, mgp=c(1.9,0.75,0), lwd=1.5)
-plot(x=cd630$fba, y=cd630$biolog, cex=0, xlab='Simulated Growth Enhancement Ratio', ylab='Experimental Growth Enhancement Ratio', 
-     xlim=c(0.9,4.9), ylim=c(0.8,2.5), xaxt='n', yaxt='n')
-axis(1, at=seq(1,5,1), label=c('1.0','2.0','3.0','4.0','5.0'), cex.axis=0.85)
-axis(2, at=c(1,1.5,2,2.5), label=c('1.0','1.5','2.0','2.5'), cex.axis=0.85)
-points(x=cd630_carb$fba, y=cd630_carb$biolog, pch=21, cex=1.5, bg=pall[1])
-points(x=cd630_aa$fba, y=cd630_aa$biolog, pch=21, cex=1.5, bg=pall[2])
-points(x=cd630_carboxy$fba, y=cd630_carboxy$biolog, pch=21, cex=1.5, bg=pall[3])
-points(x=cd630_nuc$fba, y=cd630_nuc$biolog, pch=21, cex=1.5, bg=pall[4])
-points(x=cd630_other$fba, y=cd630_other$biolog, pch=21, cex=1.5, bg=pall[5])
+par(mar=c(3,3,1.5,0.5), las=1, mgp=c(1.9,0.75,0), lwd=2)
+plot(x=cd630$biolog, y=cd630$fba, cex=0, xlab='Measured Growth Ratio', ylab='Simulation Growth Ratio', 
+     xlim=c(0.8,2.5), ylim=c(0.9,4.9), xaxt='n', yaxt='n', main='iCdG709 (str. 630)', cex.main=0.9)
+axis(1, at=c(1,1.5,2,2.5), label=c('1.0','1.5','2.0','2.5'), cex.axis=0.85, lwd.tick=2)
+axis(2, at=seq(1,5,1), label=c('1.0','2.0','3.0','4.0','5.0'), cex.axis=0.85, lwd.tick=2)
+points(x=cd630_carb$biolog, y=cd630_carb$fba, pch=21, cex=1.5, bg=pall[1])
+points(x=cd630_aa$biolog, y=cd630_aa$fba, pch=21, cex=1.5, bg=pall[2])
+points(x=cd630_carboxy$biolog, y=cd630_carboxy$fba, pch=21, cex=1.5, bg=pall[3])
+points(x=cd630_nuc$biolog, y=cd630_nuc$fba, pch=21, cex=1.5, bg=pall[4])
+points(x=cd630_other$biolog, y=cd630_other$fba, pch=21, cex=1.5, bg=pall[5])
 legend('topleft', legend=c('Carbohydrates','Amino acids','Carboxylic acids','Nucleotides','Other'), pch=21,
-       pt.bg=pall, pt.cex=1.5, cex=0.9, bg='white')
-legend('topright', legend='iCdG709 (str. 630)', pt.cex=0, bty='n', text.font=2, cex=0.9)
-legend('bottomright', legend=c('R = 0.418', as.expression(bquote(paste(italic('p'),'-value < 0.001***')))), 
-       cex=0.9, col='white', pch=15, pt.cex=0.5, bty='n')
-abline(lm(cd630_carb$biolog ~ cd630_carb$fba), lwd=2)
+       pt.bg=pall, pt.cex=1.5, cex=0.8, bg='white')
+legend('bottomright', legend=c('R = 0.418', as.expression(bquote(paste(italic('p'),'-value < 0.001***'))),''), 
+       cex=0.7, col='white', pch=15, pt.cex=0, bty='n')
+abline(lm(cd630_carb$fba ~ cd630_carb$biolog), lwd=3, col='gray35')
 box(lwd=2)
+par(xpd=TRUE)
+text(x=0.4, y=5.3, 'A', cex=1.3, font=2)
+par(xpd=FALSE)
 
-par(mar=c(3,3,0.5,0.5), las=1, mgp=c(1.9,0.75,0), lwd=1.5)
-plot(x=cdR20291$fba, y=cdR20291$biolog, cex=0, xlab='Simulated Growth Enhancement Ratio', ylab='Experimental Growth Enhancement Ratio', 
-     xlim=c(0.9,3.5), ylim=c(0.8,2.5), xaxt='n', yaxt='n')
-axis(1, at=seq(1,5,1), label=c('1.0','2.0','3.0','4.0','5.0'), cex.axis=0.85)
-axis(2, at=c(1,1.5,2,2.5), label=c('1.0','1.5','2.0','2.5'), cex.axis=0.85)
-points(x=cdR20291_carb$fba, y=cdR20291_carb$biolog, pch=21, cex=1.5, bg=pall[1])
-points(x=cdR20291_aa$fba, y=cdR20291_aa$biolog, pch=21, cex=1.5, bg=pall[2])
-points(x=cdR20291_carboxy$fba, y=cdR20291_carboxy$biolog, pch=21, cex=1.5, bg=pall[3])
-points(x=cdR20291_nuc$fba, y=cdR20291_nuc$biolog, pch=21, cex=1.5, bg=pall[4])
-points(x=cdR20291_other$fba, y=cdR20291_other$biolog, pch=21, cex=1.5, bg=pall[5])
+par(mar=c(3,3,1.5,0.5), las=1, mgp=c(1.9,0.75,0), lwd=2)
+plot(y=cdR20291$biolog, x=cdR20291$fba, cex=0, xlab='Measured Growth Ratio', ylab='Simulation Growth Ratio', 
+     xlim=c(0.8,2.5), ylim=c(0.9,3), xaxt='n', yaxt='n', main='iCdR703 (str. R20291)', cex.main=0.9)
+axis(1, at=c(1,1.5,2,2.5), label=c('1.0','1.5','2.0','2.5'), cex.axis=0.85, lwd.tick=2)
+axis(2, at=seq(1,5,1), label=c('1.0','2.0','3.0','4.0','5.0'), cex.axis=0.85, lwd.tick=2)
+points(x=cdR20291_carb$biolog, y=cdR20291_carb$fba, pch=21, cex=1.5, bg=pall[1])
+points(x=cdR20291_aa$biolog, y=cdR20291_aa$fba, pch=21, cex=1.5, bg=pall[2])
+points(x=cdR20291_carboxy$biolog, y=cdR20291_carboxy$fba, pch=21, cex=1.5, bg=pall[3])
+points(x=cdR20291_nuc$biolog, y=cdR20291_nuc$fba, pch=21, cex=1.5, bg=pall[4])
+points(x=cdR20291_other$biolog, y=cdR20291_other$fba, pch=21, cex=1.5, bg=pall[5])
 legend('topleft', legend=c('Carbohydrates','Amino acids','Carboxylic acids','Nucleotides','Other'), pch=21,
-       pt.bg=pall, pt.cex=1.5, cex=0.9, bg='white')
-legend('topright', legend='iCdR703 (str. R20291) ', pt.cex=0, bty='n', text.font=2, cex=0.9)
-legend('bottomright', legend=c('R = 0.326', as.expression(bquote(paste(italic('p'),'-value < 0.001***')))), 
-       cex=0.9, col='white', pch=15, pt.cex=0.5, bty='n')
-abline(lm(cdR20291_carb$biolog ~ cdR20291_carb$fba), lwd=2)
+       pt.bg=pall, pt.cex=1.5, cex=0.8, bg='white')
+legend('bottomright', legend=c('R = 0.326', as.expression(bquote(paste(italic('p'),'-value < 0.001***'))),'',''), 
+       cex=0.7, col='white', pch=15, pt.cex=0, bty='n')
+abline(lm(cdR20291_carb$fba ~ cdR20291_carb$biolog), lwd=3, col='gray35')
 box(lwd=2)
+par(xpd=TRUE)
+text(x=0.4, y=3.2, 'B', cex=1.3, font=2)
+par(xpd=FALSE)
+
 dev.off()
 
 #-------------------------------------------------------------------------------------------------------------------#

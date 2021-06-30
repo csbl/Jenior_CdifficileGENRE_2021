@@ -3,7 +3,29 @@
 rough_fluxes <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/transcript/tamayo_etal/phase_variation/riptide_rough_maxfit/flux_samples.tsv', sep='\t', header=TRUE, row.names=1)
 smooth_fluxes <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/transcript/tamayo_etal/phase_variation/riptide_smooth_maxfit/flux_samples.tsv', sep='\t', header=TRUE, row.names=1)
 
-# Format data
+# Identify context-specific reactions
+rough_only <- setdiff(colnames(rough_fluxes), colnames(smooth_fluxes))
+smooth_only <- setdiff(colnames(smooth_fluxes), colnames(rough_fluxes))
+
+# Get median absolute flux for each
+rough_med_flux <- c()
+for (x in rough_only) {rough_med_flux <- c(rough_med_flux, abs(median(rough_fluxes[,x])))}
+rough_only_flux <- as.data.frame(cbind(rough_only, rough_med_flux, rep('rough',length(rough_only))))
+colnames(rough_only_flux) <- c('reaction','abs_med_flux','context')
+smooth_med_flux <- c()
+for (x in smooth_only) {smooth_med_flux <- c(smooth_med_flux, abs(median(smooth_fluxes[,x])))}
+smooth_only_flux <- as.data.frame(cbind(smooth_only, smooth_med_flux, rep('smooth',length(smooth_only))))
+colnames(smooth_only_flux) <- c('reaction','abs_med_flux','context')
+unique_fluxes <- as.data.frame(rbind(rough_only_flux, smooth_only_flux))
+rm(rough_only, rough_med_flux, rough_only_flux, smooth_only, smooth_med_flux, smooth_only_flux, x)
+write.table(unique_fluxes, file='~/Desktop/repos/Jenior_Cdifficile_2019/data/phase_unique_flux.tsv', 
+            quote=FALSE, sep='\t', row.names=FALSE, col.names=TRUE)
+
+# Biomass flux
+smooth_biomass <- as.vector(smooth_fluxes[,'biomass'])
+rough_biomass <- as.vector(rough_fluxes[,'biomass'])
+
+# Format data for intersection analysis
 shared_rxns <- intersect(colnames(rough_fluxes), colnames(smooth_fluxes))
 rough_fluxes <- rough_fluxes[,shared_rxns]
 smooth_fluxes <- smooth_fluxes[,shared_rxns]
@@ -79,23 +101,34 @@ rm(rough_fluxes, smooth_fluxes, flux_groups)
 
 # Subset for plotting
 rf_mda <- rf_mda[order(-rf_mda$MeanDecreaseAccuracy),]
-rf_mda <- rf_mda[c(1:20),]
+rf_mda <- rf_mda[c(1:15),]
 rf_mda <- rf_mda[order(rf_mda$MeanDecreaseAccuracy),]
 write.table(rf_mda, file='~/Desktop/repos/Jenior_Cdifficile_2019/data/phase_flux_mda.tsv', 
             quote=FALSE, sep='\t', row.names=TRUE, col.names=TRUE)
-rf_mda <- read.delim('~/Desktop/repos/Jenior_Cdifficile_2019/data/phase_flux_mda.tsv', sep='\t', header=TRUE)
-rf_mda$name <- gsub('_', ' ', rf_mda$name)
-rf_mda <- rf_mda[order(rf_mda$mda),]
 
 #--------------------------------------------------------------------------------------------------#
 
 # Generate figures
-rough_col <- 'sienna2'
-smooth_col <- 'lightblue1'
+smooth_col <- 'lightsteelblue2'
+rough_col <- 'red3'
 library(scales)
 
-pdf(file='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_S2.pdf', width=9, height=4.5)
-layout(matrix(c(1,2), nrow=1, ncol=2, byrow=TRUE))
+pdf(file='~/Desktop/repos/Jenior_Cdifficile_2019/results/figures/Figure_S2.pdf', width=5, height=3.5)
+layout(matrix(c(1,2,2), nrow=1, ncol=3, byrow=TRUE))
+
+par(mar=c(5,3,1,1), xpd=FALSE, las=1, mgp=c(1.6,0.7,0), lwd=2)
+boxplot(smooth_biomass, at=0.5, xlim=c(0,2), ylab='Simulated Biomass Flux', 
+        ylim=c(0,60), yaxt='n', col=smooth_col, outline=FALSE, cex.lab=1.2,
+        boxlwd=2, medlwd=2, staplelwd=2, whisklwd=2, whisklty=1, width=0.5)
+boxplot(rough_biomass, at=1.5, add=TRUE, yaxt='n', col=rough_col,
+        boxlwd=2, medlwd=2, staplelwd=2, whisklwd=2, whisklty=1, width=0.5, outline=FALSE)
+axis(side=2, at=seq(0,60,10), cex.axis=0.9, lwd=1.7)
+segments(x0=0.5, y0=56, x1=1.5, lwd=2)
+text(x=1, y=59, '***', cex=1.5, font=2)
+par(xpd=TRUE)
+text(x=c(0.5,1.5), y=-10, labels=c('Smooth','Rough'), cex=1.4, srt=55)
+text(x=-0.7, y=63, 'A', cex=1.4, font=2)
+par(xpd=FALSE)
 
 par(mar=c(3.5,3.5,1,1), las=1, mgp=c(2.2,0.7,0), lwd=2)
 plot(x=flux_nmds$MDS1, y=flux_nmds$MDS2, xlim=c(-0.035,0.035), ylim=c(-0.025, 0.025), lwd.tick=2,
@@ -106,16 +139,7 @@ legend('topleft', legend=c('Rough','Smooth'), bg='white',
        pt.bg=c(rough_col, smooth_col), pch=21, pt.cex=1.5, cex=1, box.lwd=2)
 legend('bottomright', as.expression(bquote(paste(italic('p'),'-value = 0.001 ***'))), bty='n', pt.cex=0, cex=0.9)
 par(xpd=TRUE)
-text(x=-0.04, y=0.025, 'A', cex=1.2, font=2)
-par(xpd=FALSE)
-
-par(mar=c(2.5, 2.5, 0.5, 0.5), mgp=c(1.4, 0.5, 0), xpd=FALSE, lwd=1.7)
-dotchart(rf_mda$mda,  xlab='Mean Decrease Accuracy', xlim=c(0,25),  
-         pch=16, lwd=1.7, xaxs='i', pt.cex=0.1, cex=0.8)
-text(x=-0.025, y=seq(1.3,20.3,1), labels=rf_mda$name, cex=0.75, pos=4)
-points(x=rf_mda$mda, y=c(1:20), pch=16, cex=1.2)
-par(xpd=TRUE)
-text(x=-3, y=20.5, 'B', cex=1.2, font=2)
+text(x=-0.04, y=0.025, 'B', cex=1.4, font=2)
 par(xpd=FALSE)
 
 dev.off()
