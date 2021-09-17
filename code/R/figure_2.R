@@ -134,3 +134,12 @@ par(xpd=FALSE)
 
 dev.off()
 
+
+
+plot_uptake(smooth_glc6p_uptake, rough_glc6p_uptake, substrate='Glucose-6-phosphate', ymax=500)
+segments(x0=1, y0=400, x1=2, lwd=2)
+text(x=1.5, y=430, '***', cex=1.4, font=2)
+
+plot_uptake(0, rough_proline_uptake, substrate='Proline', ymax=250)
+
+
